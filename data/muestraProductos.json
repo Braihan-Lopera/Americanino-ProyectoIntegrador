@@ -1,0 +1,19 @@
+[
+
+    {"id":1 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":2 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":3 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":4 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":5 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":6 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]},
+
+    {"id":7 , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "cantidades":{},"elementos":[{"color":"", "fotosProducto":[]}], "tonalidad":"", "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]}
+
+
+]
+

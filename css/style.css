@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+
+.fraseInicial{
+    color: #162450;
+    letter-spacing: 2.8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+    h3{
+        font-family: DINNextLTPro-Regular;
+        font-size: 19px;
+    }
+}
+
+/* ------------ seccion del carrusel ----------------- */
+
+.carrusel{
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.caras{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%; 
+}
+
+.cara{
+    min-width: 100%;
+    transition: opacity 0.5s;
+}
+
+.cara img,
+.cara video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+#atras,#adelante{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: gray;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.activa{
+    display: block;
+}
+
+#atras{left: 10px;}
+#adelante{right: 10px;}
+
+/* --------------------------------------------------- */
+/* ------------ seccion de los paneles ----------------- */
+
+.panel1x1{
+
+    width: 100%;
+    padding-bottom: 1rem ;
+    padding-top: 2rem ;
+    text-align: center;
+
+    
+    img{
+        width: 70%;
+    }
+
+}
+
+.panel2x1{
+
+    padding-left: 15rem ;
+    padding-right: 15rem ;
+    padding-bottom: 2rem ;
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        width: 49.5%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+.panel3x1{
+    
+}
+
+.panel4x1{
+    
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-bottom: 2rem ;
+    padding-top: 2rem ;
+    display: flex;
+    justify-content: space-between;
+
+    h3{
+        font-family: DINNextLTPro-Light;
+        font-size: .85rem;
+        letter-spacing: .8px;
+        
+    }
+
+    p{
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        
+    }
+    
+    a{
+        width: 24.5%;
+        text-decoration: none;
+        color: inherit;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+/* -------------------------seccion hombres---------------------------- */
+.contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+.divProducto{
+    width: 22%;
+    height: auto;
+    margin:20px;
+    height: 400px;
+
+    p{margin:0;}
+    h4{margin:0;}
+    
+    
+    img{
+        width: 100%;
+        height: 95%;
+        object-fit: cover;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
