@@ -4,12 +4,21 @@
  * Carga un componente HTML (navbar, footer) y lo inyecta en un elemento.
  */
 export function loadComponent(path, elementId) {
-    const targetElement = document.getElementById(elementId);
+    // Si el ID es 'body', usa document.body, si no, búscalo por ID.
+    const targetElement = (elementId === 'body') ? document.body : document.getElementById(elementId);
+    
     if (targetElement) {
-        fetch(path)
+        return fetch(path)
             .then(response => response.ok ? response.text() : Promise.reject('Error'))
             .then(html => {
-                targetElement.innerHTML = html;
+                // 👇 ESTE ES EL CAMBIO IMPORTANTE 👇
+                if (elementId === 'body') {
+                    // Si el objetivo es el body, AÑADE el HTML al final.
+                    targetElement.insertAdjacentHTML('beforeend', html);
+                } else {
+                    // Si es cualquier otro elemento, REEMPLAZA el contenido.
+                    targetElement.innerHTML = html;
+                }
             })
             .catch(error => console.error(`Error al cargar ${elementId}:`, error));
     }
