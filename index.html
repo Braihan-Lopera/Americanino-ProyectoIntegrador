@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo Uribe | GCO</title>
+    <title>Americanino | Grupo GCO</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body id="index">
+<body>
+
+
+    <header class="navbar" id="main-navbar"></header>
+
+    <main>
+        <div class="carrusel">
+            <div class="caras">
+                <div class="cara activa">
+                    <video muted autoplay loop playsinline src="./videos/videoCarrusel2.mp4" poster="./imagenes/poster-video.jpg"></video>
+                </div>
+                <div class="cara">
+                    <img src="./imagenes/imagenCarrusel.webp" alt="Modelo de la nueva colección">
+                </div>
+            </div>
+            <button id="atras" aria-label="Anterior">❮</button>
+            <button id="adelante" aria-label="Siguiente">❯</button>
+        </div>
+
+        <div class="fraseInicial">
+            <h1>Tienda de ropa online para mujeres y hombres</h1>
 
     <div class="carrusel">
         <div class="caras">
@@ -14,19 +34,23 @@
                 <video muted autoplay playsinline src="./videos/videoCarrusel.mp4"></video>
             </div>
             //poner un div con clase cara con la imagen o video para añadirlo al carrusel
-        </div>
-        <button id="atras">❮</button>
-        <button id="adelante">❯</button>
-  </div>
 
-    <div class="fraseInicial">
-        <h1>Tienda de ropa online para mujeres y hombres</h1>
-    </div>
-    <div id="hombreMujer"></div>
-    <div id="panel4x1"></div>
-    <div id="newDropLink"></div>
+        </div>
+        
+        <div id="hombreMujer"></div>
+        <div id="panel4x1"></div>
+        <div id="newDropLink"></div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+
+    
+    <script type="module" src="/js/main.js"></script>
+    
 
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/funcionesFiltrado.js"></script>
+
 </body>
 </html>

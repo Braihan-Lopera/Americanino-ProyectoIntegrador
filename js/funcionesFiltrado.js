@@ -15,6 +15,9 @@ export const mostrarProductos = (categoria, filtros) =>{
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
+
+            const divProducto = document.createElement("div")
+
                 const producto = data[index]
                     
                     if (filtros.length > 0) {
@@ -24,6 +27,7 @@ export const mostrarProductos = (categoria, filtros) =>{
                     }
 
                const divProducto = document.createElement("div")
+
                 divProducto.className = "divProducto"
 
                 const link = document.createElement("a")
@@ -46,8 +50,12 @@ export const mostrarProductos = (categoria, filtros) =>{
                 link.appendChild(precioProducto) 
                 contenedor.appendChild(divProducto)  
             }
+
         }
     })        
 }
 
+
+
 mostrarProductos()
+
