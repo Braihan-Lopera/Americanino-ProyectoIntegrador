@@ -1,16 +1,28 @@
-const contenedor = document.getElementById("contenedorProductos")
 
-export const pasarPagina = (categoria) =>{
-    window.location.href = "./html/paginaProductos.html"
-    mostrarProductos(categoria)
+
+export const pasarPagina = () =>{
+    
+    let filtros =[]
+    const params = new URLSearchParams(window.location.search);
+    
+    mostrarProductos(params.get("categoria"), filtros)
 }
 
-export const mostrarProductos = (categoria) =>{
-fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
+export const mostrarProductos = (categoria, filtros) =>{
+    const contenedor = document.getElementById("contenedorProductos")
+    fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
     
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
+                const producto = data[index]
+                    
+                    if (filtros.length > 0) {
+                        const coincide = producto.caracteristicas.some(caracteristica => filtros.includes(caracteristica)
+                        )
+                        if (!coincide) continue
+                    }
+
                const divProducto = document.createElement("div")
                 divProducto.className = "divProducto"
 
@@ -18,13 +30,15 @@ fetch("../data/muestraProductos.json").then(response => response.json()).then(da
                 link.href = "about:blank"
 
                 const portada = document.createElement("img")
-                portada.src = data[index].fotoPortada
+                
+                portada.src = urlImagen + producto.fotoPortada
+                console.log(urlImagen + producto.fotoPortada)
 
                 const nombreProducto = document.createElement("p")
-                nombreProducto.textContent = data[index].nombre
+                nombreProducto.textContent = producto.nombre
 
                 const precioProducto = document.createElement("h4")
-                precioProducto.textContent = "$"+data[index].precio
+                precioProducto.textContent = "$"+ producto.precio
 
                 divProducto.appendChild(link)
                 link.appendChild(portada)
@@ -32,11 +46,8 @@ fetch("../data/muestraProductos.json").then(response => response.json()).then(da
                 link.appendChild(precioProducto) 
                 contenedor.appendChild(divProducto)  
             }
-                          
-            
         }
-        
     })        
 }
 
-if (contenedor) mostrarProductos()
+mostrarProductos()

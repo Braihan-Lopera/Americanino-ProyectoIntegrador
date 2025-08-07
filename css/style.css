@@ -133,7 +133,7 @@ body{
     }
 }
 
-/* -------------------------seccion hombres---------------------------- */
+/* -------------------------seccion productos---------------------------- */
 .contenedorProductos{
     display: flex;
     flex-wrap: wrap;
