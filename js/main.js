@@ -3,7 +3,7 @@
 {"id": , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "tallas":{},"elementos":[{"color":"", "fotosProducto":[]}], "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]}
 
 */
-
+import { pasarPagina} from "./funcionesFiltrado.js"
 
 document.addEventListener("DOMContentLoaded",()=>{
 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         let index = 0
         let videoPrincipal = null
 
-        if (btnAdelante) window.addEventListener("load", () => {
+         window.addEventListener("load", () => {
             videoPrincipal = caras[0].querySelector("video")
             if (videoPrincipal) {
                 videoPrincipal.loop = true
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             }
         })
 
-        if (btnAdelante) function mostrarCara(i) {
+        function mostrarCara(i) {
             caras.forEach(cara => cara.classList.remove("activa"))
             caras[i].classList.add("activa")
             document.querySelector(".caras").style.transform = `translateX(-${i * 100}%)`
@@ -45,12 +45,12 @@ document.addEventListener("DOMContentLoaded",()=>{
             }
         }
 
-        if (btnAdelante) btnAtras.addEventListener("click", () => {
+        btnAtras.addEventListener("click", () => {
             index = (index === 0) ? caras.length - 1 : index - 1
             mostrarCara(index)
         })
 
-        if (btnAdelante) btnAdelante.addEventListener("click", () => {
+        btnAdelante.addEventListener("click", () => {
             index = (index === caras.length - 1) ? 0 : index + 1
             mostrarCara(index)
         })
@@ -77,7 +77,8 @@ document.addEventListener("DOMContentLoaded",()=>{
                 link.href = links[index]
                 
                 const imagen = document.createElement("img")
-                imagen.src = imagenes[index]
+                imagen.src =  imagenes[index]
+                
 
                 contenedor.appendChild(link)
                 link.appendChild(imagen)
@@ -95,15 +96,21 @@ document.addEventListener("DOMContentLoaded",()=>{
             
             
         }
-        //         necesita ponerle el link de las paginas
-        if (btnAdelante) crearPanel(['imagenes/imagenMujer.webp','imagenes/imagenHombre.webp'],["about:blank","./html/seccionHombres.html"],"hombreMujer")
-        if (btnAdelante) crearPanel(["imagenes/foto4x1_1.webp","imagenes/foto4x1_2.webp","imagenes/foto4x1_3.webp","imagenes/foto4x1_4.webp"],["about:blank","about:blank","about:blank","about:blank"],"panel4x1",["JEANS PARA MUJER","CAMISAS PARA HOMBRE","CAMISAS PARA MUJER","BERMUDAS PARA HOMBRE"])
-        if (btnAdelante) crearPanel(["imagenes/imagenNewDrop.webp"],["about:blank"],"newDropLink")
+        //         necesita ponerle el link de las paginas -> `./html/paginaProductos.html?categoria=${encodeURIComponent("categoria")}`
+        crearPanel(['imagenes/hombre.webp','imagenes/mujer.webp'],[`./html/paginaProductos.html?categoria=${encodeURIComponent("hombre")}`,`./html/paginaProductos.html?categoria=${encodeURIComponent("hombre")}`],"hombreMujer")
+        crearPanel(["imagenes/foto4x1_1.webp","imagenes/foto4x1_2.webp","imagenes/foto4x1_3.webp","imagenes/foto4x1_4.webp"],["about:blank","about:blank","about:blank","about:blank"],"panel4x1",["JEANS PARA MUJER","CAMISAS PARA HOMBRE","CAMISAS PARA MUJER","BERMUDAS PARA HOMBRE"])
+        crearPanel(["imagenes/imagenNewDrop.webp"],["about:blank"],"newDropLink")
 
         
     }
 
-    if(bodyId == ""){}
+    if(bodyId == "paginaProductos"){
+           
+        pasarPagina()
+
+    }
+
+    
 })
 
 
