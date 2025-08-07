@@ -1,112 +1,35 @@
-/*plantilla para los productos del json
 
-{"id": , "nombre": "", "precio": "" , "fotoPortada": "", "descripcion": "", "tallas":{},"elementos":[{"color":"", "fotosProducto":[]}], "composicion": "", "paisFabricacion": "", "fabricante" : "", "registroSIC": "", "lavadoSIC": "", "categoria": "", "caracterisiticas":[]}
+import { loadComponent, crearPanel } from './componentes.js';
+import { setupNavbarScroll } from './navbar.js';
+import { setupCarousel } from './carousel.js';
+import { mostrarProductos } from './funcionesFiltrado.js';
 
-*/
+// Punto de entrada principal
+document.addEventListener('DOMContentLoaded', () => {
+    
+    // --- Lógica que se ejecuta en TODAS las páginas ---
+    loadComponent('/html/navbar.html', 'main-navbar');
+    loadComponent('/html/footer.html', 'main-footer');
+    setupNavbarScroll();
 
+    // --- Lógica que solo se ejecuta si los elementos existen ---
 
-document.addEventListener("DOMContentLoaded",()=>{
+    // Para la página de inicio (index.html)
+    setupCarousel();
+    crearPanel(
+        ['/imagenes/indexMujer1.webp','/imagenes/indexHombre1.webp'],
+        ["/html/paginaProductos.html?categoria=mujer", "/html/paginaProductos.html?categoria=hombre"],
+        "hombreMujer"
+    );
+    crearPanel(
+        ["/imagenes/foto4x1_1.webp","/imagenes/foto4x1_2.webp","/imagenes/foto4x1_3.webp","/imagenes/foto4x1_4.webp"],
+        ["/html/paginaProductos.html?categoria=jeans", "/html/paginaProductos.html?categoria=camisas", "/html/paginaProductos.html?categoria=camisetas", "/html/paginaProductos.html?categoria=bermudas"],
+        "panel4x1",
+        ["JEANS PARA MUJER", "CAMISAS PARA HOMBRE", "CAMISETAS PARA MUJER", "BERMUDAS PARA HOMBRE"]
+    );
+    crearPanel(["/imagenes/imagenNewDrop.webp"],["#"],"newDropLink");
 
-    const bodyId = document.body.id
-
-    if (bodyId == "index") {
-
-
-        //inicio del carrusel------------------------
-        const btnAdelante = document.getElementById("adelante")
-        const btnAtras = document.getElementById("atras")
-        const caras = document.querySelectorAll(".cara")
-
-        let index = 0
-        let videoPrincipal = null
-
-        if (btnAdelante) window.addEventListener("load", () => {
-            videoPrincipal = caras[0].querySelector("video")
-            if (videoPrincipal) {
-                videoPrincipal.loop = true
-                videoPrincipal.play()
-            }
-        })
-
-        if (btnAdelante) function mostrarCara(i) {
-            caras.forEach(cara => cara.classList.remove("activa"))
-            caras[i].classList.add("activa")
-            document.querySelector(".caras").style.transform = `translateX(-${i * 100}%)`
-
-            const videos = document.querySelectorAll(".cara video")
-            videos.forEach(video => {
-                video.pause()
-            })
-
-            const videoActivo = caras[i].querySelector("video")
-            if (videoActivo) {
-                videoActivo.currentTime = 0
-                videoActivo.play()
-            }
-        }
-
-        if (btnAdelante) btnAtras.addEventListener("click", () => {
-            index = (index === 0) ? caras.length - 1 : index - 1
-            mostrarCara(index)
-        })
-
-        if (btnAdelante) btnAdelante.addEventListener("click", () => {
-            index = (index === caras.length - 1) ? 0 : index + 1
-            mostrarCara(index)
-        })
-
-        //fin del carrusel------------------------------------------
-        // creacion de paneles -------------------------------------
-
-        const crearPanel = (imagenes,links, contenedorId, nombre) =>{
-            
-            const contenedor = document.getElementById(contenedorId)
-            if(imagenes.length == 1){
-                contenedor.className = "panel1x1"
-            } else if(imagenes.length == 2){
-                contenedor.className = "panel2x1"
-            } else if(imagenes.length == 3){
-                contenedor.className = "panel3x1"
-            } else if(imagenes.length == 4){
-                contenedor.className = "panel4x1"
-            }
-
-            for (let index = 0; index < imagenes.length; index++) {
-
-                const link = document.createElement("a")
-                link.href = links[index]
-                
-                const imagen = document.createElement("img")
-                imagen.src = imagenes[index]
-
-                contenedor.appendChild(link)
-                link.appendChild(imagen)
-
-                if (imagenes.length == 4 && nombre) {
-                    const texto = document.createElement("h3")
-                    texto.textContent = nombre[index]
-                    link.appendChild(texto)
-
-                    const textoFuerte = document.createElement("p")
-                    textoFuerte.textContent = "Ver " + nombre[index].split(" ")[0].charAt(0).toUpperCase() + nombre[index].split(" ")[0].slice(1).toLowerCase()
-                    link.appendChild(textoFuerte)
-                }
-            }
-            
-            
-        }
-        //         necesita ponerle el link de las paginas
-        if (btnAdelante) crearPanel(['imagenes/imagenMujer.webp','imagenes/imagenHombre.webp'],["about:blank","./html/seccionHombres.html"],"hombreMujer")
-        if (btnAdelante) crearPanel(["imagenes/foto4x1_1.webp","imagenes/foto4x1_2.webp","imagenes/foto4x1_3.webp","imagenes/foto4x1_4.webp"],["about:blank","about:blank","about:blank","about:blank"],"panel4x1",["JEANS PARA MUJER","CAMISAS PARA HOMBRE","CAMISAS PARA MUJER","BERMUDAS PARA HOMBRE"])
-        if (btnAdelante) crearPanel(["imagenes/imagenNewDrop.webp"],["about:blank"],"newDropLink")
-
-        
-    }
-
-    if(bodyId == ""){}
-})
-
-
-
-
+    // Para la página de productos (paginaProductos.html)
+    mostrarProductos('contenedorProductos', '/data/muestraProductos.json');
+});
 

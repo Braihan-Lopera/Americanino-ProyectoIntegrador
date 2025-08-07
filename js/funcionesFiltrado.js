@@ -11,7 +11,7 @@ fetch("../data/muestraProductos.json").then(response => response.json()).then(da
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
-               const divProducto = document.createElement("div")
+            const divProducto = document.createElement("div")
                 divProducto.className = "divProducto"
 
                 const link = document.createElement("a")
@@ -32,11 +32,10 @@ fetch("../data/muestraProductos.json").then(response => response.json()).then(da
                 link.appendChild(precioProducto) 
                 contenedor.appendChild(divProducto)  
             }
-                          
+                        
             
         }
         
     })        
 }
 
-if (contenedor) mostrarProductos()
