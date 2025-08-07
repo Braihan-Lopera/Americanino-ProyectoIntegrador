@@ -214,6 +214,9 @@ header#main-navbar.scrolled .navbar__acciones img {
 
 
 /* --- SECCIONES DE PRODUCTOS --- */
+
+/* -------------------------seccion productos---------------------------- */
+
 .contenedorProductos{
     display: flex;
     flex-wrap: wrap;
