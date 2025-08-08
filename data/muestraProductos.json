@@ -152,5 +152,138 @@
         "lavadoSIC": "",
         "categoria": "",
         "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
+    },
+    {
+        "id": 1,
+        "nombre": "",
+        "precio": "",
+        "fotoPortada": "hombre.webp",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "caracterisiticas": []
     }
+
 ]
