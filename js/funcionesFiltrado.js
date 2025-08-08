@@ -12,6 +12,7 @@ export const mostrarProductos = (categoria, filtros) =>{
     const contenedor = document.getElementById("contenedorProductos")
     fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
     
+        let contadorProductos = 0
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
@@ -30,9 +31,9 @@ export const mostrarProductos = (categoria, filtros) =>{
                 link.href = "about:blank"
 
                 const portada = document.createElement("img")
-                
+                const urlImagen = "../imagenes/"
                 portada.src = urlImagen + producto.fotoPortada
-                console.log(urlImagen + producto.fotoPortada)
+                
 
                 const nombreProducto = document.createElement("p")
                 nombreProducto.textContent = producto.nombre
@@ -45,8 +46,13 @@ export const mostrarProductos = (categoria, filtros) =>{
                 link.appendChild(nombreProducto)
                 link.appendChild(precioProducto) 
                 contenedor.appendChild(divProducto)  
+
+                contadorProductos++
             }
         }
+
+        document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
+
     })        
 }
 
