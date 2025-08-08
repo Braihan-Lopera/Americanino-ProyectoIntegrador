@@ -47,7 +47,7 @@
         "id": 3,
         "nombre": "",
         "precio": "",
-        "fotoPortada": "",
+        "fotoPortada": "mujer.webp",
         "descripcion": "",
         "cantidades": {},
         "elementos": [
@@ -62,14 +62,14 @@
         "fabricante": "",
         "registroSIC": "",
         "lavadoSIC": "",
-        "categoria": "",
+        "categoria": "mujer",
         "caracterisiticas": []
     },
     {
         "id": 4,
         "nombre": "",
         "precio": "",
-        "fotoPortada": "",
+        "fotoPortada": "mujer.webp",
         "descripcion": "",
         "cantidades": {},
         "elementos": [
@@ -84,7 +84,7 @@
         "fabricante": "",
         "registroSIC": "",
         "lavadoSIC": "",
-        "categoria": "",
+        "categoria": "mujer",
         "caracterisiticas": []
     },
     {
