@@ -1,7 +1,7 @@
 
 export const pasarPagina = () =>{
     
-    let filtros =[]
+    let filtros = []
     const params = new URLSearchParams(window.location.search);
     
     mostrarProductos(params.get("categoria"), filtros)
@@ -33,7 +33,6 @@ export const mostrarProductos = (categoria, filtros) =>{
                 const urlImagen = "../imagenes/"
                 portada.src = urlImagen + producto.fotoPortada
                 
-
                 const nombreProducto = document.createElement("p")
                 nombreProducto.textContent = producto.nombre
 
