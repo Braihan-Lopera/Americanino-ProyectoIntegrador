@@ -7,7 +7,8 @@ export const pasarPagina = () =>{
     mostrarProductos(params.get("categoria"), filtros)
 }
 
-export const mostrarProductos = (categoria, filtros) =>{
+const mostrarProductos = (categoria, filtros) =>{
+
     const contenedor = document.getElementById("contenedorProductos")
     fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
     
@@ -49,9 +50,13 @@ export const mostrarProductos = (categoria, filtros) =>{
             }
         }
 
-        document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
+        if(document.getElementById("cantidadProductos"))document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
 
     })        
 }
 
-mostrarProductos()
+
+
+export function mostrarFiltros(){
+
+}

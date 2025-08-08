@@ -17,6 +17,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         let index = 0
         let videoPrincipal = null
 
+        if (caras.length==1) {
+            btnAdelante.textContent =""
+            btnAtras.textContent = ""
+        }
+
         window.addEventListener("load", () => {
             videoPrincipal = caras[0].querySelector("video")
             if (videoPrincipal) {
