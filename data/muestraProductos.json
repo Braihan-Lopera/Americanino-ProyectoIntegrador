@@ -19,7 +19,7 @@
         "registroSIC": "",
         "lavadoSIC": "",
         "categoria": "hombre",
-        "caracterisiticas": []
+        "caracterisiticas": ["camisa"]
     },
     {
         "id": 2,
