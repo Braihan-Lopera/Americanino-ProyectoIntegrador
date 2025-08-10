@@ -3,13 +3,20 @@
         "id": 1,
         "nombre": "",
         "precio": "",
-        "fotoPortada": "hombre.webp",
+        "fotoPortada": "../imagenes/fotosPortada/portada1.webp",
         "descripcion": "",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": [
+                    "../imagenes/fotosDetalles/detalle1.1.webp",
+                    "../imagenes/fotosDetalles/detalle1.2.webp",
+                    "../imagenes/fotosDetalles/detalle1.3.webp",
+                    "../imagenes/fotosDetalles/detalle1.4.webp",
+                    "../imagenes/fotosDetalles/detalle1.5.webp",
+                    "../imagenes/fotosDetalles/detalle1.6.webp"
+                ]
             }
         ],
         "tonalidad": "",

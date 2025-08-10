@@ -1,7 +1,6 @@
 // js/main.js
 
-import { pasarPagina } from './funcionesFiltrado.js';
-
+import { pasarPagina, mostrarDetalleProducto } from "../js/funcionesFiltrado.js"
 
 // 1. Añadimos "async" para poder usar "await" dentro.
 document.addEventListener('DOMContentLoaded', async () => {
@@ -100,13 +99,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     }
 
-    if(bodyId == "paginaProductos"){
+if (bodyId == "paginaProductos") {
+    const params = new URLSearchParams(window.location.search);
+    const idProducto = params.get("id");
 
-        pasarPagina()
+    console.log("ID de producto en la URL:", idProducto);
 
+    if (idProducto !== null && idProducto !== "") {
+        mostrarDetalleProducto(idProducto);
+    } else {
+        pasarPagina();
     }
-
-
-
+}
 
 })
