@@ -27,8 +27,23 @@ header#divNavbar {
     left: 0;
     width: 100%;
     z-index: 1000;
+    transition: all 0.4s ease-in-out;
 }
 
+.iconoNavbarSvg {
+    width: 26px;      
+    height: 26px;     
+    stroke: white;    
+    stroke-width: 1.5;  
+    transition: stroke 0.4s ease-in-out;
+}
+
+
+.headerFijo .iconoNavbarSvg {
+    stroke: var(--color-texto-oscuro);
+}
+
+/* --- Estado del scroll con y=0 --- */
 .navegacionPrincipal {
     display: flex;
     align-items: center;
@@ -49,22 +64,27 @@ header#divNavbar {
     transition: filter 0.4s ease-in-out;
 }
 
-.navegacionFija {
-    position: fixed;
-    width: 100%;
-    padding: 0.5rem 2rem;
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid var(--color-borde-suave);
+.navegacionCategorias {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
 }
 
-.navegacionFija .enlaceNavegacion,
-.navegacionFija .iconoNavegacion {
-    color: var(--color-texto-oscuro);
+.enlaceCategoria {
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: color 0.4s ease-in-out;
 }
 
-.navegacionFija #logoPrincipal img {
-    filter: none;
+.categoriaSale {
+    color: #ff4500;
 }
 
 .seccionIzquierda,
@@ -78,40 +98,58 @@ header#divNavbar {
 .iconoNavegacion {
     background: none;
     border: none;
-    font-size: 1.5rem;
     cursor: pointer;
+    font-size: 1.6rem; 
+    transition: all 0.4s ease;
 }
 
-.enlaceNavegacion {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
+#botonMenuHamburguesa {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0s 0.4s;
 }
 
-.navegacionCategorias {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+/* --- Estado del scroll con y != 0 --- */
+.headerFijo .navegacionPrincipal,
+.headerFijo .navegacionCategorias {
+    position: fixed;
+    width: 100%;
     background-color: white;
-    border-bottom: 1px solid var(--color-borde-suave);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.enlaceCategoria {
-    padding: 0 1rem;
-    text-decoration: none;
+.headerFijo .navegacionPrincipal {
+    top: 0;
+    padding: 0.5rem 2rem;
+    z-index: 1001;
+}
+
+.headerFijo .navegacionCategorias {
+
+    display: none;
+}
+
+.headerFijo .enlaceNavegacion,
+.headerFijo .iconoNavegacion {
+    color: var(--color-texto-oscuro);
+    font-size: 1.3rem; 
+}
+
+.headerFijo #logoPrincipal img {
+    filter: none;
+}
+
+.headerFijo .enlaceCategoria {
     color: #555;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
 }
 
-.categoriaSale {
-    color: #ff4500;
+.headerFijo #botonMenuHamburguesa {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.4s ease;
 }
 
-/* Barra de navegación móvil */
-
+/* --- panel latelar de la navbar --- */
 .panelLateral {
     position: fixed;
     top: 0;
@@ -171,8 +209,6 @@ header#divNavbar {
 .panelLateralLista a:hover {
     background-color: #f5f5f5;
 }
-
-
 /* --- HERO SECTION --- */
 .fraseInicial {
     color: var(--color-principal);
@@ -399,13 +435,13 @@ header#divNavbar {
 
 
 /* --- PIE DE PÁGINA (FOOTER) --- */
-footer#footer-container {
+footer#divFooter {
     background-color: var(--color-footer-fondo);
     color: var(--color-texto-claro);
     padding: 40px 20px;
 }
 
-.footer-container {
+.divFooter {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -620,4 +656,75 @@ footer#footer-container {
     padding-top: 1rem;
     padding-left: 2rem;
     min-width: 320px;
+}
+
+/* --- PIE DE PÁGINA (FOOTER) --- */
+footer#divFooter{
+    background-color: #1c1c1c; 
+    color: #a0a0a0; 
+    padding: 3rem 2rem;
+}
+
+.footerContenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footerColumna h4 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footerColumna ul {
+    list-style: none;
+}
+
+.footerColumna ul li {
+    margin-bottom: 0.7rem;
+}
+
+.footerColumna a {
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footerColumna a:hover {
+    color: white;
+}
+
+.footerRedes {
+    display: flex;
+    gap: 1rem;
+}
+
+.iconoRedSocial {
+    width: 24px;
+    height: 24px;
+    stroke: #a0a0a0;
+    stroke-width: 1.5;
+    fill: none;
+    transition: stroke 0.2s ease;
+}
+
+.iconoRedSocial:hover {
+    stroke: white;
+}
+
+.footerInferior {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    border-top: 1px solid #333;
+    text-align: center;
+    font-size: 0.8rem;
 }
