@@ -5,17 +5,17 @@ export const crearFooter = (contenedor) => {
             <div class="footerColumna">
                 <h4>SOBRE NOSOTROS</h4>
                 <ul>
-                    <li><a href="#">Nuestra Historia</a></li>
-                    <li><a href="#">Tiendas</a></li>
-                    <li><a href="#">Trabaja con Nosotros</a></li>
+                    <li><a href="https://www.americanino.com/marca?srsltid=AfmBOopnew4TeA-uhijtgHGqELqZjMjulwf2VC4WA_V1O3-47cKciE0c" target="_blank">Nuestra Historia</a></li>
+                    <li><a href="https://www.americanino.com/localizar-tiendas" target="_blank">Tiendas</a></li>
+                    <li><a href="https://www.magneto365.com/co/empresas/americanino/empleos" target="_blank">Trabaja con Nosotros</a></li>
                 </ul>
             </div>
 
             <div class="footerColumna">
                 <h4>AYUDA</h4>
                 <ul>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
-                    <li><a href="#">Envíos y Devoluciones</a></li>
+                    <li><a href="https://www.americanino.com/ayuda-pqr" target="_blank">PQR's</a></li>
+                    <li><a href="https://www.americanino.com/sobre-el-sitio/omnicanalidad" target="_blank">Politica de envíos y devoluciones</a></li>
                     <li><a href="https://api.whatsapp.com/send/?phone=573228230631&text&type=phone_number&app_absent=0" target="_blank">Contacto</a></li>
                 </ul>
             </div>
