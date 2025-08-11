@@ -1,7 +1,9 @@
 // js/main.js
 
 import { pasarPagina } from './funcionesFiltrado.js';
+import { mostrarDetalleProducto } from "./funcionDetalles.js";
 import { mostrarCarrito } from './carritoCompras.js';
+
 
 // 1. Añadimos "async" para poder usar "await" dentro.
 document.addEventListener('DOMContentLoaded', async () => {
@@ -39,7 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const videos = document.querySelectorAll(".cara video")
             videos.forEach(video => {
                 video.pause()
-            })
+            });
             const videoActivo = caras[i].querySelector("video")
             if (videoActivo) {
                 videoActivo.currentTime = 0
@@ -102,13 +104,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     }
 
-    if(bodyId == "paginaProductos"){
-
+    if (bodyId == "paginaProductos") {
         pasarPagina()
-
     }
-
-
-
-
-})
+    if(bodyId == "detalleProducto"){
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    mostrarDetalleProducto(id);
+    }
+});

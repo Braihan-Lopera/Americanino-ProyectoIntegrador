@@ -28,7 +28,8 @@ const mostrarProductos = (categoria, filtros) =>{
                 divProducto.className = "divProducto"
 
                 const link = document.createElement("a")
-                link.href = "about:blank"
+                link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`;
+                
 
                 const portada = document.createElement("img")
                 const urlImagen = "../imagenes/"
@@ -45,16 +46,12 @@ const mostrarProductos = (categoria, filtros) =>{
                 link.appendChild(nombreProducto)
                 link.appendChild(precioProducto) 
                 contenedor.appendChild(divProducto)  
-
                 contadorProductos++
             }
         }
-
         if(document.getElementById("cantidadProductos"))document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
-
-    })        
+    })     
 }
-
 
 
 export function mostrarFiltros(){
