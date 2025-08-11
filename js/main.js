@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (bodyId == "paginaProductos") {
         pasarPagina()
-        mostrarFiltros()
     }
     if(bodyId == "detalleProducto"){
     const params = new URLSearchParams(window.location.search);
