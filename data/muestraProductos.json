@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "../imagenes/fotosPortada/portada1.webp",
-        "descripcion": "",
+    "nombre": "Chaqueta hombre",
+    "precio": "129900",
+    "fotoPortada": "fotosPortada/portada1.webp",
+    "descripcion": "Chaqueta para hombre",
         "cantidades": {},
         "elementos": [
             {
@@ -30,10 +30,10 @@
     },
     {
         "id": 2,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
+    "nombre": "Camiseta Básica Hombre",
+    "precio": "49900",
+    "fotoPortada": "hombre.webp",
+    "descripcion": "Camiseta básica de algodón para hombre, ideal para uso diario.",
         "cantidades": {},
         "elementos": [
             {
@@ -52,10 +52,10 @@
     },
     {
         "id": 3,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "mujer.webp",
-        "descripcion": "",
+    "nombre": "Blusa Casual Mujer",
+    "precio": "59900",
+    "fotoPortada": "mujer.webp",
+    "descripcion": "Blusa casual para mujer, fresca y elegante para cualquier ocasión.",
         "cantidades": {},
         "elementos": [
             {
