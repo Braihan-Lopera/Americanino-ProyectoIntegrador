@@ -1,16 +1,14 @@
 // js/main.js
 
-import { pasarPagina } from './funcionesFiltrado.js';
-import { mostrarDetalleProducto } from "./funcionDetalles.js";
+import { pasarPagina, mostrarDetalleProducto } from "../js/funcionesFiltrado.js"
+import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
+import { crearFooter } from './componentes/footer.js';
 import { mostrarCarrito } from './carritoCompras.js';
 
-
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     
     const bodyId = document.body.id
-
-    mostrarCarrito()
 
     if (bodyId == "index") {
 
