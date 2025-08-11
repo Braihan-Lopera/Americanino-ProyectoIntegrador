@@ -1,6 +1,8 @@
 // js/main.js
 
-import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js';
+import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js'
+import { crearBarraNavegacion } from './componentes/barraNavegacion.js'
+import { crearFooter } from './componentes/footer.js'
 
 
 // 1. Añadimos "async" para poder usar "await" dentro.
