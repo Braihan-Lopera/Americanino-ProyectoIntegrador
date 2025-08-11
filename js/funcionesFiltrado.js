@@ -67,22 +67,21 @@ const mostrarProductos = (categoria, filtros) =>{
 
 
 
-export function mostrarFiltros(){
+export function mostrarFiltros(filtros){
 
     const btnFiltro = document.getElementById("filtros")
     const divProductos = document.getElementById("contenedorProductos")
     const divFiltros = document.getElementById("divFiltros")
-    let filtros = []
     btnFiltro.addEventListener("click",()=>{
 
         if (divProductos.style.width == "100%"){
             divProductos.style.width = "70%"
 
 
-            for (let index = 0; index < filtros.length; index++) {
+            for (let index = 0; index < Object.keys(filtros).length; index++) {
                 
                 const divFiltro = document.createElement("div")
-                divFiltro.className = filtros[index] + " filtro"
+                divFiltro.className = Object.keys(filtros)[index] + " filtro"
 
                 divFiltro.addEventListener("click", ()=>{
                     if (divCaracteristicas.style.height == "0px") {
@@ -100,7 +99,7 @@ export function mostrarFiltros(){
                 divCaracteristicas.className = "divCaracteristicas"
 
                 let texto = document.createElement("h2")
-                texto.textContent = filtros[index]
+                texto.textContent = Object.keys(filtros)[index]
 
                 let icon = document.createElement("img")
                 icon.src = "../imagenes/flechaAbajo.png"

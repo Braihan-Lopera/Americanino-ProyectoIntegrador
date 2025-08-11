@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const contenedorNavbar = document.getElementById('divNavbar');
         if (contenedorNavbar) {
-        crearBarraNavegacion(contenedorNavbar);
+        crearBarraNavegacion(contenedorNavbar,bodyId);
 }
 
     const contenedorFooter = document.getElementById('divFooter');

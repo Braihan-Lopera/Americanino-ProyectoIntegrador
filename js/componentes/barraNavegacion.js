@@ -1,19 +1,28 @@
 
 
-const activarScrollNavbar = () => {
+const activarScrollNavbar = (idBody) => {
     // Apuntamos al contenedor principal del header
     const headerContenedor = document.getElementById('divNavbar'); 
     
     // Altura fija para realizar el cambio de scroll
     const umbralScroll = 10; 
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > umbralScroll) {
-            
-            headerContenedor.classList.add('headerFijo'); 
+    window.addEventListener("DOMContentLoaded", () => {
+        if (window.scrollY < umbralScroll && idBody == "index") {
+                headerContenedor.classList.remove('headerFijo'); 
         } else {
             
-            headerContenedor.classList.remove('headerFijo'); 
+            headerContenedor.classList.add('headerFijo'); 
+        }
+    });
+
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY < umbralScroll && idBody == "index") {
+                headerContenedor.classList.remove('headerFijo'); 
+        } else {
+            
+            headerContenedor.classList.add('headerFijo'); 
         }
     });
 };
@@ -33,7 +42,7 @@ const activarBotonesNavbar = () => {
     }
 };
 
-export const crearBarraNavegacion = (contenedor) => {
+export const crearBarraNavegacion = (contenedor, idBody) => {
     const plantillaHtml = `
         <nav class="navegacionPrincipal">
             <div class="seccionIzquierda">
@@ -80,6 +89,6 @@ export const crearBarraNavegacion = (contenedor) => {
     `;
 
     contenedor.innerHTML = plantillaHtml;
-    activarScrollNavbar();
+    activarScrollNavbar(idBody);
     activarBotonesNavbar();
 };
