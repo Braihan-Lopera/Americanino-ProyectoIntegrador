@@ -38,12 +38,150 @@ header#divNavbar {
     transition: stroke 0.4s ease-in-out;
 }
 
+
+/* --- ESTILOS DEL FOOTER --- */
+footer {
+    background-color: var(--color-footer-fondo);
+    color: var(--color-texto-claro);
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-columna h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-columna ul {
+    list-style: none;
+}
+
+.footer-columna ul li {
+    margin-bottom: 10px;
+}
+
+.footer-columna a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-columna a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-columna p {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 15px;
+}
+
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px 0 0 3px;
+}
+
+.newsletter-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #fff;
+    color: var(--color-footer-fondo);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    white-space: nowrap;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.footer-social a:hover img {
+    opacity: 1;
+}
+
+.footer-copyright {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: right;
+}
+
+.footer-copyright p {
+    margin: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+
+    .panel2x1,
+    .panel4x1 {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel2x1 a,
+    .panel4x1 a {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+
 .headerFijo .iconoNavbarSvg {
     stroke: var(--color-texto-oscuro);
 }
 
 /* --- Estado del scroll con y=0 --- */
 .navegacionPrincipal {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -325,16 +463,8 @@ header#divNavbar {
 
 
 /* --- SECCIONES DE PRODUCTOS --- */
-.contenedorProductos {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 2rem;
-}
+
+
 
 .filtros {
     width: 100%;
@@ -359,7 +489,6 @@ header#divNavbar {
     min-width: 150px;
     background-color: white;
     border: solid rgb(22, 36, 80) 1px;
-    height: 100%;
     font-size: 14px;
     font-family: DINNextLTPro-Bold;
     font-weight: 700;
@@ -386,49 +515,85 @@ header#divNavbar {
 }
 
 .divProducto {
+
+
+    
+    min-width: 24%;
+
     flex: 1 1 340px;
     max-width: 370px;
     min-width: 280px;
+
     height: auto;
-    margin: 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-    border-radius: 16px;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.2rem 1rem 1.5rem 1rem;
-    transition: box-shadow 0.2s;
-}
-
-.divProducto:hover {
-    box-shadow: 0 4px 16px rgba(22,36,80,0.13);
-}
-
-.divProducto img {
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    border-radius: 12px;
-    background: #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
-    display: block;
+    margin: 0.2rem;
+    flex: 1;
+    
 }
 
 .divProducto p,
 .divProducto h4 {
-    margin: 10px 0 0 0;
-    text-align: center;
-    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.divProducto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .divProducto a {
     text-decoration: none;
     color: inherit;
+}
+
+.contenedorMayor{
+
+    display: flex;
+    flex-wrap: nowrap;
     width: 100%;
+
 }
 
 
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 0;
+    width: 100%;
+    transition: all 0.6s ease;
+}
+
+.divFiltros{
+
+    
+    height: auto;
+    flex: 1;
+
+}
+
+.filtro{
+
+    margin-top: 2px;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+
+        color: #162450;
+        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        font-weight: 700;
+    }
+
+
+}
 /* estilos del footer */
 footer#divFooter {
     background-color: #1c1c1c; 
@@ -510,20 +675,44 @@ footer#divFooter {
         padding: 2rem 1rem;
         flex-direction: column;
         align-items: center;
+
     }
 
-    .panel2x1 a,
-    .panel4x1 a {
-        width: 100%;
-        max-width: 400px;
+    img{
+
+        height: 45px;
+        padding: 15px;
+
     }
+
+
+}
+
+.divCaracteristicas{
+    display: flex;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.caracteristicaFiltrar{
+
+    height: auto;
+    width: auto;
+    background-color: #ddd;
+    border: solid black 1px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px;
+    font-family: DINNextLTPro-light;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
 
 .footerInferior {
         flex-direction: column-reverse;
         text-align: center;
     }
-}
-
 /* --- ESTILOS CARRITO DE COMPRAS --- */
 
 .divCarrito {
