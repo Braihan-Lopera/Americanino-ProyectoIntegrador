@@ -1,6 +1,7 @@
 // js/main.js
 
-import { pasarPagina, mostrarDetalleProducto } from "../js/funcionesFiltrado.js"
+import { pasarPagina } from "./funcionesFiltrado.js"
+import { mostrarDetalleProducto } from "./funcionDetalles.js";
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
 import { crearFooter } from './componentes/footer.js';
 import { mostrarCarrito } from './carritoCompras.js';
@@ -9,6 +10,17 @@ import { mostrarCarrito } from './carritoCompras.js';
 document.addEventListener('DOMContentLoaded', () => {
     
     const bodyId = document.body.id
+        const contenedorNavbar = document.getElementById('divNavbar');
+        if (contenedorNavbar) {
+        crearBarraNavegacion(contenedorNavbar);
+}
+
+    const contenedorFooter = document.getElementById('divFooter');
+    if (contenedorFooter) {
+        crearFooter(contenedorFooter);
+    }
+
+    mostrarCarrito()
 
     if (bodyId == "index") {
 

@@ -523,3 +523,74 @@ footer#divFooter {
         text-align: center;
     }
 }
+
+/* --- ESTILOS CARRITO DE COMPRAS --- */
+
+.divCarrito {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    transition: right 0.3s ease-in-out;
+    padding: 30px 20px;
+    z-index: 999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Mostrar carrito */
+.divCarrito.mostrar {
+    right: 0;
+}
+
+/* Título */
+.divCarrito h2 {
+    color: rgb(122, 141, 192);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15%;
+    margin-bottom: 40px;
+}
+
+/* Botón cerrar (X) */
+.btn-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: rgb(122, 141, 192);
+    cursor: pointer;
+}
+
+/* Icono de bolsa */
+.divCarrito .icono-carrito {
+    font-size: 50px;
+    color: rgb(10, 36, 84);
+    margin-bottom: 20px;
+}
+
+/* Texto principal */
+.divCarrito p {
+    font-size: 14px;
+    color: rgb(10, 36, 84);
+    margin: 0 0 10px 0;
+}
+
+/* Enlace */
+.divCarrito a {
+    color: rgb(122, 141, 192);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.divCarrito a:hover {
+    text-decoration: underline;
+}
