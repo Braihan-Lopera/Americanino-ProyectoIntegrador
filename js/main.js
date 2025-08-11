@@ -4,9 +4,19 @@ import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js';
 
 
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     
     const bodyId = document.body.id
+
+    const contenedorNavbar = document.getElementById('divNavbar');
+        if (contenedorNavbar) {
+        crearBarraNavegacion(contenedorNavbar);
+}
+
+    const contenedorFooter = document.getElementById('divFooter');
+    if (contenedorFooter) {
+        crearFooter(contenedorFooter);
+    }
 
 
     if (bodyId == "index") {
