@@ -1,11 +1,12 @@
-// js/main.js
-
-import { pasarPagina, mostrarDetalleProducto } from "../js/funcionesFiltrado.js"
+import { pasarPagina, mostrarDetalleProducto } from './funcionesFiltrado.js';
+import { crearBarraNaveagcion } from './componentes/barraNavegacion.js';
 
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     
     const bodyId = document.body.id
+
+    crearBarraNaveagcion();
 
     if (bodyId == "index") {
 
