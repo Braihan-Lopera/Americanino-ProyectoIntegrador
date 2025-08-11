@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     const bodyId = document.body.id
 
+
     if (bodyId == "index") {
 
         //inicio del carrusel------------------------
@@ -106,8 +107,5 @@ document.addEventListener('DOMContentLoaded', async () => {
         mostrarFiltros()
 
     }
-
-
-
 
 })

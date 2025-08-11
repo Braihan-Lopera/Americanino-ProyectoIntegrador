@@ -1,10 +1,9 @@
 
 export const pasarPagina = () =>{
     
-    let filtros = []
     const params = new URLSearchParams(window.location.search);
     
-    mostrarProductos(params.get("categoria"), filtros)
+    mostrarProductos(params.get("categoria"), params.getAll("filtros"))
 }
 
 const mostrarProductos = (categoria, filtros) =>{
@@ -12,6 +11,7 @@ const mostrarProductos = (categoria, filtros) =>{
     const contenedor = document.getElementById("contenedorProductos")
     fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
     
+        let posiblesEtiquetas = {caracteristicas:[],color:[],talla:[]}
         let contadorProductos = 0
         for (let index = 0; index < data.length; index++) {
 
@@ -19,8 +19,8 @@ const mostrarProductos = (categoria, filtros) =>{
                 const producto = data[index]
                     
                     if (filtros.length > 0) {
-                        const coincide = producto.caracteristicas.some(caracteristica => filtros.includes(caracteristica)
-                        )
+                        const coincide = filtros.includes(producto.caracteristicas);
+                        
                         if (!coincide) continue
                     }
 
@@ -47,11 +47,21 @@ const mostrarProductos = (categoria, filtros) =>{
                 contenedor.appendChild(divProducto)  
 
                 contadorProductos++
+
+                if (producto.caracteristicas != "" && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
+                    posiblesEtiquetas.caracteristicas.push(producto.caracteristicas)
+                }
+
+                if (producto.tonalidad != "" && !posiblesEtiquetas.color.includes(producto.tonalidad)) {
+                    posiblesEtiquetas.color.push(producto.tonalidad)
+                }
             }
+            
+            
         }
-
+        
     document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
-
+        return posiblesEtiquetas
     })        
 }
 
@@ -62,7 +72,7 @@ export function mostrarFiltros(){
     const btnFiltro = document.getElementById("filtros")
     const divProductos = document.getElementById("contenedorProductos")
     const divFiltros = document.getElementById("divFiltros")
-    let filtros = ["categorias", "sub-categorias", "color","talla"]
+    let filtros = []
     btnFiltro.addEventListener("click",()=>{
 
         if (divProductos.style.width == "100%"){
@@ -76,7 +86,7 @@ export function mostrarFiltros(){
 
                 divFiltro.addEventListener("click", ()=>{
                     if (divCaracteristicas.style.height == "0px") {
-                        divCaracteristicas.style.height = "200px"
+                        divCaracteristicas.style.height = divCaracteristicas.scrollHeight + "px" 
                         icon.src = "../imagenes/flechaArriba.png"
 
                     }else{
@@ -95,26 +105,34 @@ export function mostrarFiltros(){
                 let icon = document.createElement("img")
                 icon.src = "../imagenes/flechaAbajo.png"
 
-                
-
                 divFiltro.appendChild(texto)
                 divFiltro.appendChild(icon)
                 
                 divFiltros.appendChild(divFiltro)
                 divFiltros.appendChild(divCaracteristicas)
-            }
 
-            
+                let botonesFiltrado = ["una cosa","dos cosas"]
+
+                for (let cantidad = 0; cantidad < botonesFiltrado.length; cantidad++) {
+                    
+                    let boton = document.createElement("div") 
+                    boton.className = "caracteristicaFiltrar"
+
+                    let textoBoton = document.createElement("label")
+                    textoBoton.textContent = botonesFiltrado[cantidad]
+
+                    boton.appendChild(textoBoton)
+                    divCaracteristicas.appendChild(boton)
+                    
+                }
+
+            }
 
         }else{
             divProductos.style.width = "100%"
 
             divFiltros.innerHTML = ""
         }
-
-
-
     })
-
 }
 
