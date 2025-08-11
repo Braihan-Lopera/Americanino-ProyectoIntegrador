@@ -1,12 +1,14 @@
 // js/main.js
 
 import { pasarPagina } from './funcionesFiltrado.js';
-
+import { mostrarCarrito } from './carritoCompras.js';
 
 // 1. Añadimos "async" para poder usar "await" dentro.
 document.addEventListener('DOMContentLoaded', async () => {
     
     const bodyId = document.body.id
+
+    mostrarCarrito()
 
     if (bodyId == "index") {
 
