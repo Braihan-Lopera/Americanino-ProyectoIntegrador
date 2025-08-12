@@ -1,21 +1,31 @@
-import { pasarPagina, mostrarDetalleProducto } from './funcionesFiltrado.js';
+// js/main.js
+
+import { pasarPagina, mostrarFiltros } from "./funcionesFiltrado.js"
+import { mostrarDetalleProducto } from "./funcionDetalles.js";
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
 import { crearFooter } from './componentes/footer.js';
+import { mostrarCarrito } from './carritoCompras.js';
+
+
+
+
+
 
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async() => {
     
     const bodyId = document.body.id
-
-    const contenedorNavbar = document.getElementById('divNavbar');
+        const contenedorNavbar = document.getElementById('divNavbar');
         if (contenedorNavbar) {
-        crearBarraNavegacion(contenedorNavbar);
+        crearBarraNavegacion(contenedorNavbar,bodyId);
 }
 
     const contenedorFooter = document.getElementById('divFooter');
     if (contenedorFooter) {
         crearFooter(contenedorFooter);
     }
+
+    mostrarCarrito()
 
     if (bodyId == "index") {
 
@@ -46,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const videos = document.querySelectorAll(".cara video")
             videos.forEach(video => {
                 video.pause()
-            })
+            });
             const videoActivo = caras[i].querySelector("video")
             if (videoActivo) {
                 videoActivo.currentTime = 0
@@ -108,18 +118,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     }
-
-if (bodyId == "paginaProductos") {
-    const params = new URLSearchParams(window.location.search);
-    const idProducto = params.get("id");
-
-    console.log("ID de producto en la URL:", idProducto);
-
-    if (idProducto !== null && idProducto !== "") {
-        mostrarDetalleProducto(idProducto);
-    } else {
-        pasarPagina();
+    if(bodyId == "paginaProductos"){
+        pasarPagina().then(etiquetas => {
+        mostrarFiltros(etiquetas)
+        })
     }
-}
-
-})
+    if(bodyId == "detalleProducto"){
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    mostrarDetalleProducto(id);
+    }
+});

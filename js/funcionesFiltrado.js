@@ -1,143 +1,210 @@
-
-export const pasarPagina = () =>{
+export const pasarPagina = async () =>{
     
-    let filtros = []
     const params = new URLSearchParams(window.location.search);
     
-    mostrarProductos(params.get("categoria"), filtros)
+    const filtros = {};
+
+    for (const key of params.keys()) {
+        if (key === "categoria") continue;
+        filtros[key] = params.getAll(key);
+    }
+
+    let etiquetas = await mostrarProductos(params.get("categoria"),filtros)
+    return etiquetas
 }
 
-const mostrarProductos = (categoria, filtros) =>{
+const mostrarProductos = async (categoria, filtros) =>{
 
     const contenedor = document.getElementById("contenedorProductos")
-    fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
+    contenedor.innerHTML = ""
+    const response = await fetch("../data/muestraProductos.json");
+    const data = await response.json();
     
+
+        let posiblesEtiquetas = {caracteristicas:[],tonalidad:[],tallas:[]}
         let contadorProductos = 0
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
                 const producto = data[index]
                     
-                    if (filtros.length > 0) {
-                        const coincide = producto.caracteristicas.some(caracteristica => filtros.includes(caracteristica)
-                        )
-                        if (!coincide) continue
+                let pasaFiltros = true;
+                for (const claveFiltro in filtros) {
+                    const valoresFiltro = filtros[claveFiltro];
+
+                    let valorProducto = producto[claveFiltro];
+
+                    if (claveFiltro === "tallas") {
+                        valorProducto = Object.keys(producto.cantidades || {});
                     }
 
-               const divProducto = document.createElement("div")
-                divProducto.className = "divProducto"
-
-                const link = document.createElement("a")
-                link.href = `./paginaProductos.html?categoria=${categoria}&id=${producto.id}`;
-                
-
-                const portada = document.createElement("img")
-                const urlImagen = "../imagenes/"
-                portada.src = urlImagen + producto.fotoPortada
-                
-                const nombreProducto = document.createElement("p")
-                nombreProducto.textContent = producto.nombre
-
-                const precioProducto = document.createElement("h4")
-                precioProducto.textContent = "$"+ producto.precio
-
-                divProducto.appendChild(link)
-                link.appendChild(portada)
-                link.appendChild(nombreProducto)
-                link.appendChild(precioProducto) 
-                contenedor.appendChild(divProducto)  
-                contadorProductos++
-            }
-        }
-        if(document.getElementById("cantidadProductos"))document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
-    })     
-}
-
-//funcion para mostrar detalles:
-
-export function mostrarDetalleProducto(id) {
-    console.log("mostrando detalles del producto con id:", id);
-
-    fetch("../data/muestraProductos.json")
-        .then(response => response.json())
-        .then(data => {
-            const producto = data.find(item => item.id == id);
-            if (producto) {
-                console.log("producto encontrado: ", producto);
-                const contenedor = document.getElementById("contenedorProductos");
-                contenedor.innerHTML = "";
-
-                // Contenedor principal flex
-                const divDetalle = document.createElement("div");
-                divDetalle.className = "detalleProducto";
-
-                // Contenedor de imagen principal y miniaturas
-                const galeria = document.createElement("div");
-                galeria.className = "galeriaProducto";
-
-                // Miniaturas en columna
-                const miniaturas = document.createElement("div");
-                miniaturas.id = "miniaturas";
-
-                // Imagen principal en contenedor fijo
-                const contenedorImgPrincipal = document.createElement("div");
-                contenedorImgPrincipal.className = "contenedorImgPrincipal";
-
-                const imgPrincipal = document.createElement("img");
-                imgPrincipal.src = "../imagenes/" + producto.fotoPortada;
-                imgPrincipal.alt = producto.nombre;
-                imgPrincipal.className = "imagen-principal";
-
-                contenedorImgPrincipal.appendChild(imgPrincipal);
-
-                // Miniaturas
-                if (producto.elementos && producto.elementos.length > 0) {
-                    const fotos = producto.elementos[0].fotosProducto;
-                    console.log("Miniaturas encontradas:", fotos);
-                    fotos.forEach((foto, index) => {
-                        const imgMini = document.createElement("img");
-                        imgMini.src = foto;
-                        imgMini.classList.add("miniatura");
-                        imgMini.addEventListener("click", () => {
-                            console.log(`Miniatura ${index + 1} clickeada:`, foto);
-                            imgPrincipal.src = foto;
-                        });
-                        miniaturas.appendChild(imgMini);
+                    if (Array.isArray(valorProducto)) {
+                        
+                        if (!valoresFiltro.some(vf => valorProducto.includes(vf))) {
+                            pasaFiltros = false;
+                            break;
+                        }
+                    } else {
+                        
+                        if (!valoresFiltro.includes(valorProducto)) {
+                            pasaFiltros = false;
+                            break;
+                        }
+                    }
+                }
+    
+                if (!pasaFiltros) continue;
+    
+                const divProducto = document.createElement("div");
+                divProducto.className = "divProducto";
+    
+                const link = document.createElement("a");
+                link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`
+    
+                const portada = document.createElement("img");
+                const urlImagen = "../imagenes/fotosProductos/";
+                portada.src = urlImagen + producto.fotoPortada;
+    
+                const nombreProducto = document.createElement("p");
+                nombreProducto.textContent = producto.nombre;
+    
+                const precioProducto = document.createElement("h4");
+                precioProducto.textContent = "$" + producto.precio;
+    
+                divProducto.appendChild(link);
+                link.appendChild(portada);
+                link.appendChild(nombreProducto);
+                link.appendChild(precioProducto);
+                contenedor.appendChild(divProducto);
+    
+                contadorProductos++;
+    
+                if (producto.caracteristicas && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
+                    posiblesEtiquetas.caracteristicas.push(producto.caracteristicas);
+                }
+    
+                if (producto.tonalidad && !posiblesEtiquetas.tonalidad.includes(producto.tonalidad)) {
+                    posiblesEtiquetas.tonalidad.push(producto.tonalidad);
+                }
+    
+                if (producto.cantidades && Object.keys(producto.cantidades).length > 0) {
+                    Object.keys(producto.cantidades).forEach(talla => {
+                        if (!posiblesEtiquetas.tallas.includes(talla)) {
+                            posiblesEtiquetas.tallas.push(talla);
+                        }
                     });
                 }
-
-                galeria.appendChild(miniaturas);
-                galeria.appendChild(contenedorImgPrincipal);
-
-                // Info producto
-                const infoProducto = document.createElement("div");
-                infoProducto.className = "infoProducto";
-
-                const nombre = document.createElement("h2");
-                nombre.textContent = producto.nombre;
-
-                const precio = document.createElement("p");
-                precio.textContent = "$" + producto.precio;
-
-                const descripcion = document.createElement("p");
-                descripcion.textContent = producto.descripcion;
-
-                infoProducto.appendChild(nombre);
-                infoProducto.appendChild(precio);
-                infoProducto.appendChild(descripcion);
-
-                divDetalle.appendChild(galeria);
-                divDetalle.appendChild(infoProducto);
-                contenedor.appendChild(divDetalle);
-
-            } else {
-                console.log("producto no encontrado");
             }
-        })
-        .catch(error => {
-            console.error("Error al cargar el json", error);
-        });
-}
-export function mostrarFiltros(){
+        }
+    
+        document.getElementById("cantidadProductos").textContent = contadorProductos + " productos";
+        return posiblesEtiquetas;
+    };
 
+export function mostrarFiltros(filtros){
+
+    const btnFiltro = document.getElementById("filtros")
+    const divProductos = document.getElementById("contenedorProductos")
+    const divFiltros = document.getElementById("divFiltros")
+    
+    
+    btnFiltro.addEventListener("click",()=>{
+
+        if (divProductos.style.width == "100%"){
+            divProductos.style.width = "70%"
+
+
+            for (let index = 0; index < Object.keys(filtros).length; index++) {
+                
+                const divFiltro = document.createElement("div")
+                divFiltro.className = Object.keys(filtros)[index] + " filtro"
+
+                divFiltro.addEventListener("click", ()=>{
+                    if (divCaracteristicas.style.height == "0px") {
+                        divCaracteristicas.style.height = divCaracteristicas.scrollHeight + "px" 
+                        icon.src = "../imagenes/flechaArriba.png"
+
+                    }else{
+                        divCaracteristicas.style.height = "0px"
+                        icon.src = "../imagenes/flechaAbajo.png"
+                    }
+                    
+                })
+
+                const divCaracteristicas = document.createElement("div")
+                divCaracteristicas.className = "divCaracteristicas"
+
+                let texto = document.createElement("h2")
+                if (Object.keys(filtros)[index] == "tonalidad") {
+                    texto.textContent = "color"
+                }else texto.textContent = Object.keys(filtros)[index]
+                
+
+                let icon = document.createElement("img")
+                icon.src = "../imagenes/flechaAbajo.png"
+
+                divFiltro.appendChild(texto)
+                divFiltro.appendChild(icon)
+                
+                divFiltros.appendChild(divFiltro)
+                divFiltros.appendChild(divCaracteristicas)
+
+                let botonesFiltrado = []
+                filtros[Object.keys(filtros)[index]].forEach(elementos => {
+                    botonesFiltrado.push(elementos)
+                });
+                
+
+                for (let cantidad = 0; cantidad < botonesFiltrado.length; cantidad++) {
+                    
+                    let boton = document.createElement("div") 
+                    boton.className = "caracteristicaFiltrar"
+
+                    let textoBoton = document.createElement("label")
+                    textoBoton.textContent = botonesFiltrado[cantidad]
+
+                    boton.appendChild(textoBoton)
+                    divCaracteristicas.appendChild(boton)
+                    
+                }
+
+            }
+                let botones = document.querySelectorAll(".caracteristicaFiltrar")
+                botones.forEach(boton => {
+                    boton.addEventListener("click", () => {
+                        const divCaracteristicas = boton.parentElement;
+                        const divFiltro = divCaracteristicas.previousElementSibling;
+                        let filtroNombre
+                        if (divFiltro.querySelector("h2").textContent.trim() == "color") {
+                            filtroNombre = "tonalidad"
+                        }else filtroNombre = divFiltro.querySelector("h2").textContent.trim()
+                        
+                        const textoBtn = boton.querySelector("label").textContent.trim();
+                
+                        let params = new URLSearchParams(window.location.search);
+                
+                        let valoresActuales = params.getAll(filtroNombre);
+                
+                        if (valoresActuales.includes(textoBtn)) {
+                            valoresActuales = valoresActuales.filter(v => v !== textoBtn);
+                            params.delete(filtroNombre);
+                            valoresActuales.forEach(v => params.append(filtroNombre, v));
+                        } else {
+                            params.append(filtroNombre, textoBtn);
+                        }
+                
+                        history.replaceState(null, "", window.location.pathname + "?" + params.toString());
+                
+                        pasarPagina().then(etiquetas => {
+                            mostrarFiltros(etiquetas);
+                        });
+                    });
+                });
+
+        }else{
+            divProductos.style.width = "100%"
+
+            divFiltros.innerHTML = ""
+        }
+    })
 }

@@ -106,7 +106,7 @@ const actualizarUIUsuario = () => {
             <span class="saludoUsuario">Hola, ${usuarioLogueado.nombre}</span>
             <a href="#" id="enlaceLogout" class="enlaceNavegacion"> <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-logout"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path d="M9 12h12l-3 -3" /><path d="M18 15l3 -3" /></svg> </a>
             
-            <a href="/carrito" id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
+            <a href="" id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-bag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" /><path d="M9 11v-5a3 3 0 0 1 6 0v5" /></svg>
             </a>
         `;
@@ -121,19 +121,29 @@ const actualizarUIUsuario = () => {
     }
 };
 
-const activarScrollNavbar = () => {
+const activarScrollNavbar = (idBody) => {
+    // Apuntamos al contenedor principal del header
     const headerContenedor = document.getElementById('divNavbar'); 
     
     // Altura fija para realizar el cambio de scroll
     const umbralScroll = 10; 
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > umbralScroll) {
-            
-            headerContenedor.classList.add('headerFijo'); 
+    window.addEventListener("DOMContentLoaded", () => {
+        if (window.scrollY < umbralScroll && idBody == "index") {
+                headerContenedor.classList.remove('headerFijo'); 
         } else {
             
-            headerContenedor.classList.remove('headerFijo'); 
+            headerContenedor.classList.add('headerFijo'); 
+        }
+    });
+
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY < umbralScroll && idBody == "index") {
+                headerContenedor.classList.remove('headerFijo'); 
+        } else {
+            
+            headerContenedor.classList.add('headerFijo'); 
         }
     });
 };
@@ -153,7 +163,7 @@ const activarBotonesNavbar = () => {
     }
 };
 
-export const crearBarraNavegacion = (contenedor) => {
+export const crearBarraNavegacion = (contenedor, idBody) => {
     const plantillaHtml = `
         <nav class="navegacionPrincipal">
             <div class="seccionIzquierda">
@@ -174,16 +184,16 @@ export const crearBarraNavegacion = (contenedor) => {
                     <svg class="iconoNavbarSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                 </a>
 
-                <a href="/carrito" id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
-                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-bag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" /><path d="M9 11v-5a3 3 0 0 1 6 0v5" /></svg>
+                <a id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
+                <svg class="iconoNavbarSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
                 </a>
             </div>
         </nav>
         <div class="navegacionCategorias">
-            <a href="html/paginaProductos.html?categoria=hombre" class="enlaceCategoria">HOMBRE</a>
-            <a href="html/paginaProductos.html?categoria=mujer" class="enlaceCategoria">MUJER</a>
-            <a href="html/paginaProductos.html?categoria=marcas" class="enlaceCategoria">MARCAS</a>
-            <a href="html/paginaProductos.html?categoria=sale" class="enlaceCategoria categoriaSale">SALE</a>
+            <a href="/html/paginaProductos.html?categoria=hombre" class="enlaceCategoria">HOMBRE</a>
+            <a href="/html/paginaProductos.html?categoria=mujer" class="enlaceCategoria">MUJER</a>
+            <a href="/html/paginaProductos.html?categoria=marcas" class="enlaceCategoria">MARCAS</a>
+            <a href="/html/paginaProductos.html?categoria=sale" class="enlaceCategoria categoriaSale">SALE</a>
         </div>
         <div id="panelMenuMovil" class="panelLateral">
             <div class="panelLateralEncabezado">
@@ -191,10 +201,10 @@ export const crearBarraNavegacion = (contenedor) => {
                 <button id="botonCerrarMenu" class="iconoNavegacion">✕</button>
             </div>
             <ul class="panelLateralLista">
-                <li><a href="html/paginaProductos.html?categoria=nuevo">NUEVO</a></li>
-                <li><a href="html/paginaProductos.html?categoria=hombre">HOMBRE</a></li>
-                <li><a href="html/paginaProductos.html?categoria=mujer">MUJER</a></li>
-                <li><a href="html/paginaProductos.html?categoria=descuento">DESCUENTO</a></li>
+                <li><a href="/html/paginaProductos.html?categoria=nuevo">NUEVO</a></li>
+                <li><a href="/html/paginaProductos.html?categoria=hombre">HOMBRE</a></li>
+                <li><a href="/html/paginaProductos.html?categoria=mujer">MUJER</a></li>
+                <li><a href="/html/paginaProductos.html?categoria=descuento">DESCUENTO</a></li>
             </ul>
         </div>
 
@@ -222,7 +232,7 @@ export const crearBarraNavegacion = (contenedor) => {
     `;
 
     contenedor.innerHTML = plantillaHtml;
-    activarScrollNavbar();
+    activarScrollNavbar(idBody);
     activarBotonesNavbar();
     activarPanelAutenticacion();
     actualizarUIUsuario();
