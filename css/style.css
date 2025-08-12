@@ -789,6 +789,7 @@ footer#divFooter {
     right: -400px;
     width: 400px;
     height: 100%;
+    overflow-y: auto;
     background-color: white;
     box-shadow: -2px 0 10px rgba(0,0,0,0.1);
     transition: right 0.3s ease-in-out;
@@ -943,5 +944,39 @@ footer#divFooter {
     padding-left: 2rem;
     min-width: 320px;
 }
+.divProductoCarrito{
+    height: 110px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
 
+    img{
+        height: 100px;
+    }
+
+    
+
+}
+.contenedorCarrito2{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+padding: 5px;
+}
+
+.divTallas{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    p{
+        border: solid black 1px;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+
+}
 

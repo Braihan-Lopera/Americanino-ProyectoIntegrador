@@ -69,8 +69,36 @@ export function mostrarDetalleProducto(id) {
                 const precio = document.createElement("p")
                 precio.textContent = "$" + producto.precio
 
-                const descripcion = document.createElement("p")
-                descripcion.textContent = producto.descripcion
+                const divTallas = document.createElement("div")
+                divTallas.className = "divTallas"
+
+                const tituloTallas = document.createElement("h3")
+                tituloTallas.textContent = "Tallas:"
+
+                divTallas.appendChild(tituloTallas)
+
+                let seleccionTalla
+
+                for (let index = 0; index < Object.keys(producto.cantidades).length; index++) {
+                    
+                    const talla = document.createElement("p")
+                    talla.className = "talla"
+                    talla.textContent = Object.keys(producto.cantidades)[index]
+                    divTallas.appendChild(talla)
+                    
+
+                    talla.addEventListener("click",()=>{
+
+                        let tallas = document.querySelectorAll(".talla")
+                        tallas.forEach(t => {
+                            t.style.backgroundColor = ""
+                        })
+                        seleccionTalla = Object.keys(producto.cantidades)[index]
+                        talla.style.backgroundColor = "rgb(160, 166, 184)"                       
+                        
+                    })
+
+                }
 
                 //Boton de compra
                 const botonCompra = document.createElement("button")
@@ -78,9 +106,18 @@ export function mostrarDetalleProducto(id) {
                 botonCompra.className = "boton-Compra"
                 botonCompra.textContent = "agregar al carrito"
 
+                
+                botonCompra.addEventListener("click",()=>{
+
+                    let productosGuardados = JSON.parse(localStorage.getItem("productos")) || [];
+                    productosGuardados.push({ id:id, talla:seleccionTalla });
+                    localStorage.setItem("productos", JSON.stringify(productosGuardados));
+
+                })
+
                 infoProducto.appendChild(nombre)
                 infoProducto.appendChild(precio)
-                infoProducto.appendChild(descripcion)
+                infoProducto.appendChild(divTallas)
                 infoProducto.appendChild(botonCompra)
 
                 divDetalle.appendChild(galeria)

@@ -11,7 +11,7 @@
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": ["detalle1.1.webp","detalle1.2.webp","detalle1.3.webp","detalle1.4.webp","detalle1.5.webp","detalle1.6.webp"]
+                "fotosProducto": ["producto1.1.webp","producto1.2.webp","producto1.3.webp","producto1.4.webp","producto1.5.webp","producto1.6.webp"]
             }
         ],
         "tonalidad": "amarillo",
@@ -147,7 +147,7 @@
         "lavadoSIC": "CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No planchar los accesorios. OTROS: No retorcer ni exprimir. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. OTROS: Lavar separadamente. OTROS: Planchar solo por el revés. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. OTROS: Lavar por el revés. BLANQUEADO: No usar blanqueador. SECADO: No secar en máquina. OTROS: No remojar. SECADO: Secado en tendedero a la sombra.",
         "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": "camisa"
+        "caracteristicas": "camiseta"
     },
     {
         "id": 7,
