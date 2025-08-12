@@ -24,7 +24,9 @@ export function mostrarDetalleProducto(id) {
                 contenedorImgPrincipal.className = "contenedorImgPrincipal"
 
                 const imgPrincipal = document.createElement("img")
-                const rutaPortada = "../imagenes/" + producto.fotoPortada.replace(/^\.\.\/imagenes\//, "")
+
+                const rutaPortada = "../imagenes/fotosProductos/" + producto.fotoPortada.replace(/^\.\.\/imagenes\//, "")
+
                 console.log("Ruta imagen principal:", rutaPortada)
                 imgPrincipal.src = rutaPortada
                 imgPrincipal.alt = producto.nombre
@@ -37,7 +39,11 @@ export function mostrarDetalleProducto(id) {
                     const fotos = producto.elementos[0].fotosProducto
                     console.log("Miniaturas encontradas:", fotos)
                     fotos.forEach((foto, index) => {
-                        const rutaMiniatura = foto.startsWith("../imagenes/") ? foto : "../imagenes/" + foto
+
+                       
+
+                        const rutaMiniatura = foto.startsWith("../imagenes/fotosProductos/") ? foto : "../imagenes/fotosProductos/" + foto
+
                         console.log(`Ruta miniatura ${index + 1}:`, rutaMiniatura)
                         const imgMini = document.createElement("img")
                         imgMini.src = rutaMiniatura

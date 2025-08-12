@@ -6,13 +6,17 @@ import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
 import { crearFooter } from './componentes/footer.js';
 import { mostrarCarrito } from './carritoCompras.js';
 
+import { mostrarDetalleProducto } from "./funcionDetalles.js";
+
+
+
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async() => {
     
     const bodyId = document.body.id
         const contenedorNavbar = document.getElementById('divNavbar');
         if (contenedorNavbar) {
-        crearBarraNavegacion(contenedorNavbar);
+        crearBarraNavegacion(contenedorNavbar,bodyId);
 }
 
     const contenedorFooter = document.getElementById('divFooter');
@@ -113,9 +117,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     }
-
-    if (bodyId == "paginaProductos") {
+        if (bodyId == "paginaProductos") {
         pasarPagina()
+    }
+    if(bodyId == "detalleProducto"){
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    mostrarDetalleProducto(id);
     }
     if(bodyId == "detalleProducto"){
     const params = new URLSearchParams(window.location.search);

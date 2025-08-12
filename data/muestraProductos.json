@@ -1,218 +1,279 @@
 [
     {
-        "id": 0,
-        "nombre": "camisa negra cuello tortuga",
-        "precio": "22000",
+        "id": 1,
+        "nombre": "Chaqueta tipo parka reversible para hombre",
+        "precio": "469.900",
         "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
-        "cantidades": {},
+        "fotoPortada": "producto1.1.webp",
+        "hover":"producto1.2.webp",
+        "descripcion": "Especificaciones del fit: Chaqueta tipo parka con corte relajado y funcional. Su silueta ofrece comodidad y cobertura, ideal para días fríos o lluviosos. Descripción técnica de la prenda: - Chaqueta - Tipo parka - Diseño reversible - Con capucha. Un diseño exclusivo y súper práctico que se adapta a tu estilo. Perfecto para combinar de mil formas y armar los mejores looks de invierno, siempre con el sello auténtico de Americanino. Material: Confeccionada en materiales resistentes y ligeros, esta parka combina una primera vista de 100% poliamida, ideal para brindar protección y durabilidad, con una segunda vista de 100% poliéster, que aporta ligereza y confort. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
+        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["detalle1.1.webp","detalle1.2.webp","detalle1.3.webp","detalle1.4.webp","detalle1.5.webp","detalle1.6.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
+        "tonalidad": "veige",
+        "composicion": "VISTA 1: 100% POLIAMIDA VISTA 2: 100% POLIESTER",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "registroSIC": "890940122",
+        "lavadoSIC": "LAVADO: Temperatura máxima de lavado 30 ºC. Proceso moderado. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: Lavar por el revés. SECADO: Secado en tendedero a la sombra. OTROS: No remojar. PLANCHADO: No planchar. SECADO: No secar en máquina. OTROS: No retorcer ni exprimir. BLANQUEADO: No usar blanqueador.",
         "categoria": "hombre",
-        "tipo":["cuello-tortuga","manga-larga"],
+        "tipo":[""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 2,
+        "nombre": "Polo de tela texturizada con bordado para hombre",
+        "precio": "159.900",
+        "descuento":"",
+        "fotoPortada": "producto2.1.webp",
+        "hover":"producto2.2.webp",
+        "descripcion": "Especificaciones del fit: Classic fit con un corte cómodo y moderno, sin ajustarse demasiado, perfecto para un look relajado pero bien estructurado. Descripción técnica de la prenda: - Polo - Classic fit - Manga corta - Tela texturizada a rayas - Cuello y puños tejidos - Perilla con botones - Bordado en punto corazón - Aberturas en costados. Un clásico renovado que combina con todo. Ideal para complementar looks casuales y frescos, sin importar el clima. Material: 96% algodón, 4% elastano. La mezcla de algodón asegura suavidad y frescura, mientras que el elastano aporta una ligera elasticidad que mejora el ajuste y la comodidad. Perfecto para moverse con libertad. *El modelo mide 1,87 centímetros y usa una polo talla M.",
+        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": ["producto2.1.webp","producto2.2.webp","producto2.3.webp","producto2.4.webp","producto2.5.webp","producto2.6.webp"]
+            }
+        ],
+        "tonalidad": "negro",
+        "composicion": "PRENDA: 96% ALGODON 4% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "SECADO: No secar en máquina. LAVADO: Temperatura máxima de lavado 40 ºC. Proceso normal. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: Lavar por el revés. OTROS: Lavar separadamente. SECADO: Secado en tendedero a la sombra. OTROS: Lavar con colores similares. OTROS: No remojar. PLANCHADO: No planchar. BLANQUEADO: No usar blanqueador.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "polo"
+    },
+    {
+        "id": 3,
+        "nombre": "Camiseta cuello redondo estampada para hombre",
+        "precio": "139.900",
+        "descuento":"",
+        "fotoPortada": "producto3.1.webp",
+        "hover":"producto3.2.webp",
+        "descripcion": "Especificaciones del fit Camiseta con un ajuste Slim fit que resalta tu figura con un estilo contemporáneo, manteniendo siempre la comodidad. Descripción técnica de la prenda: - Manga corta - Slim fit - Cuello redondo en rib - Graphic Lab. ¡Perfecta para un look desenfadado pero con personalidad! Esta camiseta presenta un estampado Graphic Lab, que le otorga un toque vanguardista con diseños en tendencia. Material: 100% algodón, suave y transpirable, ideal para un uso diario cómodo y ligero. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
+        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": ["producto3.1.webp","producto3.2.webp","producto3.3.webp","producto3.4.webp","producto3.5.webp","producto3.6.webp"]
+            }
+        ],
+        "tonalidad": "gris",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "OTROS: Lavar por el revés. OTROS: No planchar los accesorios. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: Lavar separadamente. SECADO: Secado en tendedero a la sombra. BLANQUEADO: No usar blanqueador. OTROS: Planchar solo por el revés. OTROS: No remojar. OTROS: No retorcer ni exprimir. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. SECADO: No secar en máquina.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 4,
+        "nombre": "Buzo abierto con capucha para hombre",
+        "precio": "299.900",
+        "descuento":"",
+        "fotoPortada": "producto4.1.webp",
+        "hover":"producto4.2.webp",
+        "descripcion": "Especificaciones del fit: Buzo abierto de fit cómodo y versátil, con estructura en los puños y fajón en rib que aseguran un ajuste casual pero bien definido. Descripción técnica de la prenda: - Buzo abierto - Diseño con cierre - Capucha ajustable con cordón - Puños y fajón en rib - Detalles de diseño en cortes - Estampado localizado. Ideal para llevar sobre camisetas básicas o estampadas; combínalo con joggers o jeans para un outfit relajado y cool. Material: Su mezcla de algodón, poliéster y elastano ofrece suavidad, durabilidad y la flexibilidad perfecta para acompañarte en todos tus planes. *El modelo mide 1,87 centímetros y usa un buzo talla M.",
+        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": ["producto4.1.webp","producto4.2.webp","producto4.3.webp","producto4.4.webp","producto4.5.webp","producto4.6.webp"]
+            }
+        ],
+        "tonalidad": "morado",
+        "composicion": "PRENDA: 69% ALGODON 30% POLIESTER 1% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. SECADO: No secar en máquina. OTROS: Lavar por el revés. SECADO: Secado en tendedero a la sombra. OTROS: No retorcer ni exprimir. BLANQUEADO: No usar blanqueador. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. OTROS: Planchar solo por el revés. OTROS: No planchar los accesorios. OTROS: Lavar separadamente. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No remojar.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 5,
+        "nombre": "Camisa tipo cargo con aplique bordado para hombre",
+        "precio": "209.900",
+        "descuento":"",
+        "fotoPortada": "producto5.1.webp",
+        "hover":"producto5.2.webp",
+        "descripcion": "Especificaciones del fit: Una silueta Classic fit con detalles renovados que te permitirán estar cómodo y fresco en tus mejores planes. Descripción técnica de la prenda: - Manga corta - Classic fit - Tipo cargo con bolsillos de tapa - Perilla abierta con botones - Aplique bordado en frente. Perfecta para un look utilitario con esencia Americanino. Material: 100% algodón. Un tejido natural, fresco y duradero que acompaña bien tus planes del día a día, con la textura ideal para un look más estructurado y versátil *El modelo mide 1,87 centímetros y usa una camisa talla M.",
+        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": ["producto5.1.webp","producto5.2.webp","producto5.3.webp","producto5.4.webp","producto5.5.webp"]
+            }
+        ],
+        "tonalidad": "azul",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "SECADO: No secar en máquina. OTROS: Planchar solo por el revés. OTROS: No planchar los accesorios. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: Lavar separadamente. BLANQUEADO: No usar blanqueador. OTROS: No retorcer ni exprimir. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. OTROS: No remojar. SECADO: Secado en tendedero a la sombra. OTROS: Lavar por el revés. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible.",
+        "categoria": "hombre",
+        "tipo":[""],
         "caracteristicas": "camisa"
     },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "id": 6,
+        "nombre": "Camiseta Manga Corta Masculina",
+        "precio": "83.940",
+        "descuento":"40",
+        "fotoPortada": "producto6.1.webp",
+        "hover":"producto6.2.webp",
+        "descripcion": "Descubre la esencia de Americanino con nuestra camiseta masculina, una prenda que combina estilo y comodidad en cada detalle. ideal para cualquier ocasión, ya sea un día casual en la ciudad o una salida con amigos. El modelo lleva una talla M, asegurando un look impecable. Algunas pantallas pueden alterar el color real de la prenda.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto6.1.webp","producto6.2.webp","producto6.3.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "tipo":["cuello-ovalado","manga-larga"],
-        "caracteristicas": "camisa"
-    },
-    {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
+        "tonalidad": "negro",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No planchar los accesorios. OTROS: No retorcer ni exprimir. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. OTROS: Lavar separadamente. OTROS: Planchar solo por el revés. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. OTROS: Lavar por el revés. BLANQUEADO: No usar blanqueador. SECADO: No secar en máquina. OTROS: No remojar. SECADO: Secado en tendedero a la sombra.",
         "categoria": "hombre",
         "tipo":[""],
         "caracteristicas": "camisa"
     },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "id": 7,
+        "nombre": "Polo cuello neru para hombre",
+        "precio": "95.940",
+        "descuento":"40",
+        "fotoPortada": "producto7.1.webp",
+        "hover":"producto7.2.webp",
+        "descripcion": "Esta polo Slim fit se ajusta perfectamente a tu cuerpo, ofreciendo una silueta moderna y estilizada. Descripción técnica de la prenda: - Polo - Manga corta - Slim fit - Cuello neru con detalle de línea al contraste - Perilla fija con tres botones - Aberturas en costados - Bordado en punto corazón - Tecnología HeiQ Mint. Este básico atemporal es ideal para quienes buscan confort y estilo en su día a día. Material: Confeccionada en 100% algodón, esta polo no solo es suave al tacto, sino que también se beneficia de la tecnología HeiQ Mint, que combate los malos olores, manteniéndote fresco mientras disfrutas de la suavidad y el confort de su tejido. *El modelo mide 1,87 centímetros y usa una polo talla M.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto7.1.webp","producto7.2.webp","producto7.3.webp","producto7.4.webp","producto7.5.webp","producto7.6.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
+        "tonalidad": "blanco",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "SECADO: No secar en máquina. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. BLANQUEADO: No usar blanqueador. OTROS: Lavar por el revés. OTROS: Lavar separadamente. SECADO: Secado en tendedero a la sombra. OTROS: Planchar solo por el revés. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No planchar los accesorios. OTROS: No retorcer ni exprimir. OTROS: No remojar.",
         "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": "pantalon"
+        "caracteristicas": "polo"
     },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "id": 8,
+        "nombre": "Polo con detalle bordado para hombre",
+        "precio": "84.950",
+        "descuento":"50",
+        "fotoPortada": "producto8.1.webp",
+        "hover":"producto8.2.webp",
+        "descripcion": "Especificaciones del fit: Su silueta Slim fit ofrece un ajuste moderno y definido, perfecto para un look casual con un toque pulido. Descripción técnica de la prenda: - Slim fit - Manga corta - Cuello polo - Bordado decorativo - Media perilla de botones - Fondo sólido. Una prenda infalible para sumar actitud a tu outfit sin complicaciones. Ideal para llevarla cualquier día de la semana a todo tipo de planes. Material: Confeccionada en una mezcla de 95% algodón y 5% elastano, garantiza comodidad, transpirabilidad y un fit que se adapta a cada movimiento. *El modelo mide 1,87 centímetros y usa una polo talla M.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto8.1.webp","producto8.2.webp","producto8.3.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
+        "tonalidad": "blanco",
+        "composicion": "PRENDA: 95% ALGODON 5% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. SECADO: Secado en tendedero a la sombra. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. OTROS: Lavar por el revés. OTROS: Planchar solo por el revés. OTROS: Lavar separadamente. BLANQUEADO: No usar blanqueador. SECADO: No secar en máquina. OTROS: No retorcer ni exprimir. OTROS: No remojar. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No planchar los accesorios.",
         "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": "buso"
+        "caracteristicas": "polo"
     },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "id": 9,
+        "nombre": "Camiseta manga corta con cortes delanteros para hombre",
+        "precio": "129.900",
+        "descuento":"Especificaciones del fit: Con un fit moda que ofrece una silueta relajada y moderna, esta camiseta se adapta a tu cuerpo de manera cómoda y estilizada. Descripción técnica de la prenda: - Manga corta - Moda fit - Diseño en cuello redondo - Detalles de cortes en frente - Estampado localizado. Perfecta para un look casual y relajado, puedes combinarla con jeans, bermudas o incluso una chaqueta para esos días frescos. ¡El estampado localizado le da un giro interesante a tu look! Material: 100% algodón, garantizando una sensación suave y cómoda para todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
+        "fotoPortada": "producto9.1.webp",
+        "hover":"producto9.2.webp",
+        "descripcion": "Especificaciones del fit: Con un fit moda que ofrece una silueta relajada y moderna, esta camiseta se adapta a tu cuerpo de manera cómoda y estilizada. Descripción técnica de la prenda: - Manga corta - Moda fit - Diseño en cuello redondo - Detalles de cortes en frente - Estampado localizado. Perfecta para un look casual y relajado, puedes combinarla con jeans, bermudas o incluso una chaqueta para esos días frescos. ¡El estampado localizado le da un giro interesante a tu look! Material: 100% algodón, garantizando una sensación suave y cómoda para todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto9.1.webp","producto9.2.webp","producto9.3.webp","producto9.4.webp","producto9.5.webp","producto9.6.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "mujer",
+        "tonalidad": "cafe",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "registroSIC": "800069933",
+        "lavadoSIC": "BLANQUEADO: No usar blanqueador. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No remojar. SECADO: Secado en tendedero a la sombra. OTROS: Lavar por el revés. PLANCHADO: Planchar a una temperatura máxima de la base de 110 ºC, sin vapor. Planchar con vapor puede causar daño irreversible. OTROS: Lavar separadamente. SECADO: No secar en máquina. OTROS: No retorcer ni exprimir. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso muy moderado. OTROS: No planchar los accesorios. OTROS: Planchar solo por el revés.",
+        "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": ""
+        "caracteristicas": "camiseta"
     },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "id": 10,
+        "nombre": "Chaqueta tipo parka de estilo utilitario para hombre",
+        "precio": "299.940",
+        "descuento":"40",
+        "fotoPortada": "producto10.1.webp",
+        "hover":"producto10.2.webp",
+        "descripcion": "Con detalles utilitarios, esta chaqueta tipo parka ofrece una silueta ligeramente estructurada. Diseñada para brindar comodidad y libertad de estilo, adaptándose a cualquier ocasión sin comprometer su diseño moderno y práctico. Descripción técnica de la prenda - Chaqueta - Parka - Estilo utilitario - Bolsillos de parche con tapa en frente - Cierre ajustable - Broches en solapa - Detalle de bolsillo con cierre en manga - Capucha con cierre que se puede ocultar - Charretera con velcro en puños. Perfecta para quienes valoran la practicidad. Esta chaqueta tipo parka es ideal para climas frescos o lluviosos; úsala con jeans y botas para un look rebelde y urbano. Material: Diseñada en 51% poliéster, 40% algodón y 9% poliamida. Su forro está elaborado en 100% poliéster. Su tejido resistente asegura durabilidad y protección. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto10.1.webp","producto10.2.webp","producto10.3.webp","producto10.4.webp","producto10.5.webp"]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "",
+        "tonalidad": "verda",
+        "composicion": "PRENDA: 51% POLIESTER 40% ALGODON 9% POLIAMIDA FORRO: 100% POLIESTER",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "registroSIC": "890940122",
+        "lavadoSIC": "OTROS: No retorcer ni exprimir. CUIDADO TEXTIL PROFESIONAL: No limpieza en seco. OTROS: No remojar. SECADO: Secado en tendedero a la sombra. LAVADO: Temperatura máxima de lavado 30 ºC. Proceso moderado. SECADO: No secar en máquina. BLANQUEADO: No usar blanqueador. OTROS: Lavar por el revés. PLANCHADO: No planchar.",
+        "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": ""
-    },    
+        "caracteristicas": "chaqueta"
+    },
     {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
+        "id": 11,
+        "nombre": "Chaqueta abullonada para hombre",
+        "precio": "329.900",
         "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
+        "fotoPortada": "producto11.1.webp",
+        "hover":"producto11.2.webp",
+        "descripcion": "Chaqueta para hombre. Abullonada. De relleno ligero. Con cierre frontal. Bolsillos laterales. Mini print con relieve en punto corazón. Tiene incorporada una bolsa, que la convierte en una opción práctica para empacar y llevar a los viajes.",
         "cantidades": {},
         "elementos": [
             {
                 "color": "",
-                "fotosProducto": []
+                "fotosProducto": ["producto11.1.webp.","producto11.2.webp.","producto11.3.webp.","producto11.4.webp.","producto11.5.webp.","producto11.6.webp."]
             }
         ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "",
+        "tonalidad": "cafe",
+        "composicion": "PRENDA: 100% POLIESTER RECICLADO FORRO MANGAS: 100% POLIESTER RECICLADO FORRO CUERPO: 100% POLIESTER RECICLADO",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "registroSIC": "890940122",
+        "lavadoSIC": "LAVADO: No lavar. CUIDADO TEXTIL PROFESIONAL: Limpieza en húmedo profesional . Proceso moderado. PLANCHADO: No planchar. BLANQUEADO: No usar blanqueador. SECADO: No secar en máquina.",
+        "categoria": "hombre",
         "tipo":[""],
-        "caracteristicas": ""
-    },    
-    {
-        "id": 0,
-        "nombre": "",
-        "precio": "",
-        "descuento":"",
-        "fotoPortada": "",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "",
-        "tipo":[""],
-        "caracteristicas": ""
+        "caracteristicas": "chaqueta"
     }
+
+    
 ]
