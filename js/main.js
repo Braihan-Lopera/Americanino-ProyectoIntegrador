@@ -3,11 +3,14 @@
 import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js'
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js'
 import { crearFooter } from './componentes/footer.js'
+
+
 import { mostrarDetalleProducto } from "./funcionDetalles.js";
 
 
+
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async() => {
     
     const bodyId = document.body.id
 
@@ -51,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const videos = document.querySelectorAll(".cara video")
             videos.forEach(video => {
                 video.pause()
-            });
+            })
             const videoActivo = caras[i].querySelector("video")
             if (videoActivo) {
                 videoActivo.currentTime = 0
@@ -113,14 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     }
-
-
-    if(bodyId == "paginaProductos"){
-
-        pasarPagina()
-        mostrarFiltros()
-
-    }
         if (bodyId == "paginaProductos") {
         pasarPagina()
     }
@@ -131,6 +126,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 })
-
-
-

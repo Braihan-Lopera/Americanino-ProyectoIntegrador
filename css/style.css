@@ -541,7 +541,7 @@ footer {
 
 .divProducto img {
     width: 100%;
-    height: auto;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -593,6 +593,10 @@ footer {
         font-size: 14px;
         letter-spacing: 1.4px;
         font-weight: 700;
+    }
+
+    img{
+        height: 30px;
     }
 
 
