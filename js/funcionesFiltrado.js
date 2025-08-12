@@ -1,4 +1,3 @@
-
 export const pasarPagina = async () =>{
     
     const params = new URLSearchParams(window.location.search);

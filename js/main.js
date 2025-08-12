@@ -1,10 +1,11 @@
 // js/main.js
 
-import { pasarPagina } from "./funcionesFiltrado.js"
+import { pasarPagina, mostrarFiltros } from "./funcionesFiltrado.js"
 import { mostrarDetalleProducto } from "./funcionDetalles.js";
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
 import { crearFooter } from './componentes/footer.js';
 import { mostrarCarrito } from './carritoCompras.js';
+
 
 
 
@@ -117,18 +118,14 @@ document.addEventListener('DOMContentLoaded', async() => {
 
 
     }
-        if (bodyId == "paginaProductos") {
-        pasarPagina()
+    if(bodyId == "paginaProductos"){
+        pasarPagina().then(etiquetas => {
+        mostrarFiltros(etiquetas)
+        })
     }
     if(bodyId == "detalleProducto"){
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
     mostrarDetalleProducto(id);
-    }
-    if(bodyId == "detalleProducto"){
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get("id");
-    mostrarDetalleProducto(id);
-    
     }
 });
