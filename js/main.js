@@ -1,13 +1,9 @@
 // js/main.js
 
-
 import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js'
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js'
 import { crearFooter } from './componentes/footer.js'
-
-
 import { mostrarDetalleProducto } from "./funcionDetalles.js";
-import { pasarPagina} from "../js/funcionesFiltrado.js"
 
 
 // 1. Añadimos "async" para poder usar "await" dentro.
@@ -125,10 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mostrarFiltros()
 
     }
-
-})
-
-    if (bodyId == "paginaProductos") {
+        if (bodyId == "paginaProductos") {
         pasarPagina()
     }
     if(bodyId == "detalleProducto"){
@@ -136,5 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const id = params.get("id");
     mostrarDetalleProducto(id);
     }
-});
+
+})
+
+
 

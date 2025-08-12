@@ -142,7 +142,5 @@ export function mostrarFiltros(filtros){
 }
 
 
-export function mostrarFiltros(){
 
-}
 
