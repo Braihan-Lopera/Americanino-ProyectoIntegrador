@@ -1,9 +1,10 @@
 // js/main.js
 
-import { pasarPagina, mostrarFiltros } from './funcionesFiltrado.js'
-import { crearBarraNavegacion } from './componentes/barraNavegacion.js'
-import { crearFooter } from './componentes/footer.js'
-
+import { pasarPagina } from "./funcionesFiltrado.js"
+import { mostrarDetalleProducto } from "./funcionDetalles.js";
+import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
+import { crearFooter } from './componentes/footer.js';
+import { mostrarCarrito } from './carritoCompras.js';
 
 import { mostrarDetalleProducto } from "./funcionDetalles.js";
 
@@ -13,8 +14,7 @@ import { mostrarDetalleProducto } from "./funcionDetalles.js";
 document.addEventListener('DOMContentLoaded', async() => {
     
     const bodyId = document.body.id
-
-    const contenedorNavbar = document.getElementById('divNavbar');
+        const contenedorNavbar = document.getElementById('divNavbar');
         if (contenedorNavbar) {
         crearBarraNavegacion(contenedorNavbar,bodyId);
 }
@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', async() => {
         crearFooter(contenedorFooter);
     }
 
+    mostrarCarrito()
 
     if (bodyId == "index") {
 
@@ -54,7 +55,7 @@ document.addEventListener('DOMContentLoaded', async() => {
             const videos = document.querySelectorAll(".cara video")
             videos.forEach(video => {
                 video.pause()
-            })
+            });
             const videoActivo = caras[i].querySelector("video")
             if (videoActivo) {
                 videoActivo.currentTime = 0
@@ -124,5 +125,9 @@ document.addEventListener('DOMContentLoaded', async() => {
     const id = params.get("id");
     mostrarDetalleProducto(id);
     }
-
-})
+    if(bodyId == "detalleProducto"){
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    mostrarDetalleProducto(id);
+    }
+});
