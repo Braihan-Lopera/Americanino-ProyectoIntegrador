@@ -9,17 +9,34 @@
 </head>
 <body id="paginaProductos">
 
-    <header id="main-navbar"></header>
+    <header id="divNavbar"></header>
 
     <main>
+        <div class="filtros">
+
+          <button id="ordenarPor" class="ordenarPor">ordenar por</button>
+          <p id="cantidadProductos" class="cantidadProductos"></p>
+          <button id="filtros" class="btnFiltros">Filtros<img src="../imagenes/filter.png" alt=""></button>
+
+        </div>
+
+        <div class="contenedorMayor">
+            
+            <div id="contenedorProductos" class="contenedorProductos"></div>
+            <div id="divFiltros" class="divFiltros"></div>
+    
+        </div>
         
-        <div id="contenedorProductos" class="contenedorProductos">
-            </div>
+    
+
+        <div id="contenedorProductos" class="contenedorProductos"></div>
+
     </main>
 
     <footer id="main-footer"></footer>
 
     <script type="module" src="/js/main.js"></script>
+
 
 </body>
 </html>

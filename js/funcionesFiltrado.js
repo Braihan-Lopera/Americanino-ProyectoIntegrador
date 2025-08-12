@@ -1,72 +1,146 @@
 
-
-/**
- * Lee un parámetro específico de la URL actual.
- * @returns {string|null} El valor del parámetro 'categoria' o null si no existe.
- */
-function getCategoryFromURL() {
+export const pasarPagina = () =>{
+    
     const params = new URLSearchParams(window.location.search);
-    return params.get('categoria');
+    
+    mostrarProductos(params.get("categoria"), params.getAll("filtros"))
 }
 
-/**
- * Muestra los productos en un contenedor, filtrados por la categoría de la URL
- * y opcionalmente por un array de características.
- * @param {string} containerId - El ID del div donde se mostrarán los productos.
- * @param {string} jsonPath - La ruta al archivo JSON de productos.
- * @param {string[]} filtros - (Opcional) Un array de características para sub-filtrar.
- */
-export function mostrarProductos(containerId, jsonPath, filtros = []) {
-    const contenedor = document.getElementById(containerId);
-    if (!contenedor) return; // Si el contenedor no está en la página, no hace nada.
+const mostrarProductos = (categoria, filtros) =>{
 
-    const categoria = getCategoryFromURL();
-    if (!categoria) {
-        // Si no hay categoría en la URL, no mostramos nada.
-        // O podrías mostrar un mensaje como: contenedor.innerHTML = "<p>Selecciona una categoría.</p>";
-        return;
-    }
+    const contenedor = document.getElementById("contenedorProductos")
+    fetch("../data/muestraProductos.json").then(response => response.json()).then(data => {
+    
+        let posiblesEtiquetas = {caracteristicas:[],color:[],talla:[]}
+        let contadorProductos = 0
+        for (let index = 0; index < data.length; index++) {
 
-    // Ruta base para las imágenes de los productos
-    const urlImagenBase = "/imagenes/productos/";
+            if (data[index].categoria === categoria){
+                const producto = data[index]
+                    
+                    if (filtros.length > 0) {
+                        const coincide = filtros.includes(producto.caracteristicas);
+                        
+                        if (!coincide) continue
+                    }
 
-    fetch(jsonPath)
-        .then(response => response.json())
-        .then(data => {
-            contenedor.innerHTML = ''; // Limpia el contenedor antes de añadir productos
+               const divProducto = document.createElement("div")
+                divProducto.className = "divProducto"
 
-            const productosFiltrados = data.filter(producto => {
-                // Primero, filtra por la categoría principal
-                if (producto.categoria !== categoria) {
-                    return false;
+                const link = document.createElement("a")
+
+             
+
+                link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`;
+                
+
+
+                const portada = document.createElement("img")
+                const urlImagen = "../imagenes/"
+                portada.src = urlImagen + producto.fotoPortada
+                
+                const nombreProducto = document.createElement("p")
+                nombreProducto.textContent = producto.nombre
+
+                const precioProducto = document.createElement("h4")
+                precioProducto.textContent = "$"+ producto.precio
+
+                divProducto.appendChild(link)
+                link.appendChild(portada)
+                link.appendChild(nombreProducto)
+                link.appendChild(precioProducto) 
+                contenedor.appendChild(divProducto)  
+
+                contadorProductos++
+
+                if (producto.caracteristicas != "" && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
+                    posiblesEtiquetas.caracteristicas.push(producto.caracteristicas)
                 }
-                // Luego, si hay sub-filtros, los aplica
-                if (filtros.length > 0) {
-                    const coincide = producto.caracteristicas.some(caracteristica => filtros.includes(caracteristica));
-                    return coincide; // Devuelve true solo si coincide con los filtros
-                }
-                return true; // Si no hay filtros, pasa el filtro de categoría
-            });
 
-            if (productosFiltrados.length === 0) {
-                contenedor.innerHTML = "<p>No se encontraron productos con estos filtros.</p>";
-                return;
+                if (producto.tonalidad != "" && !posiblesEtiquetas.color.includes(producto.tonalidad)) {
+                    posiblesEtiquetas.color.push(producto.tonalidad)
+                }
             }
             
-            // Dibuja cada producto que pasó los filtros
-            productosFiltrados.forEach(producto => {
-                const divProducto = document.createElement("div");
-                divProducto.className = "divProducto";
-                // Usamos template literals para un código más limpio
-                divProducto.innerHTML = `
-                    <a href="#">
-                        <img src="${urlImagenBase}${producto.fotoPortada}" alt="Foto de ${producto.nombre}">
-                        <p>${producto.nombre}</p>
-                        <h4>$${producto.precio.toLocaleString('es-CO')}</h4>
-                    </a>
-                `;
-                contenedor.appendChild(divProducto);
-            });
-        })
-        .catch(error => console.error('Error al cargar y filtrar productos:', error));
+            
+        }
+        
+    document.getElementById("cantidadProductos").textContent = contadorProductos + " productos"
+        return posiblesEtiquetas
+    })        
 }
+
+
+
+
+export function mostrarFiltros(filtros){
+
+    const btnFiltro = document.getElementById("filtros")
+    const divProductos = document.getElementById("contenedorProductos")
+    const divFiltros = document.getElementById("divFiltros")
+    btnFiltro.addEventListener("click",()=>{
+
+        if (divProductos.style.width == "100%"){
+            divProductos.style.width = "70%"
+
+
+            for (let index = 0; index < Object.keys(filtros).length; index++) {
+                
+                const divFiltro = document.createElement("div")
+                divFiltro.className = Object.keys(filtros)[index] + " filtro"
+
+                divFiltro.addEventListener("click", ()=>{
+                    if (divCaracteristicas.style.height == "0px") {
+                        divCaracteristicas.style.height = divCaracteristicas.scrollHeight + "px" 
+                        icon.src = "../imagenes/flechaArriba.png"
+
+                    }else{
+                        divCaracteristicas.style.height = "0px"
+                        icon.src = "../imagenes/flechaAbajo.png"
+                    }
+                    
+                })
+
+                const divCaracteristicas = document.createElement("div")
+                divCaracteristicas.className = "divCaracteristicas"
+
+                let texto = document.createElement("h2")
+                texto.textContent = Object.keys(filtros)[index]
+
+                let icon = document.createElement("img")
+                icon.src = "../imagenes/flechaAbajo.png"
+
+                divFiltro.appendChild(texto)
+                divFiltro.appendChild(icon)
+                
+                divFiltros.appendChild(divFiltro)
+                divFiltros.appendChild(divCaracteristicas)
+
+                let botonesFiltrado = ["una cosa","dos cosas"]
+
+                for (let cantidad = 0; cantidad < botonesFiltrado.length; cantidad++) {
+                    
+                    let boton = document.createElement("div") 
+                    boton.className = "caracteristicaFiltrar"
+
+                    let textoBoton = document.createElement("label")
+                    textoBoton.textContent = botonesFiltrado[cantidad]
+
+                    boton.appendChild(textoBoton)
+                    divCaracteristicas.appendChild(boton)
+                    
+                }
+
+            }
+
+        }else{
+            divProductos.style.width = "100%"
+
+            divFiltros.innerHTML = ""
+        }
+    })
+}
+
+
+
+
