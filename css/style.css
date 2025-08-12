@@ -39,6 +39,10 @@ header#divNavbar {
     transition: stroke 0.4s ease-in-out;
 }
 
+.iconoNavbarSvg:hover{
+    cursor: pointer;
+}
+
 
 /* --- ESTILOS DEL FOOTER --- */
 footer {
@@ -805,9 +809,10 @@ footer#divFooter {
     }
     .divCarrito h2 {
         margin-top: 20%;
-        font-size: 20px;
-    }
+        font-size:20px;
+    }
 }
+
 
     /*estilos de detalles del producto. NO ELIMINAR */
 
@@ -821,7 +826,7 @@ footer#divFooter {
     max-width: 1200px;
     margin: 2rem 0 2rem 2vw;
     box-sizing: border-box;
-}
+    }
 
 .galeriaProducto {
     display: flex;

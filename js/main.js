@@ -6,7 +6,7 @@ import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
 import { crearFooter } from './componentes/footer.js';
 import { mostrarCarrito } from './carritoCompras.js';
 
-import { mostrarDetalleProducto } from "./funcionDetalles.js";
+
 
 
 
@@ -129,5 +129,6 @@ document.addEventListener('DOMContentLoaded', async() => {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
     mostrarDetalleProducto(id);
+    
     }
 });
