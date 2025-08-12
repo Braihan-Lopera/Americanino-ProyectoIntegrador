@@ -60,7 +60,7 @@ const mostrarProductos = async (categoria, filtros) =>{
                 divProducto.className = "divProducto";
     
                 const link = document.createElement("a");
-                link.href = "about:blank";
+                link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`
     
                 const portada = document.createElement("img");
                 const urlImagen = "../imagenes/fotosProductos/";
@@ -208,10 +208,5 @@ export function mostrarFiltros(filtros){
             divFiltros.innerHTML = ""
         }
     })
-}
-
-
-export function mostrarFiltros(){
-
 }
 
