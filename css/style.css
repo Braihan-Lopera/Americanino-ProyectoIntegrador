@@ -25,7 +25,7 @@ header#divNavbar {
     position: fixed;
     top: 0;
     left: 0;
-    min-height: 110px;
+    /*min-height: 110px;*/
     width: 100%;
     z-index: 1000;
     transition: all 0.4s ease-in-out;
@@ -186,7 +186,7 @@ footer {
 
 /* --- Estado del scroll con y=0 --- */
 .navegacionPrincipal {
-
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -207,6 +207,7 @@ footer {
 }
 
 .navegacionCategorias {
+    position: absolute;
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -261,6 +262,9 @@ footer {
     padding: 0.5rem 2rem;
     z-index: 1001;
 }
+.navegacionPrincipal{
+    position: absolute;
+}
 
 .headerFijo .navegacionCategorias {
     display: none;
@@ -287,6 +291,8 @@ footer {
 }
 
 /* --- panel latelar de la navbar --- */
+    
+
 .panelLateral {
     position: fixed;
     top: 0;
@@ -873,6 +879,9 @@ footer#divFooter {
 
     /*estilos de detalles del producto. NO ELIMINAR */
 
+    .contenedorDetalle{
+        margin-top:60px;
+    }
     .detalleProducto {
     display: flex;
     flex-direction: row;
