@@ -189,8 +189,10 @@ export function mostrarFiltros(filtros){
                             valoresActuales = valoresActuales.filter(v => v !== textoBtn);
                             params.delete(filtroNombre);
                             valoresActuales.forEach(v => params.append(filtroNombre, v));
+                            boton.style.backgroundColor = "white"
                         } else {
                             params.append(filtroNombre, textoBtn);
+                            boton.style.backgroundColor = "rgb(160, 166, 184)"
                         }
                 
                         history.replaceState(null, "", window.location.pathname + "?" + params.toString());
