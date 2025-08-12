@@ -1,5 +1,13 @@
 [
     {
+
+        "id": 0,
+        "nombre": "camisa negra cuello tortuga",
+        "precio": "22000",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+
         "id": 1,
     "nombre": "Chaqueta hombre",
     "precio": "129900",
@@ -34,6 +42,7 @@
     "precio": "49900",
     "fotoPortada": "hombre.webp",
     "descripcion": "Camiseta básica de algodón para hombre, ideal para uso diario.",
+
         "cantidades": {},
         "elementos": [
             {
@@ -48,9 +57,13 @@
         "registroSIC": "",
         "lavadoSIC": "",
         "categoria": "hombre",
-        "caracterisiticas": []
+        "tipo":["cuello-tortuga","manga-larga"],
+        "caracteristicas": "camisa"
     },
     {
+
+        "id": 0,
+
         "id": 3,
     "nombre": "Blusa Casual Mujer",
     "precio": "59900",
@@ -98,6 +111,127 @@
         "id": 5,
         "nombre": "",
         "precio": "",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "tipo":["cuello-ovalado","manga-larga"],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 0,
+        "nombre": "",
+        "precio": "",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 0,
+        "nombre": "",
+        "precio": "",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "pantalon"
+    },
+    {
+        "id": 0,
+        "nombre": "",
+        "precio": "",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "buso"
+    },
+    {
+        "id": 0,
+        "nombre": "",
+        "precio": "",
+        "descuento":"",
+        "fotoPortada": "",
+        "descripcion": "",
+        "cantidades": {},
+        "elementos": [
+            {
+                "color": "",
+                "fotosProducto": []
+            }
+        ],
+        "tonalidad": "",
+        "composicion": "",
+        "paisFabricacion": "",
+        "fabricante": "",
+        "registroSIC": "",
+        "lavadoSIC": "",
+        "categoria": "mujer",
+        "tipo":[""],
+        "caracteristicas": ""
+    },
+    {
+        "id": 0,
+        "nombre": "",
+        "precio": "",
+        "descuento":"",
         "fotoPortada": "",
         "descripcion": "",
         "cantidades": {},
@@ -114,12 +248,14 @@
         "registroSIC": "",
         "lavadoSIC": "",
         "categoria": "",
-        "caracterisiticas": []
-    },
+        "tipo":[""],
+        "caracteristicas": ""
+    },    
     {
-        "id": 6,
+        "id": 0,
         "nombre": "",
         "precio": "",
+        "descuento":"",
         "fotoPortada": "",
         "descripcion": "",
         "cantidades": {},
@@ -136,12 +272,14 @@
         "registroSIC": "",
         "lavadoSIC": "",
         "categoria": "",
-        "caracterisiticas": []
-    },
+        "tipo":[""],
+        "caracteristicas": ""
+    },    
     {
-        "id": 7,
+        "id": 0,
         "nombre": "",
         "precio": "",
+        "descuento":"",
         "fotoPortada": "",
         "descripcion": "",
         "cantidades": {},
@@ -158,139 +296,7 @@
         "registroSIC": "",
         "lavadoSIC": "",
         "categoria": "",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
-    },
-    {
-        "id": 1,
-        "nombre": "",
-        "precio": "",
-        "fotoPortada": "hombre.webp",
-        "descripcion": "",
-        "cantidades": {},
-        "elementos": [
-            {
-                "color": "",
-                "fotosProducto": []
-            }
-        ],
-        "tonalidad": "",
-        "composicion": "",
-        "paisFabricacion": "",
-        "fabricante": "",
-        "registroSIC": "",
-        "lavadoSIC": "",
-        "categoria": "hombre",
-        "caracterisiticas": []
+        "tipo":[""],
+        "caracteristicas": ""
     }
-
 ]
