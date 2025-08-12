@@ -6,7 +6,7 @@ import { crearFooter } from './componentes/footer.js'
 
 
 // 1. Añadimos "async" para poder usar "await" dentro.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async() => {
     
     const bodyId = document.body.id
 
@@ -115,8 +115,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if(bodyId == "paginaProductos"){
 
-        pasarPagina()
-        mostrarFiltros()
+        pasarPagina().then(etiquetas => {
+            mostrarFiltros(etiquetas);
+    })
 
     }
 
