@@ -21,13 +21,15 @@ const mostrarProductos = async (categoria, filtros) =>{
     const data = await response.json();
     
 
-        let posiblesEtiquetas = {caracteristicas:[],tonalidad:[],tallas:[]}
+        let posiblesEtiquetas = {caracteristicas:[],color:[],tallas:[]}
         let contadorProductos = 0
+
+        let informacionProductos = []
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
                 const producto = data[index]
-                    
+                
                 let pasaFiltros = true;
                 for (const claveFiltro in filtros) {
                     const valoresFiltro = filtros[claveFiltro];
@@ -54,47 +56,64 @@ const mostrarProductos = async (categoria, filtros) =>{
                 }
     
                 if (!pasaFiltros) continue;
-    
-                const divProducto = document.createElement("div");
-                divProducto.className = "divProducto";
-    
-                const link = document.createElement("a");
-                link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`
-    
-                const portada = document.createElement("img");
-                const urlImagen = "../imagenes/fotosProductos/";
-                portada.src = urlImagen + producto.fotoPortada;
-    
-                const nombreProducto = document.createElement("p");
-                nombreProducto.textContent = producto.nombre;
-    
-                const precioProducto = document.createElement("h4");
-                precioProducto.textContent = "$" + producto.precio;
-    
-                divProducto.appendChild(link);
-                link.appendChild(portada);
-                link.appendChild(nombreProducto);
-                link.appendChild(precioProducto);
-                contenedor.appendChild(divProducto);
-    
-                contadorProductos++;
-    
-                if (producto.caracteristicas && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
-                    posiblesEtiquetas.caracteristicas.push(producto.caracteristicas);
-                }
-    
-                if (producto.tonalidad && !posiblesEtiquetas.tonalidad.includes(producto.tonalidad)) {
-                    posiblesEtiquetas.tonalidad.push(producto.tonalidad);
-                }
-    
-                if (producto.cantidades && Object.keys(producto.cantidades).length > 0) {
-                    Object.keys(producto.cantidades).forEach(talla => {
-                        if (!posiblesEtiquetas.tallas.includes(talla)) {
-                            posiblesEtiquetas.tallas.push(talla);
-                        }
-                    });
-                }
+
+                informacionProductos.push({
+                    categoria:categoria,
+                    id:producto.id,
+                    fotoPortada:producto.elementos[0].fotosProducto[0],
+                    hover:producto.elementos[0].fotosProducto[1],
+                    nombreProducto:producto.nombre,
+                    precioProducto:producto.precio,
+                    caracteristicas:producto.caracteristicas,
+                    color:producto.elementos[0].color,
+                    cantidades:producto.cantidades
+                })
             }
+        }
+       
+        for (let index = 0; index < informacionProductos.length; index++) {
+            const producto = informacionProductos[index];
+            
+            const divProducto = document.createElement("div");
+            divProducto.className = "divProducto";
+
+            const link = document.createElement("a");
+            link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`
+
+            const portada = document.createElement("img");
+            const urlImagen = "../imagenes/fotosProductos/";
+            portada.src = urlImagen + producto.fotoPortada;
+
+            const nombreProducto = document.createElement("p");
+            nombreProducto.textContent = producto.nombreProducto;
+
+            const precioProducto = document.createElement("h4");
+            precioProducto.textContent = "$" + producto.precioProducto;
+
+            divProducto.appendChild(link);
+            link.appendChild(portada);
+            link.appendChild(nombreProducto);
+            link.appendChild(precioProducto);
+            contenedor.appendChild(divProducto);
+
+            contadorProductos++;
+
+            if (producto.caracteristicas && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
+                posiblesEtiquetas.caracteristicas.push(producto.caracteristicas);
+            }
+
+            if (producto.color && !posiblesEtiquetas.color.includes(producto.color)) {
+                posiblesEtiquetas.color.push(producto.color);
+            }
+
+            if (producto.cantidades && Object.keys(producto.cantidades).length > 0) {
+                Object.keys(producto.cantidades).forEach(talla => {
+                    if (!posiblesEtiquetas.tallas.includes(talla)) {
+                        posiblesEtiquetas.tallas.push(talla);
+                    }
+                });
+            }
+            
         }
     
         document.getElementById("cantidadProductos").textContent = contadorProductos + " productos";

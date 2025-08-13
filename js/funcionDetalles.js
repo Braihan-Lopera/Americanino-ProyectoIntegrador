@@ -25,7 +25,7 @@ export function mostrarDetalleProducto(id) {
 
                 const imgPrincipal = document.createElement("img")
 
-                const rutaPortada = "../imagenes/fotosProductos/" + producto.fotoPortada.replace(/^\.\.\/imagenes\//, "")
+                const rutaPortada = "../imagenes/fotosProductos/" + producto.elementos[0].fotosProducto[0].replace(/^\.\.\/imagenes\//, "")
 
                 console.log("Ruta imagen principal:", rutaPortada)
                 imgPrincipal.src = rutaPortada
