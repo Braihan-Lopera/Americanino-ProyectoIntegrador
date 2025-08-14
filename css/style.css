@@ -583,14 +583,6 @@ footer {
 
 .divProducto {
 
-
-    
-    min-width: 24%;
-
-    flex: 1 1 340px;
-    max-width: 370px;
-    min-width: 280px;
-
     height: auto;
     margin: 0.2rem;
     flex: 1;
@@ -604,7 +596,8 @@ footer {
 
 .divProducto img {
     width: 100%;
-    height: 500px;
+    aspect-ratio: 1 / 2;
+    max-height: 500px;
     object-fit: cover;
 }
 
@@ -623,8 +616,9 @@ footer {
 
 
 .contenedorProductos {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 24%));
+    gap: 10px;
     justify-content: center;
     padding: 2rem;
     padding-top: 0;
