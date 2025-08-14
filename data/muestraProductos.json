@@ -1379,5 +1379,632 @@
         "categoria": "mujer",
         "tipo": [""],
         "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 61,
+        "nombre": "Pantalón Straight bota recta para mujer",
+        "precio": "399.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Este pantalón Straight fit de tiro bajo ofrece una silueta relajada y favorecedora, con una bota recta que aporta equilibrio y estilo sin esfuerzo. Descripción técnica de la prenda: - Straight fit - Tiro bajo - Bota recta. Un básico infalible con actitud festivalera, perfecto para combinar con un crop top o camisa oversize y disfrutar de un resultado auténtico. Material: Elaborado en 100% algodón, proporciona frescura, resistencia y comodidad para moverte con libertad todo el día. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto61.1.webp",
+                    "producto61.2.webp",
+                    "producto61.3.webp",
+                    "producto61.4.webp",
+                    "producto61.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón "
+    },
+    {
+        "id": 62,
+        "nombre": "Falda con cortes para mujer",
+        "precio": "189.900",
+        "descuento": "20",
+        "descripcion": "Falda para mujer. Diseño corto y perilla funcional en frente. Cortes decorativos. Bolsillos de ribete funcionales en delantero. Elaborada en algodón 100% para mayor frescura y comodidad.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto62.1.webp",
+                    "producto62.2.webp",
+                    "producto62.3.webp",
+                    "producto62.4.webp"                    
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Poliester",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Falda"
+    },
+    {
+        "id": 63,
+        "nombre": "Falda corta bolsillos y taches para mujer",
+        "precio": "229.900",
+        "descuento": "50",
+        "descripcion": "Especificaciones del fit: Horma corta con detalles utilitarios que la convierten en el statement del momento. Descripción técnica de la prenda: - Corta - Cierre en frente - Bolsillos en frente de parche con tapa - Detalle de taches Crea looks modernos y con tintes juveniles con esta falda corta, perfecta para destacar en cualquier entorno, especialmente en los planes de fines de semana y brunch con amigas. Material: Diseñada en 100% Algodón, un diseño que captura la esencia de la temporada, perfecto para renovar el estilo personal. *La modelo mide 1,76 centímetros y usa una falda talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto63.1.webp",
+                    "producto63.2.webp",
+                    "producto63.3.webp",
+                    "producto63.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Falda corta"
+    },
+    {
+        "id": 64,
+        "nombre": "Pantalón parachute de tiro alto para mujer",
+        "precio": "$ 279.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con tiro alto y silueta amplia tipo parachute, este pantalón ofrece un look urbano y cómodo, ideal para el día a día. Descripción técnica de la prenda: - Parachute fit - Bota recta - Tiro alto - Textil antifluido con reata y broche a tono - Detalles de elástico en bolsillos. Llévalo con tops ajustados o camisetas oversize para lograr un contraste cool. El textil antifluido y los detalles utilitarios elevan cualquier look streetwear. Material: 100% nylon, liviano, resistente y perfecto para acompañarte en cualquier plan. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto64.1.webp",
+                    "producto64.2.webp",
+                    "producto64.3.webp",
+                    "producto64.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 65,
+        "nombre": "Pantalón tipo chino con doble pretina para mujer",
+        "precio": "289.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Este pantalón tipo chino tiene una silueta moderna, ligera y cómoda. La doble pretina aporta un detalle actual, mientras que las pinzas en la bota le dan un acabado más pulido sin perder frescura. Descripción técnica de la prenda: - Tipo chino - Tiro medio - Bolsillos funcionales - Doble pretina - Detalle de pinza en la bota - Key item. ¡Perfecto para looks más armados sin dejar de ser casual! Material: 98% algodón, 2% elastano, brindando suavidad, frescura y una ligera elasticidad que mejora el ajuste y la movilidad. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto65.1.webp",
+                    "producto65.2.webp",
+                    "producto65.3.webp",
+                    "producto65.4.webp",
+                    "producto65.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 98% Algodon 2% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 66,
+        "nombre": "Pantalón Straight tiro bajo para mujer",
+        "precio": "349.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Con un corte Straight fit y tiro bajo, este pantalón ofrece una silueta relajada pero estructurada, perfecta para un look effortless con sello Americanino. Descripción técnica de la prenda: - Straight fit - Tiro bajo - Bota recta. ¡Ponte en mood festivalero! Una pieza versátil y atemporal, clave para armar outfits con un aire fresco y desenfadado y original. Material: Confeccionado en 100% algodón, brinda una sensación ligera y cómoda, manteniendo un look auténtico y de gran calidad. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Cafe",
+                "fotosProducto": [
+                    "producto66.1.webp",
+                    "producto66.2.webp",
+                    "producto66.3.webp",
+                    "producto66.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S..",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 67,
+        "nombre": "Vestido largo de cuello redondo para mujer",
+        "precio": "239.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Este vestido largo de ajuste fluido estiliza la silueta con su caída ligera y su diseño único. Descripción técnica de la prenda: - Largo - Cuello redondo - Manga larga - Lavado medio. Un esencial con aire effortless, perfecto para destacar en esos planes que merecen tu versión más icónica. Material: Confeccionado en una mezcla de 82% poliamida y 18% elastano, ofrece flexibilidad, suavidad y una sensación envolvente que acompaña cada movimiento. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto67.1.webp",
+                    "producto67.2.webp",
+                    "producto67.3.webp",
+                    "producto67.4.webp",
+                    "producto67.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 82% POLIAMIDA 18% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 68,
+        "nombre": "Vestido largo con botones en lateral para mujer",
+        "precio": "299.900",
+        "descuento": "40",
+        "descripcion": "Este vestido largo tiene una silueta fluida y fresca que se adapta a cualquier ocasión casual. Las tiras graduables y el escote en V con corte delicado le aportan un toque femenino y sutil. Descripción técnica de la prenda: - Largo - De tiras graduables - Escote en V - Corte en escote - Detalle con pinzas y botones en lateral - Tela especial de tacto suave. Perfecto para un look relajado y moderno. Llévalo con sandalias planas y un bolso cruzado para tus días de paseo o con tenis para un resultado más trendy. Material: Elaborado con 87% ecovero y 13% poliéster, este vestido ofrece suavidad y frescura en cada movimiento. Su tela especial combina sostenibilidad y comodidad, ideal para esos días en los que quieres sentirte ligera y chic. *La modelo mide 1,76 centímetros y usa un vestido talla S",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Rojo",
+                "fotosProducto": [
+                    "producto68.1.webp",
+                    "producto68.2.webp",
+                    "producto68.3.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 87% ECOVERO 13% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 69,
+        "nombre": "Vestido corto de tela con textura para mujer ",
+        "precio": "249.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Corto, con una silueta relajada y femenina que se siente fresca desde el primer momento. Un diseño con personalidad, pensado para que te muevas con estilo y al ritmo de las tendencias. Descripción técnica de la prenda: - Corto - Manga sisa - Escote en V - Detalle de recogidos en laterales - Tela texturizada ¡Todo un acierto para tus fines de semana! Un vestido pensado para destacar y llevar el sello Americanino a otro nivel. Material: 91% algodón, 9% lino. Fresco, suave y con una textura natural que lo hace ideal para el clima cálido. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Amarillo",
+                "fotosProducto": [
+                    "producto69.1.webp",
+                    "producto69.2.webp",
+                    "producto69.3.webp",
+                    "producto69.4.webp",
+                    "producto69.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 9% LINO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 70,
+        "nombre": "Vestido corto en denim con abertura para mujer",
+        "precio": "299.900",
+        "descuento": "30",
+        "descripcion": "Un vestido corto diseñado para resaltar tu silueta con su cintura elástica y corte ligero. Su estilo fresco y desenfadado lo convierte en un básico versátil para tus días más soleados. Descripción técnica de la prenda: - Corto - En denim liviano - Tono claro - Manga sisa - Cuello clásico con escote en V - Elástico en cintura - Abertura en delantero - Bolsillos laterales. Ideal para esos días en los que quieres sentirte cómoda sin perder el estilo. Combínalo con sandalias para un look casual o con botines para un toque más trendy. Material: Un Denim Experimental confeccionado en 100% algodón que ofrece la frescura y ligereza de una tela liviana, perfecto para mantenerte cómoda todo el día. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto70.1.webp",
+                    "producto70.2.webp",
+                    "producto70.3.webp",
+                    "producto70.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 71,
+        "nombre": "Jean Barrel tipo globo para mujer",
+        "precio": "329.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con una silueta tipo globo que redefine el estilo actual. Este barrel es una pieza clave para crear looks con personalidad. Ideal para días de ciudad o planes con amigas. Descripción técnica de la prenda: - Barrel fit - Tiro medio - Tipo globo - Cordón en pretina - Bolsillos desiguales - Tono medio claro. Unos jeans que se posicionan como la prenda clave de la temporada. Con un estilo retro que impone estilo y funcionalidad. Material: Elaborados en 100% algodón. Un diseño que se siente tan bien como se ve, adaptándose a tu ritmo de vida. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto71.1.webp",
+                    "producto71.2.webp",
+                    "producto71.3.webp",
+                    "producto71.4.webp",
+                    "producto71.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 72,
+        "nombre": "Jean Vintage de bota flare para mujer",
+        "precio": "299.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Estos jeans de tiro alto y bota flare redefinen los clásicos de siempre, brindando confort y una silueta estilizada, mientras sus cortes en el frente los convierten en un must de la temporada. Descripción técnica de la prenda: - Vintage fit - Tiro alto - Bota flare - Cortes decorativos en el frente - Tono medio Inspirados en el revival de los años 70, estos jeans son ideales para conciertos, días de oficina y brunch con amigas. Combínalos con zapatos de punta triangular para un efecto más prometedor y camisas oversize. Material: Elaborados en 99% algodón y 1% elastano, para una sensación de comodidad y estilo interminables. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto72.1.webp",
+                    "producto72.2.webp",
+                    "producto72.3.webp",
+                    "producto72.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 99% Algodon 1% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 73,
+        "nombre": "Jean Jegging tono negro para mujer",
+        "precio": "289.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Este jegging de tiro medio y bota recta ofrece una silueta moderna para looks formales e informales. Un básico infalible en el fondo de armario femenino. Descripción técnica de la prenda: - Jegging fit - Tiro medio - Tono negro clásico - Bota recta - Cinco bolsillos. Estos jeans se adaptan a todo: llévalos con camisas y botines para la oficina, o con tenis y Bomber para tus planes de fin de semana. Material: Elaborado en 91% algodón, 5% poliéster y 4% elastano, para mayor confort y un ajuste perfecto. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "gris",
+                "fotosProducto": [
+                    "producto73.1.webp",
+                    "producto73.2.webp",
+                    "producto73.3.webp",
+                    "producto73.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 5% POLIESTER 4% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 74,
+        "nombre": "Jean Wide Leg tono gris para mujer",
+        "precio": "349.900",
+        "descuento": "10",
+        "descripcion": "Especificaciones del fit: Con su bota superamplia y tela liviana, este Wide Leg redefine la comodidad con un toque contemporáneo. Descripción técnica de la prenda: - Wide Leg - Tiro medio - Bota súper amplia - Tono gris - Tela liviana. Perfecto para llevar con crop tops o chaquetas Bomber en los mejores planes con amigas o con camisas clásicas para un momento formal. Material: Elaborado en 99% algodón y 1% elastano que fluye con tu estilo diario. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 15,
+            "S": 15,
+            "M": 15,
+            "L": 15,
+            "Xl": 15
+        },
+        "elementos": [
+            {
+                "color": "gris",
+                "fotosProducto": [
+                    "producto74.1.webp",
+                    "producto74.2.webp",
+                    "producto74.3.webp",
+                    "producto74.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 99% Algodon 1% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 75,
+        "nombre": "Jean Cargo efecto vintage para mujer",
+        "precio": "349.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Estos jeans cargo garantizan confort y versatilidad, llevándote a un nivel de estilo único, perfectos para almas libres que nunca se detienen. Descripción técnica de la prenda: - Cargo fit - Efecto vintage - Bolsillos tipo cargo con tapa - Bolsillos no funcionales - Tono medio Ideales para planes de fin de semana, viajes y días de aventura. Sus detalles cargo aportan una vibra utilitaria y en tendencia que marca la diferencia. Material: 68% lyocell, 23% rayón y 9% poliéster. Se distinguen por su corte relajado, elevando cualquier look con su actitud cool y su vibe atemporal. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto75.1.webp",
+                    "producto75.2.webp",
+                    "producto75.3.webp",
+                    "producto75.4.webp",
+                    "producto75.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 68% LYOCELL 23% RAYON 9% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 76,
+        "nombre": "Enterizo manga sisa en denim para mujer",
+        "precio": "399.900",
+        "descuento": "20",
+        "descripcion": "Especificaciones del fit: Este enterizo camisero en denim ofrece una silueta relajada que equilibra estructura y movimiento. Su diseño con bolsillos delanteros y traseros con tapa le aporta un toque utilitario y actual, mientras el ajuste cómodo en cintura y el corte recto crean un fit versátil y favorecedor. Descripción técnica de la prenda: - Enterizo manga sisa - Cuello camisero - Bota recta - Tono medio - En denim - Bolsillos en frente con tapa y atrás un bolsillo con tapa - Perilla con botón. La combinación perfecta entre funcionalidad y estilo. Este enterizo es de esos básicos elevados que solucionan cualquier look con solo un par de accesorios, acompañándote en días dinámicos o escapadas espontáneas con un aire cool y despreocupado. Material: Confeccionado en 100% algodón, su denim es resistente pero lo suficientemente ligero para ofrecer frescura y libertad de movimiento, asegurando comodidad y durabilidad en cada uso. *La modelo mide 1,76 centímetros y usa un overall talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto76.1.webp",
+                    "producto76.2.webp",
+                    "producto76.3.webp",
+                    "producto76.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Enterizo"
+    },
+    {
+        "id": 77,
+        "nombre": "Short con bolsillos carpintero para mujer",
+        "precio": "179.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con un corte cómodo y relajado, este short tiene un tiro medio y una pretina elástica que te asegura un ajuste perfecto. Descripción técnica de la prenda: - Bolsillo tipo carpintero - Tiro medio - Cordones en contraste - Elástico en pretina - Detalle de estampado - Graphic Lab. Llévalo con una camiseta o hoodie para un look urbano y casual. Los detalles gráficos y el estilo funcional de los bolsillos lo convierten en una pieza clave de tu armario. Material: 65% algodón, 35% poliéster, combinando suavidad y resistencia para todo el día. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto77.1.webp",
+                    "producto77.2.webp",
+                    "producto77.3.webp",
+                    "producto77.4.webp",
+                    "producto77.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 65% ALGODON 35% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 78,
+        "nombre": "Short con ruedo al corte para mujer",
+        "precio": "137.940",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Estos shorts ofrecen la combinación perfecta entre comodidad y autenticidad para tu día a día, elevando cualquier look de forma sencilla. Descripción técnica de la prenda: - Tiro medio - Tono medio - Bolsillos desiguales en el frente - Ruedo al corte. Estos shorts son perfectos para planes con amigas o salidas espontáneas. Llévalos con botas y camisas ¡y destaca con un vibe contemporáneo! Material: Diseñados en 100% algodón. Un estilo que habla por ti. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul claro",
+                "fotosProducto": [
+                    "producto78.1.webp",
+                    "producto78.2.webp",
+                    "producto78.3.webp",
+                    "producto78.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 79,
+        "nombre": "Short en tela con efecto de cuadros para mujer",
+        "precio": "219.900",
+        "descuento": "15",
+        "descripcion": "Especificaciones del fit: Este short es la definición de frescura y estilo experimental, diseñado para darle un giro creativo a tus looks de temporada. Descripción técnica de la prenda: - Tono claro - Tela con efecto de cuadros - Pretina con corte - Silueta corta. Ideal para paseos, días soleados con amigas o viajes improvisados. Su tela texturizada y pretina creativa lo convierten en un básico elevado. Combínalo con camisetas o crop tops y dale tu sello personal. Material: Elaborado en 80% algodón y 20% poliéster. Ideales para un look cool, donde lo clásico desaparece. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 15,
+            "S": 15,
+            "M": 15,
+            "L": 15,
+            "Xl": 15
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto79.1.webp",
+                    "producto79.2.webp",
+                    "producto79.3.webp",
+                    "producto79.4.webp",
+                    "producto79.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% POLIESTER FORRO: 100% POLIESTER CUELLO: 100% POLIURETANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 80,
+        "nombre": "Bermuda tipo cargo para mujer",
+        "precio": "249.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Una bermuda estilo cargo y de tiro medio que combina amplitud y estructura para un look relajado y actual. Descripción técnica de la prenda: - Cargo fit - Diseño preteñido - Lavado claro - Tiro medio. Perfecta para llevar con crop tops o camisas oversize. Sus detalles cargo aportan un aire utilitario que se adapta a los planes más festivaleros. Material: Confeccionada en 100% nylon, es ligera, resistente y perfecta para moverte con libertad. *La modelo mide 1,76 centímetros y usa una bermuda talla 6..",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "cafe",
+                "fotosProducto": [
+                    "producto80.1.webp",
+                    "producto80.2.webp",
+                    "producto80.3.webp",
+                    "producto80.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "bermuda"
     }
 ]

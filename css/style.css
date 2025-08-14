@@ -207,12 +207,16 @@ footer {
 }
 
 .navegacionCategorias {
-
     display: flex;
     justify-content: center;
     padding: 1rem;
-    background-color: transparent;
     transition: all 0.4s ease-in-out;
+
+    
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(8px);          
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .enlaceCategoria {

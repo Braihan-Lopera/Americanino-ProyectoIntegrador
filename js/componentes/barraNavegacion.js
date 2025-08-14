@@ -1,4 +1,4 @@
-// proceso de autenticación
+
 
 const activarPanelAutenticacion = () => {
     // Selectores de elementos
@@ -60,14 +60,24 @@ const activarPanelAutenticacion = () => {
         // Validación si existe correo ya en BD
         const usuarioExistente = usuarios.find(usuario => usuario.email === email);
         if (usuarioExistente) {
-            return alert('El correo electrónico ya está registrado.');
+            return Swal.fire({
+    title: 'Error de Registro',
+    text: 'El correo electrónico ya está registrado.',
+    icon: 'error',
+    confirmButtonText: 'Entendido'
+});
         }
 
         // Guardado del nombre del usuario
         usuarios.push({ nombre, email, password });
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
         
-        alert('¡Registro exitoso! Ahora puedes iniciar sesión.');
+        Swal.fire({
+    title: '¡Registro Exitoso!',
+    text: 'Ahora puedes iniciar sesión.',
+    icon: 'success',
+    confirmButtonText: '¡Genial!'
+});
         mostrarLogin();
     });
 
@@ -83,14 +93,25 @@ const activarPanelAutenticacion = () => {
         const usuarioValido = usuarios.find(usuario => usuario.email === email && usuario.password === password);
 
         if (!usuarioValido) {
-            return alert('Correo o contraseña incorrectos.');
+            return Swal.fire({
+    title: 'Error',
+    text: 'Correo o contraseña incorrectos.',
+    icon: 'error',
+    confirmButtonText: 'Intentar de Nuevo'
+});
         }
 
         // Guardado del usuario en el LS
         sessionStorage.setItem('usuarioLogueado', JSON.stringify(usuarioValido));
 
-        alert(`¡Bienvenido, ${usuarioValido.nombre}!`);
-        window.location.reload(); // recargado de página
+        Swal.fire({
+    title: `¡Bienvenido, ${usuarioValido.nombre}!`,
+    icon: 'success',
+    timer: 2000, // El mensaje dura 2 segundos
+    showConfirmButton: false
+}).then(() => {
+    window.location.reload(); 
+});
     });
 };
 
@@ -115,8 +136,14 @@ const actualizarUIUsuario = () => {
         document.getElementById('enlaceLogout').addEventListener('click', (e) => {
             e.preventDefault();
             sessionStorage.removeItem('usuarioLogueado');
-            alert('Has cerrado sesión.');
-            window.location.reload();
+            Swal.fire({
+    title: 'Has cerrado sesión',
+    icon: 'info',
+    timer: 1500, // El mensaje dura 1.5 segundos
+    showConfirmButton: false
+}).then(() => {
+    window.location.reload();
+});
         });
     }
 };
