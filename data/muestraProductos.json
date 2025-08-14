@@ -803,7 +803,7 @@
         "nombre": "Camiseta seamless manga sisa para mujer",
         "precio": "119.900",
         "descuento": "",
-        "descripcion": "Especificaciones del fit: Slim fit con diseño sin costuras (seamless), ideal para un look cómodo y moderno. Manga sisa y cuello redondo que resaltan tu silueta con elegancia. Descripción técnica de la prenda: - Slim fit - Manga sisa - Cuello redondo - Tecnología seamless - Tejido suave y elástico. Perfecta para usar sola o como base debajo de chaquetas. Material: 92% poliéster, 8% elastano, ofrece ajuste perfecto, transpirabilidad y libertad de movimiento. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "descripcion": "Especificaciones del fit: Este top Slim fit abraza tu figura con suavidad. El cuello alto y la manga sisa lo hacen ideal para un look minimalista y moderno. Descripción técnica de la prenda: - Slim fit - Top seamless - Manga sisa - Cuello alto. Úsalo solo o en capas: va increíble con joggers, jeans de tiro alto o incluso debajo de una camisa abierta. Una prenda cómoda y versátil que realza tu silueta. Material: 73% poliamida, 22% poliéster y 5% elastano. Un mix técnico que asegura elasticidad, frescura y un ajuste perfecto. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -814,7 +814,7 @@
         },
         "elementos": [
             {
-                "color": "gris",
+                "color": "Beige",
                 "fotosProducto": [
                     "producto43.1.webp",
                     "producto43.2.webp",
@@ -825,7 +825,7 @@
                 ]
             }
         ],
-        "composicion": "Prenda: 92% Poliester 8% Elastano",
+        "composicion": "PRENDA: 73% POLIAMIDA 22% POLIESTER 5% ELASTANO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
@@ -834,10 +834,10 @@
     },
     {
         "id": 44,
-        "nombre": "Buzo abierto con capucha para mujer",
-        "precio": "299.900",
+        "nombre": "Camiseta oversize estampada para mujer",
+        "precio": "169.900",
         "descuento": "",
-        "descripcion": "Especificaciones del fit: Buzo abierto de corte cómodo y versátil, con capucha ajustable y bolsillos laterales. Ideal para looks urbanos y relajados. Descripción técnica de la prenda: - Buzo abierto - Capucha con cordón - Cierre frontal - Bolsillos laterales - Puños y bajo en rib. Combínalo con jeans, leggings o joggers para un outfit moderno. Material: Mezcla de algodón, poliéster y elastano que garantiza suavidad, durabilidad y comodidad. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "descripcion": "Especificaciones del fit: Gracias a su silueta oversize, esta camiseta ofrece un ajuste suelto y relajado, perfecto para un look effortless con un aire cool y desenfadado. Descripción técnica de la prenda: - Manga corta - Silueta oversize - Cuello redondo - Estampado localizado. Un básico con actitud que destaca por su comodidad y estilo. El estampado agrega un toque único, ideal para quienes quieren expresar su personalidad sin esfuerzo. Material: Confeccionada en 100% algodón, es suave, transpirable y perfecta para acompañarte en momentos inolvidables. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -848,30 +848,28 @@
         },
         "elementos": [
             {
-                "color": "morado",
+                "color": "Gris",
                 "fotosProducto": [
                     "producto44.1.webp",
                     "producto44.2.webp",
                     "producto44.3.webp",
-                    "producto44.4.webp",
-                    "producto44.5.webp",
-                    "producto44.6.webp"
+                    "producto44.4.webp"
                 ]
             }
         ],
-        "composicion": "PRENDA: 69% ALGODON 30% POLIESTER 1% ELASTANO",
+        "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "buzo"
+        "caracteristicas": "camiseta"
     },
     {
         "id": 45,
-        "nombre": "Camisa tipo cargo con aplique bordado para mujer",
-        "precio": "209.900",
+        "nombre": "Camiseta Boxy con ruedo en rib para mujer",
+        "precio": "149.900",
         "descuento": "",
-        "descripcion": "Especificaciones del fit: Silueta Classic fit con diseño utilitario y moderno. Ideal para looks casuales con actitud. Descripción técnica de la prenda: - Manga corta - Classic fit - Bolsillos de tapa - Aplique bordado en el pecho - Perilla con botones. Un estilo urbano con detalles premium. Material: 100% algodón, tejido fresco, resistente y cómodo. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "descripcion": "Especificaciones del fit: Con una silueta Boxy fit, esta camiseta tiene un corte amplio, cuadrado y relajado que te da total libertad de movimiento. Descripción técnica de la prenda: - Boxy fit - Manga corta - Cuello redondo - Detalle de ruedo en rib - Bordado y estampado decorativo. Perfecta para un estilo actual y relajado, con un toque de personalidad que no pasa desapercibido. Material: 100% algodón, para una sensación suave y ligera sobre la piel durante todo el día. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -882,7 +880,7 @@
         },
         "elementos": [
             {
-                "color": "azul",
+                "color": "Crudo",
                 "fotosProducto": [
                     "producto45.1.webp",
                     "producto45.2.webp",
@@ -897,14 +895,14 @@
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "camisa"
+        "caracteristicas": "camiseta"
     },
     {
         "id": 46,
-        "nombre": "Camiseta Manga Corta para mujer",
-        "precio": "139.900",
-        "descuento": "40",
-        "descripcion": "Descubre la esencia de Americanino con nuestra camiseta femenina, una prenda que combina estilo y comodidad en cada detalle. Ideal para cualquier ocasión, ya sea un día casual en la ciudad o una salida con amigas. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "nombre": "Camisa manga larga con boleros para mujer",
+        "precio": "189.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con un corte regular, esta camisa se ajusta cómodamente a tu figura, ofreciendo libertad de movimiento. Descripción técnica de la prenda: - Regular fit - Manga larga - Cuello asimétrico - Detalle de sesgo en abertura central - Boleros en cuello y ruedo ¡Para un look sofisticado y natural! Los detalles de los boleros le dan una personalidad única que te hará destacar en cualquier ocasión. Material: 100% algodón, garantizando una textura suave y cómoda para todo el día. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -914,27 +912,30 @@
         },
         "elementos": [
             {
-                "color": "negro",
+                "color": "Blanco",
                 "fotosProducto": [
                     "producto46.1.webp",
                     "producto46.2.webp",
-                    "producto46.3.webp"
+                    "producto46.3.webp",
+                    "producto46.4.webp",
+                    "producto46.5.webp",
+                    "producto46.6.webp"
                 ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
-        "paisFabricacion": "HECHO EN COLOMBIA",
-        "fabricante": "COMODIN S.A.S.",
+        "paisFabricacion": "HECHO EN INDIA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "camiseta"
+        "caracteristicas": "camisa"
     },
     {
         "id": 47,
-        "nombre": "Polo cuello neru para mujer",
-        "precio": "159.900",
-        "descuento": "40",
-        "descripcion": "Esta polo Slim fit se ajusta perfectamente al cuerpo, ofreciendo una silueta moderna y estilizada. Cuello neru con detalle al contraste y perilla de botones. Descripción técnica: - Slim fit - Manga corta - Bordado en punto corazón - Tecnología HeiQ Mint. Ideal para quienes buscan estilo y frescura. Material: 100% algodón con tecnología anti-olor. *La modelo mide 1,76 centímetros y usa una polo talla S.",
+        "nombre": "Camisa tipo corsé para mujer",
+        "precio": "219.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con su ajuste regular y estilo tipo corsé, esta prenda resalta la figura con un toque sofisticado y moderno. Descripción técnica de la prenda: - Corsé - Ajuste regular - De tiras. Una pieza que mezcla sensualidad y comodidad, ideal para un look atrevido pero sin esfuerzo. Perfecta para combinar con jeans de tiro alto o faldas fluidas y crear un outfit de impacto. Material: Confeccionada en una mezcla de 77% rayón, 20% nylon y 3% elastómero, brinda una textura suave y estructura ligera con el toque justo de elasticidad para mayor confort. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -944,30 +945,28 @@
         },
         "elementos": [
             {
-                "color": "blanco",
+                "color": "Negro",
                 "fotosProducto": [
                     "producto47.1.webp",
                     "producto47.2.webp",
                     "producto47.3.webp",
-                    "producto47.4.webp",
-                    "producto47.5.webp",
-                    "producto47.6.webp"
+                    "producto47.4.webp"
                 ]
             }
         ],
-        "composicion": "Prenda: 100% Algodon",
+        "composicion": "PRENDA: 77% RAYON 20% NYLON 3% ELASTOMERO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "polo"
+        "caracteristicas": "camisa"
     },
     {
         "id": 48,
-        "nombre": "Polo con detalle bordado para mujer",
-        "precio": "169.900",
-        "descuento": "50",
-        "descripcion": "Slim fit moderno con cuello polo y bordado decorativo. Media perilla de botones y diseño limpio. Ideal para un look casual con elegancia. Material: 95% algodón, 5% elastano. Ofrece comodidad y ajuste perfecto. *La modelo mide 1,76 centímetros y usa una polo talla S.",
+        "nombre": "Camisa manga larga con abertura en espalda para mujer",
+        "precio": "299.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta camisa regular fit se ajusta con naturalidad al cuerpo, ofreciendo una silueta favorecedora y cómoda para el día a día. Descripción técnica de la prenda: - Regular fit - Cuello clásico - Manga larga - Abertura en la espalda - Cordón a tono en la espalda como detalle decorativo - Tela con textura. Esta camisa tiene el poder de transformar tu look: moderna, femenina y con ese toque que hace toda la diferencia. Material: Confeccionada en una mezcla suave de 63% rayón, 23% poliéster y 14% nylon que aporta ligereza, textura y una caída fluida al vestir. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -977,27 +976,30 @@
         },
         "elementos": [
             {
-                "color": "blanco",
+                "color": "Beige",
                 "fotosProducto": [
                     "producto48.1.webp",
                     "producto48.2.webp",
-                    "producto48.3.webp"
+                    "producto48.3.webp",
+                    "producto48.4.webp",
+                    "producto48.5.webp",
+                    "producto48.6.webp"
                 ]
             }
         ],
-        "composicion": "PRENDA: 95% ALGODON 5% ELASTANO",
+        "composicion": "PRENDA: 63% RAYON 23% POLIESTER 14% NYLON",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "polo"
+        "caracteristicas": "camisa"
     },
     {
         "id": 49,
-        "nombre": "Camiseta manga corta con cortes delanteros para mujer",
-        "precio": "129.900",
+        "nombre": "Camisa oversize manga corta para mujer",
+        "precio": "269.900",
         "descuento": "",
-        "descripcion": "Moda fit con diseño moderno y cortes estratégicos en el frente. Cuello redondo y manga corta. Ideal para un look urbano y fresco. Material: 100% algodón, suave y transpirable. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "descripcion": "Especificaciones del fit: Esta camisa de silueta oversize te brinda un look relajado y contemporáneo. Su caída fluida y liviana, junto con los broches en el frente, la convierten en una opción versátil para climas cálidos o looks de capas. Descripción técnica de la prenda: - Silueta oversize - Manga corta - Cuello clásico - Broches en el frente - Proceso de lavado - Tela EcoWave. Llévala abierta sobre una camiseta básica o anudada a la cintura para un estilo más relajado. Material: Elaborada en 100% tencel, una fibra ecológica que aporta suavidad, frescura y fluidez, ideal para cuidar tu piel y el planeta. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1018,19 +1020,19 @@
                 ]
             }
         ],
-        "composicion": "Prenda: 100% Algodon",
+        "composicion": "PPrenda: 100% Tencel",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "camiseta"
+        "caracteristicas": "camisa"
     },
     {
         "id": 50,
-        "nombre": "Chaqueta tipo parka de estilo utilitario para mujer",
-        "precio": "499.900",
+        "nombre": "Camisa manga larga en mezcla de lino para mujer",
+        "precio": "239.900",
         "descuento": "40",
-        "descripcion": "Parka con estilo utilitario, bolsillos de parche, capucha oculta y cierre ajustable. Perfecta para climas fríos. Material: 51% poliéster, 40% algodón, 9% poliamida. Forro 100% poliéster. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "descripcion": "Con esta camisa, tus días casuales tendrán un giro chic y moderno. Su ajuste favorecedor y diseño en mezcla de lino, te harán sentir segura, fresca y con estilo. Descripción técnica de la prenda: - Composición con mezcla en lino - Cuello clásico - Manga larga con charretera - Perilla funcional de botones - Bolsillos de tapa en delantero - Pinza en posterior El básico que nunca pasa de moda ahora puede ser tuyo. Una camisa atemporal para elevar tus looks del diario, combínala con jeans y sandalias para un look fresco, o dale un toque sofisticado con pantalones y botas texanas. Material: 62% viscosa y 38% lino, para una sensación fresca y ligera que te acompañará en tus mejores planes. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1040,29 +1042,28 @@
         },
         "elementos": [
             {
-                "color": "verde",
+                "color": "verBlancode",
                 "fotosProducto": [
                     "producto50.1.webp",
                     "producto50.2.webp",
                     "producto50.3.webp",
-                    "producto50.4.webp",
-                    "producto50.5.webp"
+                    "producto50.4.webp"
                 ]
             }
         ],
-        "composicion": "PRENDA: 51% POLIESTER 40% ALGODON 9% POLIAMIDA FORRO: 100% POLIESTER",
-        "paisFabricacion": "HECHO EN CHINA",
-        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "composicion": "PPRENDA: 62% VISCOSA 38% LINO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "chaqueta"
+        "caracteristicas": "camisa"
     },
     {
         "id": 51,
-        "nombre": "Chaqueta abullonada para mujer",
-        "precio": "329.900",
+        "nombre": "Chaqueta Bomber con capucha para mujer",
+        "precio": "399.900",
         "descuento": "",
-        "descripcion": "Chaqueta abullonada ligera, con cierre frontal y bolsillos laterales. Incluye bolsa integrada para guardarla. Ideal para viajes. Material: 100% poliéster reciclado. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "descripcion": "Especificaciones del fit: Con una silueta amplia y relajada, esta Bomber se convierte en la opción perfecta para crear looks con personalidad. Descripción técnica de la prenda: - Bomber - Tono claro - Efecto de cuadros en la tela - Capucha - Pretina y puños con elásticos - Silueta amplia. Una pieza contemporánea con el ADN de Americanino. Ideal para días y noches frescas, aportando estilo a cualquier combinación. Material: Este diseño está elaborado 80% algodón y 20% poliéster y su forro en 100% poliéster. Una chaqueta que se siente tan bien como se ve, ideal para sentir confort. *La modelo mide 1,76 cm y usa una chaqueta talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1072,7 +1073,7 @@
         },
         "elementos": [
             {
-                "color": "cafe",
+                "color": "Azul",
                 "fotosProducto": [
                     "producto51.1.webp",
                     "producto51.2.webp",
@@ -1083,39 +1084,7 @@
                 ]
             }
         ],
-        "composicion": "PRENDA: 100% POLIESTER RECICLADO FORRO MANGAS: 100% POLIESTER RECICLADO FORRO CUERPO: 100% POLIESTER RECICLADO",
-        "paisFabricacion": "HECHO EN CHINA",
-        "fabricante": "JOHN URIBE E HIJOS S.A.",
-        "categoria": "mujer",
-        "tipo": [""],
-        "caracteristicas": "chaqueta"
-    },
-    {
-        "id": 52,
-        "nombre": "Chaqueta tipo bomber para mujer",
-        "precio": "439.900",
-        "descuento": "50",
-        "descripcion": "Bomber con cuello y puños tejidos, cierre metálico y aplique en punto corazón. Diseño moderno y funcional. Material: 100% nylon exterior, forro 65% poliéster, 35% algodón. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
-        "cantidades": {
-            "Xs": 20,
-            "S": 20,
-            "M": 20,
-            "L": 20,
-            "Xl": 20
-        },
-        "elementos": [
-            {
-                "color": "amarillo",
-                "fotosProducto": [
-                    "producto52.1.webp",
-                    "producto52.2.webp",
-                    "producto52.3.webp",
-                    "producto52.4.webp",
-                    "producto52.5.webp"
-                ]
-            }
-        ],
-        "composicion": "FORRO: 65% POLIESTER 35% ALGODON PRENDA: 100% NYLON",
+        "composicion": "FORRO: 100% POLIESTER PRENDA: 80% ALGODON 20% POLIESTER",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
@@ -1123,11 +1092,11 @@
         "caracteristicas": "chaqueta"
     },
     {
-        "id": 53,
-        "nombre": "Camiseta estampada para mujer",
-        "precio": "119.900",
-        "descuento": "30",
-        "descripcion": "Camiseta Slim fit con estampado localizado en el frente. Manga corta y cuello redondo. Versátil y con personalidad. Material: 100% algodón. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "id": 52,
+        "nombre": "Chaqueta Bomber diseño ovejero para mujer",
+        "precio": "389.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta chaqueta Bomber fit ofrece un estilo deportivo y urbano, adaptándose perfectamente a tu figura. Su diseño tipo ovejero la hace ideal para los días fríos. Descripción técnica de la prenda: - Bomber fit - Cuello, puños y fajón tejidos en contraste - Diseño tipo ovejero - Detalle de bordado. ¡Una pieza clave para tu outfit! Los detalles en contraste y el bordado le aportan ese toque único que hará que tu look destaque con esencia Americanino. Material: Con forro en 100% Poliamida y composición en 100% Poliéster, asegurando durabilidad y resistencia mientras mantiene la suavidad y comodidad. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1137,18 +1106,50 @@
         },
         "elementos": [
             {
-                "color": "negro",
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto52.1.webp",
+                    "producto52.2.webp",
+                    "producto52.3.webp",
+                    "producto52.4.webp",
+                    "producto52.5.webp",
+                    "producto52.6.webp"
+                ]
+            }
+        ],
+        "composicion": "FORRO: 100% POLIAMIDA PRENDA: 100% POLIESTER",
+        "paisFabricacion": "HHECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 53,
+        "nombre": "Chaqueta rompevientos con bordado a tono para mujer",
+        "precio": "329.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta chaqueta estilo rompevientos combina funcionalidad y diseño con un toque original. Su silueta liviana y cuello alto te protegen del viento, mientras que los detalles bordados y el tejido a rayas en las mangas le dan un aire distintivo que eleva cualquier look casual. Descripción técnica de la prenda: - Estilo rompevientos - Cuello alto - Bordado a tono en punto corazón y laterales - Manga con tejido en contraste de rayas. Una pieza statement que hará la diferencia en cada uno de tus looks. Material: Elaborada en 100% nylon, un tejido liviano, resistente y perfecto para protegerte del frío. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Gris",
                 "fotosProducto": [
                     "producto53.1.webp",
                     "producto53.2.webp",
                     "producto53.3.webp",
                     "producto53.4.webp",
-                    "producto53.5.webp",
-                    "producto53.6.webp"
+                    "producto53.5.webp"
                 ]
             }
         ],
-        "composicion": "Prenda: 100% Algodon",
+        "composicion": "PRENDA: 100% NYLON",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
@@ -1157,10 +1158,10 @@
     },
     {
         "id": 54,
-        "nombre": "Buzo cerrado en bloques de color para mujer",
-        "precio": "249.900",
-        "descuento": "",
-        "descripcion": "Buzo cerrado con diseño en bloques de color y cuello redondo. Estampado localizado. Moderno y llamativo. Material: 69% rayón, 27% nylon, 4% elastómero. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "nombre": "Blazer amplio para mujer",
+        "precio": "269.900",
+        "descuento": "40",
+        "descripcion": "¡El blazer que hará que te sientas imparable! Un diseño clásico que se ha renovado con una silueta holgada para regalarte elegancia y versatilidad. Descripción técnica de la prenda: - Blazer - Fit amplio - Desestructurado - Ajuste de botones en frente. Un blazer que redefine la formalidad con detalles modernos que la hacen destacar en cualquier look. Lúcelos con jeans y camisetas para un toque sporty, o con vestidos fluidos para un momento más elegante. Material: Diseñado en 85% rayón y 15% poliéster, una silueta que abraza con elegancia y versatilidad. *La modelo mide 1,76 centímetros y usa un blazer talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1170,30 +1171,28 @@
         },
         "elementos": [
             {
-                "color": "negro",
+                "color": "Café",
                 "fotosProducto": [
                     "producto54.1.webp",
                     "producto54.2.webp",
                     "producto54.3.webp",
-                    "producto54.4.webp",
-                    "producto54.5.webp",
-                    "producto54.6.webp"
+                    "producto54.4.webp"
                 ]
             }
         ],
-        "composicion": "PRENDA: 69% RAYON 27% NYLON 4% ELASTOMERO",
+        "composicion": "PRENDA: 85% RAYON 15% POLIESTER",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "buzo"
+        "caracteristicas": "chaqueta"
     },
     {
         "id": 55,
-        "nombre": "Chaqueta acolchada en bloques de color para mujer",
-        "precio": "489.900",
-        "descuento": "",
-        "descripcion": "Chaqueta acolchada con diseño en bloques de color, cuello alto y cierre completo. Ideal para temporada de frío. Material: 100% nylon exterior, forro 100% poliéster. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "nombre": "Chaqueta de cuello alto para mujer",
+        "precio": "329.900",
+        "descuento": "40",
+        "descripcion": "Chaqueta para mujer. Diseño abullonado de cuello alto y cierre para remover la capucha. Elástico en puños. Bolsillos diagonales.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1203,7 +1202,7 @@
         },
         "elementos": [
             {
-                "color": "negro",
+                "color": "Gris",
                 "fotosProducto": [
                     "producto55.1.webp",
                     "producto55.2.webp",
@@ -1214,8 +1213,8 @@
                 ]
             }
         ],
-        "composicion": "PRENDA: 100% NYLON FORRO: 100% POLIESTER",
-        "paisFabricacion": "HECHO EN COLOMBIA",
+        "composicion": "FORRO MANGAS: 100% POLIESTER RECICLADO FORRO CUERPO: 100% POLIESTER RECICLADO PRENDA: 100% POLIESTER RECICLADO",
+        "paisFabricacion": "HECHO EN CHINA",
         "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "mujer",
         "tipo": [""],
@@ -1223,10 +1222,10 @@
     },
     {
         "id": 56,
-        "nombre": "Camiseta manga corta para mujer",
-        "precio": "109.900",
-        "descuento": "",
-        "descripcion": "Camiseta Slim fit con cuello redondo y manga corta. Estampado localizado. Base ideal para cualquier outfit. Material: 100% algodón. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "nombre": "Buzo tejido tipo red para mujer",
+        "precio": "249.900",
+        "descuento": "60",
+        "descripcion": "Especificaciones del fit: Los clásicos se renuevan con una horma más fresca, colores imperdibles y tejidos llamativos. Descripción técnica de la prenda: - Cerrado - Manga larga - Cuello redondo - Tejido tipo red Un buzo que describe el estilo moderno y confortable, perfecto para disfrutar de un recorrido por la ciudad de tus sueños o para vestir el próximo fin de semana.  Material: Elaborado con 60% algodón y 40% acrílico. Un fit relajado y de tejido liviano que acompaña estilos audaces. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1236,28 +1235,29 @@
         },
         "elementos": [
             {
-                "color": "verde",
+                "color": "Negro",
                 "fotosProducto": [
                     "producto56.1.webp",
                     "producto56.2.webp",
                     "producto56.3.webp",
-                    "producto56.4.webp"
+                    "producto56.4.webp",
+                    "producto56.5.webp"
                 ]
             }
         ],
-        "composicion": "Prenda: 100% Algodon",
-        "paisFabricacion": "HECHO EN COLOMBIA",
-        "fabricante": "COMODIN S.A.S.",
+        "composicion": "PRENDA: 60% ALGODON 40% ACRILICO",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "camiseta"
+        "caracteristicas": "buzo"
     },
     {
         "id": 57,
-        "nombre": "Camiseta estampada manga corta para mujer",
-        "precio": "199.900",
-        "descuento": "",
-        "descripcion": "Fit moda, cuello redondo y estampado localizado. Diseño relajado y con estilo. Material: 100% algodón. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "nombre": "Buzo con cierre en espalda para mujer",
+        "precio": "239.900",
+        "descuento": "40",
+        "descripcion": "Este buzo de fit amplio es la definición de confort y estilo. Su diseño suelto y relajado, combinado con el rib en cuello, puños y fajón, crea un look casual con un toque de modernidad. Descripción técnica de la prenda: - En burda - Manga larga - Cuello alto en rib - Cierre funcional en posterior - Fit amplio - Puños y fajón en rib. Este buzo es todo lo que necesitas para crear un look casual y cool. Ideal para combinar con jeans, joggers o pantalones deportivos para un outfit cómodo y con actitud. Material: Hecho de una mezcla de algodón, poliéster y elastano, este buzo te brinda suavidad, flexibilidad y la frescura perfecta para llevarlo todo el día. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1267,96 +1267,31 @@
         },
         "elementos": [
             {
-                "color": "negro",
+                "color": "Caqui",
                 "fotosProducto": [
                     "producto57.1.webp",
                     "producto57.2.webp",
                     "producto57.3.webp",
                     "producto57.4.webp",
                     "producto57.5.webp",
-                    "producto57.6.webp"
+                    "producto57.6.webp",
+                    "producto57.7.webp"
                 ]
             }
         ],
-        "composicion": "Prenda: 100% Algodon",
+        "composicion": "PRENDA: 73% ALGODON 26% POLIESTER 1% ELASTANO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
         "tipo": [""],
-        "caracteristicas": "camiseta"
+        "caracteristicas": "buzo"
     },
     {
         "id": 58,
-        "nombre": "Camiseta estampada manga corta para mujer",
-        "precio": "199.900",
-        "descuento": "",
-        "descripcion": "Fit moda, cuello redondo y estampado localizado. Color verde oscuro. Cómoda y versátil. Material: 100% algodón. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
-        "cantidades": {
-            "Xs": 20,
-            "S": 20,
-            "M": 20,
-            "L": 20,
-            "Xl": 20
-        },
-        "elementos": [
-            {
-                "color": "verde oscuro",
-                "fotosProducto": [
-                    "producto58.1.webp",
-                    "producto58.2.webp",
-                    "producto58.3.webp",
-                    "producto58.4.webp",
-                    "producto58.5.webp",
-                    "producto58.6.webp"
-                ]
-            }
-        ],
-        "composicion": "Prenda: 100% Algodon",
-        "paisFabricacion": "HECHO EN COLOMBIA",
-        "fabricante": "COMODIN S.A.S.",
-        "categoria": "mujer",
-        "tipo": [""],
-        "caracteristicas": "camiseta"
-    },
-    {
-        "id": 59,
-        "nombre": "Camiseta manga larga estampada para mujer",
-        "precio": "199.900",
-        "descuento": "",
-        "descripcion": "Manga larga con fit moda y estampado localizado. Diseño moderno y cómodo. Material: 100% algodón. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
-        "cantidades": {
-            "Xs": 20,
-            "S": 20,
-            "M": 20,
-            "L": 20,
-            "Xl": 20
-        },
-        "elementos": [
-            {
-                "color": "negro",
-                "fotosProducto": [
-                    "producto59.1.webp",
-                    "producto59.2.webp",
-                    "producto59.3.webp",
-                    "producto59.4.webp",
-                    "producto59.5.webp",
-                    "producto59.6.webp"
-                ]
-            }
-        ],
-        "composicion": "Prenda: 100% Algodon",
-        "paisFabricacion": "HECHO EN COLOMBIA",
-        "fabricante": "COMODIN S.A.S.",
-        "categoria": "mujer",
-        "tipo": [""],
-        "caracteristicas": "camiseta"
-    },
-    {
-        "id": 60,
-        "nombre": "Chaqueta Bomber con efecto de cuadros para mujer",
-        "precio": "449.900",
-        "descuento": "",
-        "descripcion": "Bomber fit con diseño a cuadros, capucha integrada y cierre. Silueta amplia y urbana. Material: 80% algodón, 20% poliéster. Forro 100% poliéster. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "nombre": "Buzo tipo polo tejido para mujer",
+        "precio": "259.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Fit relajado y cómodo, reinterpretado con un tejido que lo hace más original. La silueta polo se caracteriza por su versatilidad y ese aire sport que la hace única. Descripción técnica de la prenda: - Tipo polo - Cerrado - Diseño tejido - Rayas en contraste - Key item. ¡Hazlo tuyo! Este buzo polo merece estar en tu colección de esenciales. Material: Elaborada en 100% algodón para un tejido más suave, fresco y resistente. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
         "cantidades": {
             "Xs": 20,
             "S": 20,
@@ -1368,16 +1303,77 @@
             {
                 "color": "azul",
                 "fotosProducto": [
-                    "producto60.1.webp",
-                    "producto60.2.webp",
-                    "producto60.3.webp",
-                    "producto60.4.webp",
-                    "producto60.5.webp",
-                    "producto60.6.webp"
+                    "producto58.1.webp",
+                    "producto58.2.webp",
+                    "producto58.3.webp",
+                    "producto58.4.webp",
+                    "producto58.5.webp"
                 ]
             }
         ],
-        "composicion": "FORRO: 100% POLIESTER PRENDA: 80% ALGODON 20% POLIESTER",
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 59,
+        "nombre": "Buzo tejido para mujer",
+        "precio": "289.900",
+        "descuento": "40",
+        "descripcion": "Este buzo presenta un fit relajado con un tejido desestructurado que aporta un estilo desenfadado y cómodo. Descripción técnica de la prenda: - Tejido desestructurado - Manga larga - Cuello redondo. Un básico imprescindible para tu día a día. Perfecto para acompañar tus looks más relajados o darle un toque de confort y estilo a tu atuendo. Material: Hecho 100% en algodón, este buzo te ofrece suavidad, frescura y la comodidad que necesitas, ideal para cualquier estación del año. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Rosa",
+                "fotosProducto": [
+                    "producto59.1.webp",
+                    "producto59.2.webp",
+                    "producto59.3.webp",
+                    "producto59.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 60,
+        "nombre": "Buzo cerrado con capucha para mujer",
+        "precio": "259.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Buzo regular fit con capucha y diseño cerrado. Su silueta relajada cae con naturalidad sobre el cuerpo, ideal para usar solo o en capas. Descripción técnica de la prenda: - Diseño cerrado - Regular fit - Con capucha - Bordado decorativo - Bolsillo tipo canguro. Perfecto para climas frescos, días de descanso o planes relajados con amigos. Un básico infalible que puedes llevar con jeans, joggers o sobre una camiseta para sumar dimensión a tus outfits. Material: 65% algodón, 35% poliéster. Una mezcla suave y resistente que brinda calidez sin hacerte sentir pesado. Ideal para acompañarte en cualquier plan, cualquier día. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto60.1.webp",
+                    "producto60.2.webp",
+                    "producto60.3.webp",
+                    "producto60.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 65% ALGODON 35% POLIESTER",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "mujer",
@@ -1995,7 +1991,7 @@
         },
         "elementos": [
             {
-                "color": "Café",
+                "color": "cafe",
                 "fotosProducto": [
                     "producto80.1.webp",
                     "producto80.2.webp",
