@@ -1,4 +1,4 @@
-//funcion para mostrar detalles:
+import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11/+esm';
 
 export function mostrarDetalleProducto(id) {
     console.log("mostrando detalles del producto con id:", id);
@@ -19,7 +19,7 @@ export function mostrarDetalleProducto(id) {
                 const miniaturas = document.createElement("div")
                 miniaturas.id = "miniaturas"
 
-                
+
                 const contenedorImgPrincipal = document.createElement("div")
                 contenedorImgPrincipal.className = "contenedorImgPrincipal"
 
@@ -34,13 +34,13 @@ export function mostrarDetalleProducto(id) {
 
                 contenedorImgPrincipal.appendChild(imgPrincipal)
 
-                
+
                 if (producto.elementos && producto.elementos.length > 0) {
                     const fotos = producto.elementos[0].fotosProducto
                     console.log("Miniaturas encontradas:", fotos)
                     fotos.forEach((foto, index) => {
 
-                       
+
 
                         const rutaMiniatura = foto.startsWith("../imagenes/fotosProductos/") ? foto : "../imagenes/fotosProductos/" + foto
 
@@ -59,7 +59,7 @@ export function mostrarDetalleProducto(id) {
                 galeria.appendChild(miniaturas)
                 galeria.appendChild(contenedorImgPrincipal)
 
-                
+
                 const infoProducto = document.createElement("div")
                 infoProducto.className = "infoProducto"
 
@@ -80,22 +80,22 @@ export function mostrarDetalleProducto(id) {
                 let seleccionTalla
 
                 for (let index = 0; index < Object.keys(producto.cantidades).length; index++) {
-                    
+
                     const talla = document.createElement("p")
                     talla.className = "talla"
                     talla.textContent = Object.keys(producto.cantidades)[index]
                     divTallas.appendChild(talla)
-                    
 
-                    talla.addEventListener("click",()=>{
+
+                    talla.addEventListener("click", () => {
 
                         let tallas = document.querySelectorAll(".talla")
                         tallas.forEach(t => {
                             t.style.backgroundColor = ""
                         })
                         seleccionTalla = Object.keys(producto.cantidades)[index]
-                        talla.style.backgroundColor = "rgb(160, 166, 184)"                       
-                        
+                        talla.style.backgroundColor = "rgb(160, 166, 184)"
+
                     })
 
                 }
@@ -106,14 +106,56 @@ export function mostrarDetalleProducto(id) {
                 botonCompra.className = "boton-Compra"
                 botonCompra.textContent = "agregar al carrito"
 
-                
-                botonCompra.addEventListener("click",()=>{
+
+                botonCompra.addEventListener("click", async () => {
+                    if (!seleccionTalla) {
+                        return Swal.fire({text:"Por favor selecciona una talla antes de agregar al carrito."});
+                    }
+
+                    // Cargar datos desde JSON
+                    const respuesta = await fetch('../data/muestraProductos.json');
+                    const data = await respuesta.json();
+                    const producto = data.find(item => item.id == id);
+
+                    if (!producto) {
+                        return Swal.fire({
+                            title: "Producto no encontrado.",
+                            icon: "question"
+                        });
+                    }
+
+                    // Stock disponible para la talla seleccionada
+                    const stockDisponible = producto.cantidades[seleccionTalla] || 0;
 
                     let productosGuardados = JSON.parse(localStorage.getItem("productos")) || [];
-                    productosGuardados.push({ id:id, talla:seleccionTalla });
+                    const indexExistente = productosGuardados.findIndex(
+                        p => p.id === id && p.talla === seleccionTalla
+                    );
+
+                    let cantidadEnCarrito = indexExistente !== -1 ? productosGuardados[indexExistente].cantidad : 0;
+
+                    // Validar contra stock
+                    if (cantidadEnCarrito + 1 > stockDisponible) {
+                        return Swal.fire({text:`No puedes agregar más de ${stockDisponible} unidades para la talla ${seleccionTalla}.`});
+
+                    }
+
+                    // Agregar o actualizar cantidad
+                    if (indexExistente !== -1) {
+                        productosGuardados[indexExistente].cantidad += 1;
+                    } else {
+                        productosGuardados.push({ id: id, talla: seleccionTalla, cantidad: 1 });
+                    }
+
                     localStorage.setItem("productos", JSON.stringify(productosGuardados));
 
-                })
+                    // Avisar al carrito
+                    window.dispatchEvent(new CustomEvent("productoAgregado"));
+                });
+
+
+
+
 
                 infoProducto.appendChild(nombre)
                 infoProducto.appendChild(precio)
