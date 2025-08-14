@@ -3,402 +3,1968 @@
         "id": 1,
         "nombre": "Chaqueta tipo parka reversible para hombre",
         "precio": "469.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Chaqueta tipo parka con corte relajado y funcional. Su silueta ofrece comodidad y cobertura, ideal para días fríos o lluviosos. Descripción técnica de la prenda: - Chaqueta - Tipo parka - Diseño reversible - Con capucha. Un diseño exclusivo y súper práctico que se adapta a tu estilo. Perfecto para combinar de mil formas y armar los mejores looks de invierno, siempre con el sello auténtico de Americanino. Material: Confeccionada en materiales resistentes y ligeros, esta parka combina una primera vista de 100% poliamida, ideal para brindar protección y durabilidad, con una segunda vista de 100% poliéster, que aporta ligereza y confort. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "amarillo",
-                "fotosProducto": ["producto1.1.webp","producto1.2.webp","producto1.3.webp","producto1.4.webp","producto1.5.webp","producto1.6.webp"]
+                "fotosProducto": [
+                    "producto1.1.webp",
+                    "producto1.2.webp",
+                    "producto1.3.webp",
+                    "producto1.4.webp",
+                    "producto1.5.webp",
+                    "producto1.6.webp"
+                ]
             }
         ],
         "composicion": "VISTA 1: 100% POLIAMIDA VISTA 2: 100% POLIESTER",
         "paisFabricacion": "HECHO EN CHINA",
         "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
     },
     {
         "id": 2,
         "nombre": "Polo de tela texturizada con bordado para hombre",
         "precio": "159.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Classic fit con un corte cómodo y moderno, sin ajustarse demasiado, perfecto para un look relajado pero bien estructurado. Descripción técnica de la prenda: - Polo - Classic fit - Manga corta - Tela texturizada a rayas - Cuello y puños tejidos - Perilla con botones - Bordado en punto corazón - Aberturas en costados. Un clásico renovado que combina con todo. Ideal para complementar looks casuales y frescos, sin importar el clima. Material: 96% algodón, 4% elastano. La mezcla de algodón asegura suavidad y frescura, mientras que el elastano aporta una ligera elasticidad que mejora el ajuste y la comodidad. Perfecto para moverse con libertad. *El modelo mide 1,87 centímetros y usa una polo talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto2.1.webp","producto2.2.webp","producto2.3.webp","producto2.4.webp","producto2.5.webp","producto2.6.webp"]
+                "fotosProducto": [
+                    "producto2.1.webp",
+                    "producto2.2.webp",
+                    "producto2.3.webp",
+                    "producto2.4.webp",
+                    "producto2.5.webp",
+                    "producto2.6.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 96% ALGODON 4% ELASTANO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "polo"
     },
     {
         "id": 3,
         "nombre": "Camiseta cuello redondo estampada para hombre",
         "precio": "139.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit Camiseta con un ajuste Slim fit que resalta tu figura con un estilo contemporáneo, manteniendo siempre la comodidad. Descripción técnica de la prenda: - Manga corta - Slim fit - Cuello redondo en rib - Graphic Lab. ¡Perfecta para un look desenfadado pero con personalidad! Esta camiseta presenta un estampado Graphic Lab, que le otorga un toque vanguardista con diseños en tendencia. Material: 100% algodón, suave y transpirable, ideal para un uso diario cómodo y ligero. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
         "elementos": [
             {
                 "color": "gris",
-                "fotosProducto": ["producto3.1.webp","producto3.2.webp","producto3.3.webp","producto3.4.webp","producto3.5.webp","producto3.6.webp"]
+                "fotosProducto": [
+                    "producto3.1.webp",
+                    "producto3.2.webp",
+                    "producto3.3.webp",
+                    "producto3.4.webp",
+                    "producto3.5.webp",
+                    "producto3.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 4,
         "nombre": "Buzo abierto con capucha para hombre",
         "precio": "299.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Buzo abierto de fit cómodo y versátil, con estructura en los puños y fajón en rib que aseguran un ajuste casual pero bien definido. Descripción técnica de la prenda: - Buzo abierto - Diseño con cierre - Capucha ajustable con cordón - Puños y fajón en rib - Detalles de diseño en cortes - Estampado localizado. Ideal para llevar sobre camisetas básicas o estampadas; combínalo con joggers o jeans para un outfit relajado y cool. Material: Su mezcla de algodón, poliéster y elastano ofrece suavidad, durabilidad y la flexibilidad perfecta para acompañarte en todos tus planes. *El modelo mide 1,87 centímetros y usa un buzo talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
         "elementos": [
             {
                 "color": "morado",
-                "fotosProducto": ["producto4.1.webp","producto4.2.webp","producto4.3.webp","producto4.4.webp","producto4.5.webp","producto4.6.webp"]
+                "fotosProducto": [
+                    "producto4.1.webp",
+                    "producto4.2.webp",
+                    "producto4.3.webp",
+                    "producto4.4.webp",
+                    "producto4.5.webp",
+                    "producto4.6.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 69% ALGODON 30% POLIESTER 1% ELASTANO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "buzo"
     },
     {
         "id": 5,
         "nombre": "Camisa tipo cargo con aplique bordado para hombre",
         "precio": "209.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Una silueta Classic fit con detalles renovados que te permitirán estar cómodo y fresco en tus mejores planes. Descripción técnica de la prenda: - Manga corta - Classic fit - Tipo cargo con bolsillos de tapa - Perilla abierta con botones - Aplique bordado en frente. Perfecta para un look utilitario con esencia Americanino. Material: 100% algodón. Un tejido natural, fresco y duradero que acompaña bien tus planes del día a día, con la textura ideal para un look más estructurado y versátil *El modelo mide 1,87 centímetros y usa una camisa talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20,"Xxl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
         "elementos": [
             {
                 "color": "azul",
-                "fotosProducto": ["producto5.1.webp","producto5.2.webp","producto5.3.webp","producto5.4.webp","producto5.5.webp"]
+                "fotosProducto": [
+                    "producto5.1.webp",
+                    "producto5.2.webp",
+                    "producto5.3.webp",
+                    "producto5.4.webp",
+                    "producto5.5.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camisa"
     },
     {
         "id": 6,
         "nombre": "Camiseta Manga Corta Masculina",
         "precio": "139.900",
-        "descuento":"40",
+        "descuento": "40",
         "descripcion": "Descubre la esencia de Americanino con nuestra camiseta masculina, una prenda que combina estilo y comodidad en cada detalle. ideal para cualquier ocasión, ya sea un día casual en la ciudad o una salida con amigos. El modelo lleva una talla M, asegurando un look impecable. Algunas pantallas pueden alterar el color real de la prenda.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto6.1.webp","producto6.2.webp","producto6.3.webp"]
+                "fotosProducto": [
+                    "producto6.1.webp",
+                    "producto6.2.webp",
+                    "producto6.3.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 7,
         "nombre": "Polo cuello neru para hombre",
         "precio": "159.900",
-        "descuento":"40",
+        "descuento": "40",
         "descripcion": "Esta polo Slim fit se ajusta perfectamente a tu cuerpo, ofreciendo una silueta moderna y estilizada. Descripción técnica de la prenda: - Polo - Manga corta - Slim fit - Cuello neru con detalle de línea al contraste - Perilla fija con tres botones - Aberturas en costados - Bordado en punto corazón - Tecnología HeiQ Mint. Este básico atemporal es ideal para quienes buscan confort y estilo en su día a día. Material: Confeccionada en 100% algodón, esta polo no solo es suave al tacto, sino que también se beneficia de la tecnología HeiQ Mint, que combate los malos olores, manteniéndote fresco mientras disfrutas de la suavidad y el confort de su tejido. *El modelo mide 1,87 centímetros y usa una polo talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "blanco",
-                "fotosProducto": ["producto7.1.webp","producto7.2.webp","producto7.3.webp","producto7.4.webp","producto7.5.webp","producto7.6.webp"]
+                "fotosProducto": [
+                    "producto7.1.webp",
+                    "producto7.2.webp",
+                    "producto7.3.webp",
+                    "producto7.4.webp",
+                    "producto7.5.webp",
+                    "producto7.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "polo"
     },
     {
         "id": 8,
         "nombre": "Polo con detalle bordado para hombre",
         "precio": "169.900",
-        "descuento":"50",
+        "descuento": "50",
         "descripcion": "Especificaciones del fit: Su silueta Slim fit ofrece un ajuste moderno y definido, perfecto para un look casual con un toque pulido. Descripción técnica de la prenda: - Slim fit - Manga corta - Cuello polo - Bordado decorativo - Media perilla de botones - Fondo sólido. Una prenda infalible para sumar actitud a tu outfit sin complicaciones. Ideal para llevarla cualquier día de la semana a todo tipo de planes. Material: Confeccionada en una mezcla de 95% algodón y 5% elastano, garantiza comodidad, transpirabilidad y un fit que se adapta a cada movimiento. *El modelo mide 1,87 centímetros y usa una polo talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "blanco",
-                "fotosProducto": ["producto8.1.webp","producto8.2.webp","producto8.3.webp"]
+                "fotosProducto": [
+                    "producto8.1.webp",
+                    "producto8.2.webp",
+                    "producto8.3.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 95% ALGODON 5% ELASTANO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "polo"
     },
     {
         "id": 9,
         "nombre": "Camiseta manga corta con cortes delanteros para hombre",
         "precio": "129.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Con un fit moda que ofrece una silueta relajada y moderna, esta camiseta se adapta a tu cuerpo de manera cómoda y estilizada. Descripción técnica de la prenda: - Manga corta - Moda fit - Diseño en cuello redondo - Detalles de cortes en frente - Estampado localizado. Perfecta para un look casual y relajado, puedes combinarla con jeans, bermudas o incluso una chaqueta para esos días frescos. ¡El estampado localizado le da un giro interesante a tu look! Material: 100% algodón, garantizando una sensación suave y cómoda para todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "cafe",
-                "fotosProducto": ["producto9.1.webp","producto9.2.webp","producto9.3.webp","producto9.4.webp","producto9.5.webp","producto9.6.webp"]
+                "fotosProducto": [
+                    "producto9.1.webp",
+                    "producto9.2.webp",
+                    "producto9.3.webp",
+                    "producto9.4.webp",
+                    "producto9.5.webp",
+                    "producto9.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 10,
         "nombre": "Chaqueta tipo parka de estilo utilitario para hombre",
         "precio": "499.900",
-        "descuento":"40",
+        "descuento": "40",
         "descripcion": "Con detalles utilitarios, esta chaqueta tipo parka ofrece una silueta ligeramente estructurada. Diseñada para brindar comodidad y libertad de estilo, adaptándose a cualquier ocasión sin comprometer su diseño moderno y práctico. Descripción técnica de la prenda - Chaqueta - Parka - Estilo utilitario - Bolsillos de parche con tapa en frente - Cierre ajustable - Broches en solapa - Detalle de bolsillo con cierre en manga - Capucha con cierre que se puede ocultar - Charretera con velcro en puños. Perfecta para quienes valoran la practicidad. Esta chaqueta tipo parka es ideal para climas frescos o lluviosos; úsala con jeans y botas para un look rebelde y urbano. Material: Diseñada en 51% poliéster, 40% algodón y 9% poliamida. Su forro está elaborado en 100% poliéster. Su tejido resistente asegura durabilidad y protección. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "verde",
-                "fotosProducto": ["producto10.1.webp","producto10.2.webp","producto10.3.webp","producto10.4.webp","producto10.5.webp"]
+                "fotosProducto": [
+                    "producto10.1.webp",
+                    "producto10.2.webp",
+                    "producto10.3.webp",
+                    "producto10.4.webp",
+                    "producto10.5.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 51% POLIESTER 40% ALGODON 9% POLIAMIDA FORRO: 100% POLIESTER",
         "paisFabricacion": "HECHO EN CHINA",
         "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
     },
     {
         "id": 11,
         "nombre": "Chaqueta abullonada para hombre",
         "precio": "329.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Chaqueta para hombre. Abullonada. De relleno ligero. Con cierre frontal. Bolsillos laterales. Mini print con relieve en punto corazón. Tiene incorporada una bolsa, que la convierte en una opción práctica para empacar y llevar a los viajes.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "cafe",
-                "fotosProducto": ["producto11.1.webp","producto11.2.webp","producto11.3.webp","producto11.4.webp","producto11.5.webp","producto11.6.webp"]
+                "fotosProducto": [
+                    "producto11.1.webp",
+                    "producto11.2.webp",
+                    "producto11.3.webp",
+                    "producto11.4.webp",
+                    "producto11.5.webp",
+                    "producto11.6.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 100% POLIESTER RECICLADO FORRO MANGAS: 100% POLIESTER RECICLADO FORRO CUERPO: 100% POLIESTER RECICLADO",
         "paisFabricacion": "HECHO EN CHINA",
         "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
     },
     {
         "id": 12,
         "nombre": "Chaqueta tipo bomber para hombre",
         "precio": "439.900",
-        "descuento":"50",
+        "descuento": "50",
         "descripcion": "Especificaciones del fit: Una silueta que amas cuando de chaquetas se trata. Las bomber son súper versátiles y prácticas, ofreciéndote siempre un aspecto casual pero lleno de estilo. Descripción técnica de la prenda: -Bomber jacket. -Cuello y puños tejidos. -Aplique en punto corazón. -Ajuste con cierre y broches. -Bolsillos de parche en costados. Que tus mejores momentos siempre vengan acompañados de prendas que hacen la diferencia. Material: Elaborada en 65% poliéster, 35% algodón y la capa externa con 100% nylon, para que siempre disfrutes de la calidad Americanino. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "amarillo",
-                "fotosProducto": ["producto12.1.webp","producto12.2.webp","producto12.3.webp","producto12.4.webp","producto12.5.webp"]
+                "fotosProducto": [
+                    "producto12.1.webp",
+                    "producto12.2.webp",
+                    "producto12.3.webp",
+                    "producto12.4.webp",
+                    "producto12.5.webp"
+                ]
             }
         ],
         "composicion": "FORRO: 65% POLIESTER 35% ALGODON PRENDA: 100% NYLON",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
     },
     {
         "id": 13,
         "nombre": "Camiseta estampada para hombre",
         "precio": "119.900",
-        "descuento":"30",
+        "descuento": "30",
         "descripcion": "Con un slim fit, esta camiseta ofrece un ajuste más entallado que resalta tu silueta sin comprometer la comodidad. Descripción técnica de la prenda: - Manga corta - Slim fit - Cuello redondo en rib - Estampado localizado en frente. Su estampado agrega personalidad y un toque de originalidad a esta pieza clásica. Es una camiseta versátil que combina con todo, desde jeans hasta joggers, adaptándose a cualquier plan. Material: Fabricada en 100% algodón, su tejido fresco y ligero te mantendrá cómodo y con estilo durante todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto13.1.webp","producto13.2.webp","producto13.3.webp","producto13.4.webp","producto13.5.webp","producto13.6.webp"]
+                "fotosProducto": [
+                    "producto13.1.webp",
+                    "producto13.2.webp",
+                    "producto13.3.webp",
+                    "producto13.4.webp",
+                    "producto13.5.webp",
+                    "producto13.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 14,
         "nombre": "Buzo cerrado en bloques de color para hombre",
         "precio": "249.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Buzo cerrado con corte cómodo y cuello redondo que aporta un ajuste relajado pero con estilo. Descripción técnica de la prenda: - Buzo cerrado - Diseño en bloques de color - Cuello redondo - Estampado localizado en frente. Combínalo con unos jeans o pantalones jogger para un look effortless y lleno de personalidad. ¡Es ideal para esos días donde quieres destacar con algo cómodo! Material: Confeccionado con una mezcla de rayón, nylon y elastómero, lo que le da suavidad, elasticidad y resistencia, para que te sientas cómodo y fresco todo el día. *El modelo mide 1,87 centímetros y usa un buzo talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto14.1.webp","producto14.2.webp","producto14.3.webp","producto14.4.webp","producto14.5.webp","producto14.6.webp"]
+                "fotosProducto": [
+                    "producto14.1.webp",
+                    "producto14.2.webp",
+                    "producto14.3.webp",
+                    "producto14.4.webp",
+                    "producto14.5.webp",
+                    "producto14.6.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 69% RAYON 27% NYLON 4% ELASTOMERO",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "buzo"
     },
     {
         "id": 15,
         "nombre": "Chaqueta acolchada en bloques de color para hombre",
         "precio": "489.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Chaqueta de corte regular con diseño funcional que permite moverte con comodidad y estilo. Descripción técnica de la prenda: - Chaqueta - Acolchado leve - Diseño en bloques de color - Cuello alto - Perilla con cierre. ¡Perfecta para los cambios de temporada! Combínala con jeans y tenis para un look casual que no pasa desapercibido. Material: Diseñada para acompañarte en todo momento, esta chaqueta cuenta con un exterior de 100% nylon, que aporta resistencia y ligereza, y un forro interior de 100% poliéster, pensado para ofrecer mayor confort y protección. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto15.1.webp","producto15.2.webp","producto15.3.webp","producto15.4.webp","producto15.5.webp","producto15.6.webp"]
+                "fotosProducto": [
+                    "producto15.1.webp",
+                    "producto15.2.webp",
+                    "producto15.3.webp",
+                    "producto15.4.webp",
+                    "producto15.5.webp",
+                    "producto15.6.webp"
+                ]
             }
         ],
         "composicion": "PRENDA: 100% NYLON FORRO: 100% POLIESTER",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "JOHN URIBE E HIJOS S.A.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
     },
     {
         "id": 16,
         "nombre": "Camiseta manga corta para hombre",
         "precio": "109.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Slim fit, de cuello redondo y manga corta. Su silueta ajustada al cuerpo le da un toque más pulido sin dejar de ser cómoda. Ideal para quienes buscan un fit más definido y actual. Descripción técnica de la prenda: - Slim fit - Cuello redondo - Manga corta - Estampado localizado. Una camiseta perfecta para el día a día, salidas casuales o para sumar un twist gráfico a tu outfit. Material: Elaborada en 100% algodón. Suave al tacto, fresco y respirable. Una base cómoda y duradera para usar sin parar. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "verde",
-                "fotosProducto": ["producto16.1.webp","producto16.2.webp","producto16.3.webp","producto16.4.webp"]
+                "fotosProducto": [
+                    "producto16.1.webp",
+                    "producto16.2.webp",
+                    "producto16.3.webp",
+                    "producto16.4.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 17,
         "nombre": "Camiseta estampada manga corta para hombre",
         "precio": "199.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Con un fit moda, esta camiseta ofrece un ajuste ligeramente más suelto para una comodidad total, ideal para un look relajado pero con estilo. Descripción técnica de la prenda: - Manga corta - Cuello redondo en rib - Fit moda - Estampado localizado. ¡Haz de esta camiseta un básico con mucha personalidad! ¡Comodidad y estilo a la vez! Material: 100% algodón, suave y transpirable, ideal para mantenerte cómodo durante todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto17.1.webp","producto17.2.webp","producto17.3.webp","producto17.4.webp","producto17.5.webp","producto17.6.webp"]
+                "fotosProducto": [
+                    "producto17.1.webp",
+                    "producto17.2.webp",
+                    "producto17.3.webp",
+                    "producto17.4.webp",
+                    "producto17.5.webp",
+                    "producto17.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 18,
         "nombre": "Camiseta estampada manga corta para hombre",
         "precio": "199.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Con un fit moda, esta camiseta ofrece un ajuste ligeramente más suelto para una comodidad total, ideal para un look relajado pero con estilo. Descripción técnica de la prenda: - Manga corta - Cuello redondo en rib - Fit moda - Estampado localizado. ¡Haz de esta camiseta un básico con mucha personalidad! ¡Comodidad y estilo a la vez! Material: 100% algodón, suave y transpirable, ideal para mantenerte cómodo durante todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "verde oscuro",
-                "fotosProducto": ["producto18.1.webp","producto18.2.webp","producto18.3.webp","producto18.4.webp","producto18.5.webp","producto18.6.webp"]
+                "fotosProducto": [
+                    "producto18.1.webp",
+                    "producto18.2.webp",
+                    "producto18.3.webp",
+                    "producto18.4.webp",
+                    "producto18.5.webp",
+                    "producto18.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 19,
         "nombre": "Camiseta manga larga estampada para hombre",
         "precio": "199.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Con un fit moda, esta camiseta de manga larga se adapta perfectamente al cuerpo sin perder su comodidad, brindando una silueta moderna y fresca. Descripción técnica de la prenda: - Manga larga - Fit moda - Diseño de estampado localizado. ¡Atrévete a llevarla con confianza! Su diseño es perfecto para resaltar tu estilo único. Material: 100% algodón, suave y agradable al tacto, te garantiza comodidad durante todo el día. *El modelo mide 1,87 centímetros y usa una camiseta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "negro",
-                "fotosProducto": ["producto19.1.webp","producto19.2.webp","producto19.3.webp","producto19.4.webp","producto19.5.webp","producto19.6.webp"]
+                "fotosProducto": [
+                    "producto19.1.webp",
+                    "producto19.2.webp",
+                    "producto19.3.webp",
+                    "producto19.4.webp",
+                    "producto19.5.webp",
+                    "producto19.6.webp"
+                ]
             }
         ],
         "composicion": "Prenda: 100% Algodon",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "camiseta"
     },
     {
         "id": 20,
         "nombre": "Chaqueta Bomber con efecto de cuadros para hombre",
         "precio": "449.900",
-        "descuento":"",
+        "descuento": "",
         "descripcion": "Especificaciones del fit: Esta chaqueta Bomber de silueta amplia redefine el confort con su diseño relajado y urbano. Su efecto de cuadros en tela y capucha integrada le aportan un carácter desenfadado perfecto para looks casuales de alto impacto. Descripción técnica de la prenda: - Bomber fit - Tono claro - Amplia - Efecto de cuadros en tela - Capucha - Recogido en pretina y puños - Key item. ¡Un clásico reinventado para la ciudad! Su patrón a cuadros y su silueta oversized la convierten en una pieza infalible para quienes buscan destacar con un estilo relajado, auténtico y lleno de personalidad. Material: Confeccionada en una mezcla de 80% algodón y 20% poliéster, con forro 100% poliéster, esta prenda combina suavidad, abrigo y resistencia, garantizando comodidad y estilo en cada uso. *El modelo mide 1,87 centímetros y usa una chaqueta talla M.",
-        "cantidades": {"Xs":20,"S":20,"M":20,"L":20,"Xl":20},
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
         "elementos": [
             {
                 "color": "azul",
-                "fotosProducto": ["producto20.1.webp","producto20.2.webp","producto20.3.webp","producto20.4.webp","producto20.5.webp","producto20.6.webp"]
+                "fotosProducto": [
+                    "producto20.1.webp",
+                    "producto20.2.webp",
+                    "producto20.3.webp",
+                    "producto20.4.webp",
+                    "producto20.5.webp",
+                    "producto20.6.webp"
+                ]
             }
         ],
         "composicion": "FORRO: 100% POLIESTER PRENDA: 80% ALGODON 20% POLIESTER",
         "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
-        "tipo":[""],
+        "tipo": [
+            ""
+        ],
         "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 41,
+        "nombre": "Camiseta con escote en espalda para mujer",
+        "precio": "159.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con un regular fit que se adapta con naturalidad al cuerpo, esta camiseta ofrece una silueta cómoda y versátil. Descripción técnica de la prenda: - Regular fit - Cuello redondo - Manga corta - Costuras expuestas - Escote en la espalda con rib - Tela texturizada. Perfecta para quienes buscan básicos con un twist inesperado. Material: Elaborada en 98% algodón y 2% elastano, una combinación que aporta suavidad, textura y libertad de movimiento. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Café",
+                "fotosProducto": [
+                    "producto41.1.webp",
+                    "producto41.2.webp",
+                    "producto41.3.webp",
+                    "producto41.4.webp",
+                    "producto41.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 98% Algodon 2% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 42,
+        "nombre": "Camiseta cuello redondo con detalles bordados para mujer",
+        "precio": "129.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Classic fit con un corte cómodo y moderno, sin ajustarse demasiado, perfecto para un look relajado pero bien estructurado. Descripción técnica de la prenda: - Camiseta - Classic fit - Manga corta - Cuello redondo - Detalles bordados en frente - Costuras decorativas. Un básico con estilo que combina con todo. Ideal para looks casuales o semi formales. Material: 100% algodón, suave y transpirable, ideal para uso diario. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto42.1.webp",
+                    "producto42.2.webp",
+                    "producto42.3.webp",
+                    "producto42.4.webp",
+                    "producto42.5.webp",
+                    "producto42.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 43,
+        "nombre": "Camiseta seamless manga sisa para mujer",
+        "precio": "119.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Este top Slim fit abraza tu figura con suavidad. El cuello alto y la manga sisa lo hacen ideal para un look minimalista y moderno. Descripción técnica de la prenda: - Slim fit - Top seamless - Manga sisa - Cuello alto. Úsalo solo o en capas: va increíble con joggers, jeans de tiro alto o incluso debajo de una camisa abierta. Una prenda cómoda y versátil que realza tu silueta. Material: 73% poliamida, 22% poliéster y 5% elastano. Un mix técnico que asegura elasticidad, frescura y un ajuste perfecto. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto43.1.webp",
+                    "producto43.2.webp",
+                    "producto43.3.webp",
+                    "producto43.4.webp",
+                    "producto43.5.webp",
+                    "producto43.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 73% POLIAMIDA 22% POLIESTER 5% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 44,
+        "nombre": "Camiseta oversize estampada para mujer",
+        "precio": "169.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Gracias a su silueta oversize, esta camiseta ofrece un ajuste suelto y relajado, perfecto para un look effortless con un aire cool y desenfadado. Descripción técnica de la prenda: - Manga corta - Silueta oversize - Cuello redondo - Estampado localizado. Un básico con actitud que destaca por su comodidad y estilo. El estampado agrega un toque único, ideal para quienes quieren expresar su personalidad sin esfuerzo. Material: Confeccionada en 100% algodón, es suave, transpirable y perfecta para acompañarte en momentos inolvidables. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
+        "elementos": [
+            {
+                "color": "Gris",
+                "fotosProducto": [
+                    "producto44.1.webp",
+                    "producto44.2.webp",
+                    "producto44.3.webp",
+                    "producto44.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 45,
+        "nombre": "Camiseta Boxy con ruedo en rib para mujer",
+        "precio": "149.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con una silueta Boxy fit, esta camiseta tiene un corte amplio, cuadrado y relajado que te da total libertad de movimiento. Descripción técnica de la prenda: - Boxy fit - Manga corta - Cuello redondo - Detalle de ruedo en rib - Bordado y estampado decorativo. Perfecta para un estilo actual y relajado, con un toque de personalidad que no pasa desapercibido. Material: 100% algodón, para una sensación suave y ligera sobre la piel durante todo el día. *La modelo mide 1,76 centímetros y usa una camiseta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20,
+            "Xxl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto45.1.webp",
+                    "producto45.2.webp",
+                    "producto45.3.webp",
+                    "producto45.4.webp",
+                    "producto45.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 46,
+        "nombre": "Camisa manga larga con boleros para mujer",
+        "precio": "189.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con un corte regular, esta camisa se ajusta cómodamente a tu figura, ofreciendo libertad de movimiento. Descripción técnica de la prenda: - Regular fit - Manga larga - Cuello asimétrico - Detalle de sesgo en abertura central - Boleros en cuello y ruedo ¡Para un look sofisticado y natural! Los detalles de los boleros le dan una personalidad única que te hará destacar en cualquier ocasión. Material: 100% algodón, garantizando una textura suave y cómoda para todo el día. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Blanco",
+                "fotosProducto": [
+                    "producto46.1.webp",
+                    "producto46.2.webp",
+                    "producto46.3.webp",
+                    "producto46.4.webp",
+                    "producto46.5.webp",
+                    "producto46.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN INDIA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 47,
+        "nombre": "Camisa tipo corsé para mujer",
+        "precio": "219.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con su ajuste regular y estilo tipo corsé, esta prenda resalta la figura con un toque sofisticado y moderno. Descripción técnica de la prenda: - Corsé - Ajuste regular - De tiras. Una pieza que mezcla sensualidad y comodidad, ideal para un look atrevido pero sin esfuerzo. Perfecta para combinar con jeans de tiro alto o faldas fluidas y crear un outfit de impacto. Material: Confeccionada en una mezcla de 77% rayón, 20% nylon y 3% elastómero, brinda una textura suave y estructura ligera con el toque justo de elasticidad para mayor confort. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Negro",
+                "fotosProducto": [
+                    "producto47.1.webp",
+                    "producto47.2.webp",
+                    "producto47.3.webp",
+                    "producto47.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 77% RAYON 20% NYLON 3% ELASTOMERO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 48,
+        "nombre": "Camisa manga larga con abertura en espalda para mujer",
+        "precio": "299.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta camisa regular fit se ajusta con naturalidad al cuerpo, ofreciendo una silueta favorecedora y cómoda para el día a día. Descripción técnica de la prenda: - Regular fit - Cuello clásico - Manga larga - Abertura en la espalda - Cordón a tono en la espalda como detalle decorativo - Tela con textura. Esta camisa tiene el poder de transformar tu look: moderna, femenina y con ese toque que hace toda la diferencia. Material: Confeccionada en una mezcla suave de 63% rayón, 23% poliéster y 14% nylon que aporta ligereza, textura y una caída fluida al vestir. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto48.1.webp",
+                    "producto48.2.webp",
+                    "producto48.3.webp",
+                    "producto48.4.webp",
+                    "producto48.5.webp",
+                    "producto48.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 63% RAYON 23% POLIESTER 14% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 49,
+        "nombre": "Camisa oversize manga corta para mujer",
+        "precio": "269.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta camisa de silueta oversize te brinda un look relajado y contemporáneo. Su caída fluida y liviana, junto con los broches en el frente, la convierten en una opción versátil para climas cálidos o looks de capas. Descripción técnica de la prenda: - Silueta oversize - Manga corta - Cuello clásico - Broches en el frente - Proceso de lavado - Tela EcoWave. Llévala abierta sobre una camiseta básica o anudada a la cintura para un estilo más relajado. Material: Elaborada en 100% tencel, una fibra ecológica que aporta suavidad, frescura y fluidez, ideal para cuidar tu piel y el planeta. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "cafe",
+                "fotosProducto": [
+                    "producto49.1.webp",
+                    "producto49.2.webp",
+                    "producto49.3.webp",
+                    "producto49.4.webp",
+                    "producto49.5.webp",
+                    "producto49.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PPrenda: 100% Tencel",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 50,
+        "nombre": "Camisa manga larga en mezcla de lino para mujer",
+        "precio": "239.900",
+        "descuento": "40",
+        "descripcion": "Con esta camisa, tus días casuales tendrán un giro chic y moderno. Su ajuste favorecedor y diseño en mezcla de lino, te harán sentir segura, fresca y con estilo. Descripción técnica de la prenda: - Composición con mezcla en lino - Cuello clásico - Manga larga con charretera - Perilla funcional de botones - Bolsillos de tapa en delantero - Pinza en posterior El básico que nunca pasa de moda ahora puede ser tuyo. Una camisa atemporal para elevar tus looks del diario, combínala con jeans y sandalias para un look fresco, o dale un toque sofisticado con pantalones y botas texanas. Material: 62% viscosa y 38% lino, para una sensación fresca y ligera que te acompañará en tus mejores planes. *La modelo mide 1,76 centímetros y usa una camisa talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "verBlancode",
+                "fotosProducto": [
+                    "producto50.1.webp",
+                    "producto50.2.webp",
+                    "producto50.3.webp",
+                    "producto50.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PPRENDA: 62% VISCOSA 38% LINO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camisa"
+    },
+    {
+        "id": 51,
+        "nombre": "Chaqueta Bomber con capucha para mujer",
+        "precio": "399.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con una silueta amplia y relajada, esta Bomber se convierte en la opción perfecta para crear looks con personalidad. Descripción técnica de la prenda: - Bomber - Tono claro - Efecto de cuadros en la tela - Capucha - Pretina y puños con elásticos - Silueta amplia. Una pieza contemporánea con el ADN de Americanino. Ideal para días y noches frescas, aportando estilo a cualquier combinación. Material: Este diseño está elaborado 80% algodón y 20% poliéster y su forro en 100% poliéster. Una chaqueta que se siente tan bien como se ve, ideal para sentir confort. *La modelo mide 1,76 cm y usa una chaqueta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto51.1.webp",
+                    "producto51.2.webp",
+                    "producto51.3.webp",
+                    "producto51.4.webp",
+                    "producto51.5.webp",
+                    "producto51.6.webp"
+                ]
+            }
+        ],
+        "composicion": "FORRO: 100% POLIESTER PRENDA: 80% ALGODON 20% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 52,
+        "nombre": "Chaqueta Bomber diseño ovejero para mujer",
+        "precio": "389.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta chaqueta Bomber fit ofrece un estilo deportivo y urbano, adaptándose perfectamente a tu figura. Su diseño tipo ovejero la hace ideal para los días fríos. Descripción técnica de la prenda: - Bomber fit - Cuello, puños y fajón tejidos en contraste - Diseño tipo ovejero - Detalle de bordado. ¡Una pieza clave para tu outfit! Los detalles en contraste y el bordado le aportan ese toque único que hará que tu look destaque con esencia Americanino. Material: Con forro en 100% Poliamida y composición en 100% Poliéster, asegurando durabilidad y resistencia mientras mantiene la suavidad y comodidad. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto52.1.webp",
+                    "producto52.2.webp",
+                    "producto52.3.webp",
+                    "producto52.4.webp",
+                    "producto52.5.webp",
+                    "producto52.6.webp"
+                ]
+            }
+        ],
+        "composicion": "FORRO: 100% POLIAMIDA PRENDA: 100% POLIESTER",
+        "paisFabricacion": "HHECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 53,
+        "nombre": "Chaqueta rompevientos con bordado a tono para mujer",
+        "precio": "329.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Esta chaqueta estilo rompevientos combina funcionalidad y diseño con un toque original. Su silueta liviana y cuello alto te protegen del viento, mientras que los detalles bordados y el tejido a rayas en las mangas le dan un aire distintivo que eleva cualquier look casual. Descripción técnica de la prenda: - Estilo rompevientos - Cuello alto - Bordado a tono en punto corazón y laterales - Manga con tejido en contraste de rayas. Una pieza statement que hará la diferencia en cada uno de tus looks. Material: Elaborada en 100% nylon, un tejido liviano, resistente y perfecto para protegerte del frío. *La modelo mide 1,76 centímetros y usa una chaqueta talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Gris",
+                "fotosProducto": [
+                    "producto53.1.webp",
+                    "producto53.2.webp",
+                    "producto53.3.webp",
+                    "producto53.4.webp",
+                    "producto53.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "camiseta"
+    },
+    {
+        "id": 54,
+        "nombre": "Blazer amplio para mujer",
+        "precio": "269.900",
+        "descuento": "40",
+        "descripcion": "¡El blazer que hará que te sientas imparable! Un diseño clásico que se ha renovado con una silueta holgada para regalarte elegancia y versatilidad. Descripción técnica de la prenda: - Blazer - Fit amplio - Desestructurado - Ajuste de botones en frente. Un blazer que redefine la formalidad con detalles modernos que la hacen destacar en cualquier look. Lúcelos con jeans y camisetas para un toque sporty, o con vestidos fluidos para un momento más elegante. Material: Diseñado en 85% rayón y 15% poliéster, una silueta que abraza con elegancia y versatilidad. *La modelo mide 1,76 centímetros y usa un blazer talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Café",
+                "fotosProducto": [
+                    "producto54.1.webp",
+                    "producto54.2.webp",
+                    "producto54.3.webp",
+                    "producto54.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 85% RAYON 15% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 55,
+        "nombre": "Chaqueta de cuello alto para mujer",
+        "precio": "329.900",
+        "descuento": "40",
+        "descripcion": "Chaqueta para mujer. Diseño abullonado de cuello alto y cierre para remover la capucha. Elástico en puños. Bolsillos diagonales.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Gris",
+                "fotosProducto": [
+                    "producto55.1.webp",
+                    "producto55.2.webp",
+                    "producto55.3.webp",
+                    "producto55.4.webp",
+                    "producto55.5.webp",
+                    "producto55.6.webp"
+                ]
+            }
+        ],
+        "composicion": "FORRO MANGAS: 100% POLIESTER RECICLADO FORRO CUERPO: 100% POLIESTER RECICLADO PRENDA: 100% POLIESTER RECICLADO",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 56,
+        "nombre": "Buzo tejido tipo red para mujer",
+        "precio": "249.900",
+        "descuento": "60",
+        "descripcion": "Especificaciones del fit: Los clásicos se renuevan con una horma más fresca, colores imperdibles y tejidos llamativos. Descripción técnica de la prenda: - Cerrado - Manga larga - Cuello redondo - Tejido tipo red Un buzo que describe el estilo moderno y confortable, perfecto para disfrutar de un recorrido por la ciudad de tus sueños o para vestir el próximo fin de semana.  Material: Elaborado con 60% algodón y 40% acrílico. Un fit relajado y de tejido liviano que acompaña estilos audaces. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Negro",
+                "fotosProducto": [
+                    "producto56.1.webp",
+                    "producto56.2.webp",
+                    "producto56.3.webp",
+                    "producto56.4.webp",
+                    "producto56.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 60% ALGODON 40% ACRILICO",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 57,
+        "nombre": "Buzo con cierre en espalda para mujer",
+        "precio": "239.900",
+        "descuento": "40",
+        "descripcion": "Este buzo de fit amplio es la definición de confort y estilo. Su diseño suelto y relajado, combinado con el rib en cuello, puños y fajón, crea un look casual con un toque de modernidad. Descripción técnica de la prenda: - En burda - Manga larga - Cuello alto en rib - Cierre funcional en posterior - Fit amplio - Puños y fajón en rib. Este buzo es todo lo que necesitas para crear un look casual y cool. Ideal para combinar con jeans, joggers o pantalones deportivos para un outfit cómodo y con actitud. Material: Hecho de una mezcla de algodón, poliéster y elastano, este buzo te brinda suavidad, flexibilidad y la frescura perfecta para llevarlo todo el día. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Caqui",
+                "fotosProducto": [
+                    "producto57.1.webp",
+                    "producto57.2.webp",
+                    "producto57.3.webp",
+                    "producto57.4.webp",
+                    "producto57.5.webp",
+                    "producto57.6.webp",
+                    "producto57.7.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 73% ALGODON 26% POLIESTER 1% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 58,
+        "nombre": "Buzo tipo polo tejido para mujer",
+        "precio": "259.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Fit relajado y cómodo, reinterpretado con un tejido que lo hace más original. La silueta polo se caracteriza por su versatilidad y ese aire sport que la hace única. Descripción técnica de la prenda: - Tipo polo - Cerrado - Diseño tejido - Rayas en contraste - Key item. ¡Hazlo tuyo! Este buzo polo merece estar en tu colección de esenciales. Material: Elaborada en 100% algodón para un tejido más suave, fresco y resistente. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto58.1.webp",
+                    "producto58.2.webp",
+                    "producto58.3.webp",
+                    "producto58.4.webp",
+                    "producto58.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 59,
+        "nombre": "Buzo tejido para mujer",
+        "precio": "289.900",
+        "descuento": "40",
+        "descripcion": "Este buzo presenta un fit relajado con un tejido desestructurado que aporta un estilo desenfadado y cómodo. Descripción técnica de la prenda: - Tejido desestructurado - Manga larga - Cuello redondo. Un básico imprescindible para tu día a día. Perfecto para acompañar tus looks más relajados o darle un toque de confort y estilo a tu atuendo. Material: Hecho 100% en algodón, este buzo te ofrece suavidad, frescura y la comodidad que necesitas, ideal para cualquier estación del año. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Rosa",
+                "fotosProducto": [
+                    "producto59.1.webp",
+                    "producto59.2.webp",
+                    "producto59.3.webp",
+                    "producto59.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "buzo"
+    },
+    {
+        "id": 60,
+        "nombre": "Buzo cerrado con capucha para mujer",
+        "precio": "259.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Buzo regular fit con capucha y diseño cerrado. Su silueta relajada cae con naturalidad sobre el cuerpo, ideal para usar solo o en capas. Descripción técnica de la prenda: - Diseño cerrado - Regular fit - Con capucha - Bordado decorativo - Bolsillo tipo canguro. Perfecto para climas frescos, días de descanso o planes relajados con amigos. Un básico infalible que puedes llevar con jeans, joggers o sobre una camiseta para sumar dimensión a tus outfits. Material: 65% algodón, 35% poliéster. Una mezcla suave y resistente que brinda calidez sin hacerte sentir pesado. Ideal para acompañarte en cualquier plan, cualquier día. *La modelo mide 1,76 centímetros y usa un buzo talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto60.1.webp",
+                    "producto60.2.webp",
+                    "producto60.3.webp",
+                    "producto60.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 65% ALGODON 35% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "chaqueta"
+    },
+    {
+        "id": 61,
+        "nombre": "Pantalón Straight bota recta para mujer",
+        "precio": "399.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Este pantalón Straight fit de tiro bajo ofrece una silueta relajada y favorecedora, con una bota recta que aporta equilibrio y estilo sin esfuerzo. Descripción técnica de la prenda: - Straight fit - Tiro bajo - Bota recta. Un básico infalible con actitud festivalera, perfecto para combinar con un crop top o camisa oversize y disfrutar de un resultado auténtico. Material: Elaborado en 100% algodón, proporciona frescura, resistencia y comodidad para moverte con libertad todo el día. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto61.1.webp",
+                    "producto61.2.webp",
+                    "producto61.3.webp",
+                    "producto61.4.webp",
+                    "producto61.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón "
+    },
+    {
+        "id": 62,
+        "nombre": "Falda con cortes para mujer",
+        "precio": "189.900",
+        "descuento": "20",
+        "descripcion": "Falda para mujer. Diseño corto y perilla funcional en frente. Cortes decorativos. Bolsillos de ribete funcionales en delantero. Elaborada en algodón 100% para mayor frescura y comodidad.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto62.1.webp",
+                    "producto62.2.webp",
+                    "producto62.3.webp",
+                    "producto62.4.webp"                    
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Poliester",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Falda"
+    },
+    {
+        "id": 63,
+        "nombre": "Falda corta bolsillos y taches para mujer",
+        "precio": "229.900",
+        "descuento": "50",
+        "descripcion": "Especificaciones del fit: Horma corta con detalles utilitarios que la convierten en el statement del momento. Descripción técnica de la prenda: - Corta - Cierre en frente - Bolsillos en frente de parche con tapa - Detalle de taches Crea looks modernos y con tintes juveniles con esta falda corta, perfecta para destacar en cualquier entorno, especialmente en los planes de fines de semana y brunch con amigas. Material: Diseñada en 100% Algodón, un diseño que captura la esencia de la temporada, perfecto para renovar el estilo personal. *La modelo mide 1,76 centímetros y usa una falda talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto63.1.webp",
+                    "producto63.2.webp",
+                    "producto63.3.webp",
+                    "producto63.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN CHINA",
+        "fabricante": "JOHN URIBE E HIJOS S.A.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Falda corta"
+    },
+    {
+        "id": 64,
+        "nombre": "Pantalón parachute de tiro alto para mujer",
+        "precio": "$ 279.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con tiro alto y silueta amplia tipo parachute, este pantalón ofrece un look urbano y cómodo, ideal para el día a día. Descripción técnica de la prenda: - Parachute fit - Bota recta - Tiro alto - Textil antifluido con reata y broche a tono - Detalles de elástico en bolsillos. Llévalo con tops ajustados o camisetas oversize para lograr un contraste cool. El textil antifluido y los detalles utilitarios elevan cualquier look streetwear. Material: 100% nylon, liviano, resistente y perfecto para acompañarte en cualquier plan. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto64.1.webp",
+                    "producto64.2.webp",
+                    "producto64.3.webp",
+                    "producto64.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 65,
+        "nombre": "Pantalón tipo chino con doble pretina para mujer",
+        "precio": "289.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Este pantalón tipo chino tiene una silueta moderna, ligera y cómoda. La doble pretina aporta un detalle actual, mientras que las pinzas en la bota le dan un acabado más pulido sin perder frescura. Descripción técnica de la prenda: - Tipo chino - Tiro medio - Bolsillos funcionales - Doble pretina - Detalle de pinza en la bota - Key item. ¡Perfecto para looks más armados sin dejar de ser casual! Material: 98% algodón, 2% elastano, brindando suavidad, frescura y una ligera elasticidad que mejora el ajuste y la movilidad. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto65.1.webp",
+                    "producto65.2.webp",
+                    "producto65.3.webp",
+                    "producto65.4.webp",
+                    "producto65.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 98% Algodon 2% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 66,
+        "nombre": "Pantalón Straight tiro bajo para mujer",
+        "precio": "349.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Con un corte Straight fit y tiro bajo, este pantalón ofrece una silueta relajada pero estructurada, perfecta para un look effortless con sello Americanino. Descripción técnica de la prenda: - Straight fit - Tiro bajo - Bota recta. ¡Ponte en mood festivalero! Una pieza versátil y atemporal, clave para armar outfits con un aire fresco y desenfadado y original. Material: Confeccionado en 100% algodón, brinda una sensación ligera y cómoda, manteniendo un look auténtico y de gran calidad. *La modelo mide 1,76 centímetros y usa un pantalón talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Cafe",
+                "fotosProducto": [
+                    "producto66.1.webp",
+                    "producto66.2.webp",
+                    "producto66.3.webp",
+                    "producto66.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S..",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Pantalón"
+    },
+    {
+        "id": 67,
+        "nombre": "Vestido largo de cuello redondo para mujer",
+        "precio": "239.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Este vestido largo de ajuste fluido estiliza la silueta con su caída ligera y su diseño único. Descripción técnica de la prenda: - Largo - Cuello redondo - Manga larga - Lavado medio. Un esencial con aire effortless, perfecto para destacar en esos planes que merecen tu versión más icónica. Material: Confeccionado en una mezcla de 82% poliamida y 18% elastano, ofrece flexibilidad, suavidad y una sensación envolvente que acompaña cada movimiento. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto67.1.webp",
+                    "producto67.2.webp",
+                    "producto67.3.webp",
+                    "producto67.4.webp",
+                    "producto67.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 82% POLIAMIDA 18% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 68,
+        "nombre": "Vestido largo con botones en lateral para mujer",
+        "precio": "299.900",
+        "descuento": "40",
+        "descripcion": "Este vestido largo tiene una silueta fluida y fresca que se adapta a cualquier ocasión casual. Las tiras graduables y el escote en V con corte delicado le aportan un toque femenino y sutil. Descripción técnica de la prenda: - Largo - De tiras graduables - Escote en V - Corte en escote - Detalle con pinzas y botones en lateral - Tela especial de tacto suave. Perfecto para un look relajado y moderno. Llévalo con sandalias planas y un bolso cruzado para tus días de paseo o con tenis para un resultado más trendy. Material: Elaborado con 87% ecovero y 13% poliéster, este vestido ofrece suavidad y frescura en cada movimiento. Su tela especial combina sostenibilidad y comodidad, ideal para esos días en los que quieres sentirte ligera y chic. *La modelo mide 1,76 centímetros y usa un vestido talla S",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Rojo",
+                "fotosProducto": [
+                    "producto68.1.webp",
+                    "producto68.2.webp",
+                    "producto68.3.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 87% ECOVERO 13% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 69,
+        "nombre": "Vestido corto de tela con textura para mujer ",
+        "precio": "249.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Corto, con una silueta relajada y femenina que se siente fresca desde el primer momento. Un diseño con personalidad, pensado para que te muevas con estilo y al ritmo de las tendencias. Descripción técnica de la prenda: - Corto - Manga sisa - Escote en V - Detalle de recogidos en laterales - Tela texturizada ¡Todo un acierto para tus fines de semana! Un vestido pensado para destacar y llevar el sello Americanino a otro nivel. Material: 91% algodón, 9% lino. Fresco, suave y con una textura natural que lo hace ideal para el clima cálido. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Amarillo",
+                "fotosProducto": [
+                    "producto69.1.webp",
+                    "producto69.2.webp",
+                    "producto69.3.webp",
+                    "producto69.4.webp",
+                    "producto69.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 9% LINO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 70,
+        "nombre": "Vestido corto en denim con abertura para mujer",
+        "precio": "299.900",
+        "descuento": "30",
+        "descripcion": "Un vestido corto diseñado para resaltar tu silueta con su cintura elástica y corte ligero. Su estilo fresco y desenfadado lo convierte en un básico versátil para tus días más soleados. Descripción técnica de la prenda: - Corto - En denim liviano - Tono claro - Manga sisa - Cuello clásico con escote en V - Elástico en cintura - Abertura en delantero - Bolsillos laterales. Ideal para esos días en los que quieres sentirte cómoda sin perder el estilo. Combínalo con sandalias para un look casual o con botines para un toque más trendy. Material: Un Denim Experimental confeccionado en 100% algodón que ofrece la frescura y ligereza de una tela liviana, perfecto para mantenerte cómoda todo el día. *La modelo mide 1,76 centímetros y usa un vestido talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto70.1.webp",
+                    "producto70.2.webp",
+                    "producto70.3.webp",
+                    "producto70.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Vestido"
+    },
+    {
+        "id": 71,
+        "nombre": "Jean Barrel tipo globo para mujer",
+        "precio": "329.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con una silueta tipo globo que redefine el estilo actual. Este barrel es una pieza clave para crear looks con personalidad. Ideal para días de ciudad o planes con amigas. Descripción técnica de la prenda: - Barrel fit - Tiro medio - Tipo globo - Cordón en pretina - Bolsillos desiguales - Tono medio claro. Unos jeans que se posicionan como la prenda clave de la temporada. Con un estilo retro que impone estilo y funcionalidad. Material: Elaborados en 100% algodón. Un diseño que se siente tan bien como se ve, adaptándose a tu ritmo de vida. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto71.1.webp",
+                    "producto71.2.webp",
+                    "producto71.3.webp",
+                    "producto71.4.webp",
+                    "producto71.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 72,
+        "nombre": "Jean Vintage de bota flare para mujer",
+        "precio": "299.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Estos jeans de tiro alto y bota flare redefinen los clásicos de siempre, brindando confort y una silueta estilizada, mientras sus cortes en el frente los convierten en un must de la temporada. Descripción técnica de la prenda: - Vintage fit - Tiro alto - Bota flare - Cortes decorativos en el frente - Tono medio Inspirados en el revival de los años 70, estos jeans son ideales para conciertos, días de oficina y brunch con amigas. Combínalos con zapatos de punta triangular para un efecto más prometedor y camisas oversize. Material: Elaborados en 99% algodón y 1% elastano, para una sensación de comodidad y estilo interminables. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto72.1.webp",
+                    "producto72.2.webp",
+                    "producto72.3.webp",
+                    "producto72.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 99% Algodon 1% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 73,
+        "nombre": "Jean Jegging tono negro para mujer",
+        "precio": "289.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Este jegging de tiro medio y bota recta ofrece una silueta moderna para looks formales e informales. Un básico infalible en el fondo de armario femenino. Descripción técnica de la prenda: - Jegging fit - Tiro medio - Tono negro clásico - Bota recta - Cinco bolsillos. Estos jeans se adaptan a todo: llévalos con camisas y botines para la oficina, o con tenis y Bomber para tus planes de fin de semana. Material: Elaborado en 91% algodón, 5% poliéster y 4% elastano, para mayor confort y un ajuste perfecto. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "gris",
+                "fotosProducto": [
+                    "producto73.1.webp",
+                    "producto73.2.webp",
+                    "producto73.3.webp",
+                    "producto73.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 5% POLIESTER 4% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 74,
+        "nombre": "Jean Wide Leg tono gris para mujer",
+        "precio": "349.900",
+        "descuento": "10",
+        "descripcion": "Especificaciones del fit: Con su bota superamplia y tela liviana, este Wide Leg redefine la comodidad con un toque contemporáneo. Descripción técnica de la prenda: - Wide Leg - Tiro medio - Bota súper amplia - Tono gris - Tela liviana. Perfecto para llevar con crop tops o chaquetas Bomber en los mejores planes con amigas o con camisas clásicas para un momento formal. Material: Elaborado en 99% algodón y 1% elastano que fluye con tu estilo diario. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 15,
+            "S": 15,
+            "M": 15,
+            "L": 15,
+            "Xl": 15
+        },
+        "elementos": [
+            {
+                "color": "gris",
+                "fotosProducto": [
+                    "producto74.1.webp",
+                    "producto74.2.webp",
+                    "producto74.3.webp",
+                    "producto74.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 99% Algodon 1% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 75,
+        "nombre": "Jean Cargo efecto vintage para mujer",
+        "precio": "349.900",
+        "descuento": "40",
+        "descripcion": "Especificaciones del fit: Estos jeans cargo garantizan confort y versatilidad, llevándote a un nivel de estilo único, perfectos para almas libres que nunca se detienen. Descripción técnica de la prenda: - Cargo fit - Efecto vintage - Bolsillos tipo cargo con tapa - Bolsillos no funcionales - Tono medio Ideales para planes de fin de semana, viajes y días de aventura. Sus detalles cargo aportan una vibra utilitaria y en tendencia que marca la diferencia. Material: 68% lyocell, 23% rayón y 9% poliéster. Se distinguen por su corte relajado, elevando cualquier look con su actitud cool y su vibe atemporal. *La modelo mide 1,76 centímetros y usa un jean talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto75.1.webp",
+                    "producto75.2.webp",
+                    "producto75.3.webp",
+                    "producto75.4.webp",
+                    "producto75.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 68% LYOCELL 23% RAYON 9% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 76,
+        "nombre": "Enterizo manga sisa en denim para mujer",
+        "precio": "399.900",
+        "descuento": "20",
+        "descripcion": "Especificaciones del fit: Este enterizo camisero en denim ofrece una silueta relajada que equilibra estructura y movimiento. Su diseño con bolsillos delanteros y traseros con tapa le aporta un toque utilitario y actual, mientras el ajuste cómodo en cintura y el corte recto crean un fit versátil y favorecedor. Descripción técnica de la prenda: - Enterizo manga sisa - Cuello camisero - Bota recta - Tono medio - En denim - Bolsillos en frente con tapa y atrás un bolsillo con tapa - Perilla con botón. La combinación perfecta entre funcionalidad y estilo. Este enterizo es de esos básicos elevados que solucionan cualquier look con solo un par de accesorios, acompañándote en días dinámicos o escapadas espontáneas con un aire cool y despreocupado. Material: Confeccionado en 100% algodón, su denim es resistente pero lo suficientemente ligero para ofrecer frescura y libertad de movimiento, asegurando comodidad y durabilidad en cada uso. *La modelo mide 1,76 centímetros y usa un overall talla S.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul",
+                "fotosProducto": [
+                    "producto76.1.webp",
+                    "producto76.2.webp",
+                    "producto76.3.webp",
+                    "producto76.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "Enterizo"
+    },
+    {
+        "id": 77,
+        "nombre": "Short con bolsillos carpintero para mujer",
+        "precio": "179.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Con un corte cómodo y relajado, este short tiene un tiro medio y una pretina elástica que te asegura un ajuste perfecto. Descripción técnica de la prenda: - Bolsillo tipo carpintero - Tiro medio - Cordones en contraste - Elástico en pretina - Detalle de estampado - Graphic Lab. Llévalo con una camiseta o hoodie para un look urbano y casual. Los detalles gráficos y el estilo funcional de los bolsillos lo convierten en una pieza clave de tu armario. Material: 65% algodón, 35% poliéster, combinando suavidad y resistencia para todo el día. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto77.1.webp",
+                    "producto77.2.webp",
+                    "producto77.3.webp",
+                    "producto77.4.webp",
+                    "producto77.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 65% ALGODON 35% POLIESTER",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 78,
+        "nombre": "Short con ruedo al corte para mujer",
+        "precio": "137.940",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Estos shorts ofrecen la combinación perfecta entre comodidad y autenticidad para tu día a día, elevando cualquier look de forma sencilla. Descripción técnica de la prenda: - Tiro medio - Tono medio - Bolsillos desiguales en el frente - Ruedo al corte. Estos shorts son perfectos para planes con amigas o salidas espontáneas. Llévalos con botas y camisas ¡y destaca con un vibe contemporáneo! Material: Diseñados en 100% algodón. Un estilo que habla por ti. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "azul claro",
+                "fotosProducto": [
+                    "producto78.1.webp",
+                    "producto78.2.webp",
+                    "producto78.3.webp",
+                    "producto78.4.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 79,
+        "nombre": "Short en tela con efecto de cuadros para mujer",
+        "precio": "219.900",
+        "descuento": "15",
+        "descripcion": "Especificaciones del fit: Este short es la definición de frescura y estilo experimental, diseñado para darle un giro creativo a tus looks de temporada. Descripción técnica de la prenda: - Tono claro - Tela con efecto de cuadros - Pretina con corte - Silueta corta. Ideal para paseos, días soleados con amigas o viajes improvisados. Su tela texturizada y pretina creativa lo convierten en un básico elevado. Combínalo con camisetas o crop tops y dale tu sello personal. Material: Elaborado en 80% algodón y 20% poliéster. Ideales para un look cool, donde lo clásico desaparece. *La modelo mide 1,76 centímetros y usa un short talla 6.",
+        "cantidades": {
+            "Xs": 15,
+            "S": 15,
+            "M": 15,
+            "L": 15,
+            "Xl": 15
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto79.1.webp",
+                    "producto79.2.webp",
+                    "producto79.3.webp",
+                    "producto79.4.webp",
+                    "producto79.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% POLIESTER FORRO: 100% POLIESTER CUELLO: 100% POLIURETANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "short"
+    },
+    {
+        "id": 80,
+        "nombre": "Bermuda tipo cargo para mujer",
+        "precio": "249.900",
+        "descuento": "",
+        "descripcion": "Especificaciones del fit: Una bermuda estilo cargo y de tiro medio que combina amplitud y estructura para un look relajado y actual. Descripción técnica de la prenda: - Cargo fit - Diseño preteñido - Lavado claro - Tiro medio. Perfecta para llevar con crop tops o camisas oversize. Sus detalles cargo aportan un aire utilitario que se adapta a los planes más festivaleros. Material: Confeccionada en 100% nylon, es ligera, resistente y perfecta para moverte con libertad. *La modelo mide 1,76 centímetros y usa una bermuda talla 6..",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "cafe",
+                "fotosProducto": [
+                    "producto80.1.webp",
+                    "producto80.2.webp",
+                    "producto80.3.webp",
+                    "producto80.4.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 100% NYLON",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "mujer",
+        "tipo": [""],
+        "caracteristicas": "bermuda"
     }
-
-    
 ]
