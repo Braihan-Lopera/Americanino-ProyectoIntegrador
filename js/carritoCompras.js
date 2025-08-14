@@ -1,3 +1,21 @@
+// ⚠️ ATENCIÓN: NO TOCAR FUNCIONA Y NO SÉ POR QUÉ.⚠️
+// 
+// Este fragmento de código fue escrito entre la 1 y 2 de la mañana,
+// bajo los efectos combinados de cafeína, desesperación
+// y un bug que solo aparecía cuando nadie lo miraba.
+//
+// No funciona si lo entiendes.
+// No lo entiendes si funciona.
+//
+// Cualquier intento de refactorizar esto ha resultado en:
+//  - Problemas dimensionales
+//  - Loops infinitos
+//  - Un extraño parpadeo en el monitor que aún no puedo explicar
+//
+// Si necesitas cambiar esto:
+//  primero reza un poco, luego haz una copia de seguridad,
+//  y finalmente, intenta no llorar demasiado.
+
 export function mostrarCarrito() {
     const btnCarrito = document.getElementById('btnCarrito');
 
