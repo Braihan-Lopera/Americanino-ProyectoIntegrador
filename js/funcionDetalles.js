@@ -68,6 +68,7 @@ export function mostrarDetalleProducto(id) {
 
                 const precio = document.createElement("p")
                 precio.textContent = "$" + producto.precio
+                precio.className = "precioProducto"
 
                 const divTallas = document.createElement("div")
                 divTallas.className = "divTallas"
@@ -92,9 +93,11 @@ export function mostrarDetalleProducto(id) {
                         let tallas = document.querySelectorAll(".talla")
                         tallas.forEach(t => {
                             t.style.backgroundColor = ""
+                            t.style.color = "black";
                         })
                         seleccionTalla = Object.keys(producto.cantidades)[index]
-                        talla.style.backgroundColor = "rgb(160, 166, 184)"
+                        talla.style.backgroundColor = "rgba(26, 26, 122, 1)"
+                        talla.style.color = "rgba(255, 255, 255, 1)"
 
                     })
 
@@ -105,6 +108,16 @@ export function mostrarDetalleProducto(id) {
                 botonCompra.id = "botonCompra"
                 botonCompra.className = "boton-Compra"
                 botonCompra.textContent = "agregar al carrito"
+                const descripcion = document.createElement("p")
+                descripcion.id = "descripcionProducto"
+                descripcion.className = "descripcionProducto"
+                descripcion.textContent = producto.descripcion
+                const paisFabricacion = document.createElement("P")
+                paisFabricacion.className = "paisFabricacion"
+                paisFabricacion.textContent = producto.paisFabricacion
+                const empresaFabricacion = document.createElement("p")
+                empresaFabricacion.className = "empresaFabricacion"
+                empresaFabricacion.textContent = producto.fabricante
 
 
                 botonCompra.addEventListener("click", async () => {
@@ -161,7 +174,9 @@ export function mostrarDetalleProducto(id) {
                 infoProducto.appendChild(precio)
                 infoProducto.appendChild(divTallas)
                 infoProducto.appendChild(botonCompra)
-
+                infoProducto.appendChild(descripcion)
+                infoProducto.appendChild(paisFabricacion)
+                infoProducto.appendChild(empresaFabricacion)
                 divDetalle.appendChild(galeria)
                 divDetalle.appendChild(infoProducto)
                 main.appendChild(divDetalle)

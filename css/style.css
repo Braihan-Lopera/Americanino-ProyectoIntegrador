@@ -1019,6 +1019,7 @@ footer#divFooter {
     max-width: 120px;
     align-items: center;
     margin-right: 1rem;
+    transition: 0.5s ease;
 }
 
 #miniaturas img {
@@ -1030,6 +1031,11 @@ footer#divFooter {
     transition: transform 0.2s ease;
     background: #fff;
     border-radius: 6px;
+    
+}
+.miniatura:hover{
+    transform: (1.2);
+    transition: 0.5s ease;
 }
 
 .contenedorImgPrincipal {
@@ -1090,11 +1096,58 @@ padding: 5px;
     align-items: center;
 
     p{
+        font-weight: bold;
         border: solid black 1px;
+        border-radius: 4px;
         margin: 5px;
         padding: 5px;
-        
+        transition: 0.5s ease;
     }
-
+    p:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.5s ease;
+    }
 }
+
+
+ #botonCompra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(41, 44, 192);
+    height: 30px;
+    width: auto;
+    transition: 0.5s ease; 
+    
+}
+
+#botonCompra:hover{
+    background-color: rgb(103, 104, 170);
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    cursor:pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    color:#000731
+}
+
+.precioProducto{
+    font-weight: bold;
+}
+.descripcionProducto{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(94, 93, 93)
+    
+}
+.paisFabricacion{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(94, 93, 93)
+}
+.empresaFabricacion{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(94, 93, 93)
+}
+
+
 
