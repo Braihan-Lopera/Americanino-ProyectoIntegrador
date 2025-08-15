@@ -124,6 +124,7 @@ export const pasarPagina = async () => {
   
   const mostrarOrdenarPor = (informacionProductos) => {
     let opcionesOrdenado = document.getElementById("opcionesOrdenarPor")
+    opcionesOrdenado.style.display = "none"
     let btnOrdenar = document.getElementById("ordenarPor")
     btnOrdenar.addEventListener("click", () => {
       if (opcionesOrdenado.style.display == "none") {
