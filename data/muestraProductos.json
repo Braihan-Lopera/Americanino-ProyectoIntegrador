@@ -732,6 +732,671 @@
         ],
         "caracteristicas": "chaqueta"
     },
+{
+        "id": 21,
+        "nombre": "Jean Relaxed tipo cargo para hombre",
+        "precio": "369.000",
+        "descuento":"40",
+        "descripcion": "Especificaciones del fit: Su Relaxed fit con tiro medio y bota recta lo convierte en una pieza versátil, cómoda y muy urbana. La silueta se complementa con un diseño tipo cargo y cortes en el frente que le suman actitud. Descripción técnica de la prenda: - Relaxed fit - Tiro medio - Bota recta - Tono medio - Rotos localizados - Cinco bolsillos - Tipo cargo - Cortes en frente - Bolsillos cargo en los dos costados - Diseño desmontable para usar como bermuda - Cierre para quitar. Una prenda dos en uno: jean y bermuda, con estética cargo, rotos estratégicos y detalles cool que rompen la rutina. Úsalo largo para un look más street o quítale la parte baja y pásate al modo short. Material: 100% algodón, con ese toque resistente y auténtico que se siente en cada paso. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azu,",
+                "fotosProducto": [
+                    "producto21.1.webp",
+                    "producto21.2.webp",
+                    "producto21.3.webp",
+                    "producto21.4.webp",
+                    "producto21.5.webp",
+                    "producto21.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 22,
+        "nombre": "Jean Skinny tono oscuro para hombre",
+        "precio": "309.000",
+        "descuento":"40",
+        "descripcion": "Especificaciones del fit: Este jean Skinny es el corte que tu estilo estaba pidiendo. Resalta tu figura de manera impecable, manteniendo un toque moderno y audaz. Descripción técnica de la prenda: - Skinny fit - Tono oscuro - Tiro bajo - Cinco bolsillos - Superajustado desde la cadera hasta los tobillos. El jean ideal para un look sin esfuerzo y siempre a la vanguardia. Versátil para cualquier ocasión. Material: Fabricado con una mezcla de 91% algodón, 6% poliéster y 3% elastano, este jean tiene la suavidad y resistencia que buscas. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto22.1.webp",
+                    "producto22.2.webp",
+                    "producto22.3.webp",
+                    "producto22.4.webp",
+                    "producto22.5.webp",
+                    "producto22.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 6% POLIESTER 3% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 23,
+        "nombre": "Jean Slim and Straight tono negro para hombre",
+        "precio": "259.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Fit híbrido entre Slim y Straight: entallado en cadera y muslos, con una caída recta que estiliza sin marcar demasiado. Tiro medio que se ajusta al cuerpo de forma natural. Un corte moderno que se siente cómodo y se ve bien siempre. Descripción técnica de la prenda: - Slim and Straight fit - Tono negro - Tiro medio - Bota recta. - En algodón orgánico. El negro nunca falla, y menos con un fit que mezcla definición y comodidad. Este jean lo puedes llevar con básicos neutros, camisas sueltas o chaquetas más pesadas. Perfecto para armar looks sobrios con un toque cool, sin perder la comodidad del día a día. Material: 68% algodón (incluye algodón orgánico), 27% poliéster, 3% rayón y 2% elastano. Una mezcla que suma suavidad, elasticidad y responsabilidad ambiental, sin comprometer el estilo. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto23.1.webp",
+                    "producto23.2.webp",
+                    "producto23.3.webp",
+                    "producto23.4.webp",
+                    "producto23.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 68% ALGODON 27% POLIESTER 3% RAYON 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 24,
+        "nombre": "Jean Tapered black denim para hombre",
+        "precio": "259.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Los jeans Tapered generan un contraste único de amplitud en cadera y muslo; siendo un poco más ajustados desde la rodilla hasta la bota. ¡Eso sí! Sin dejar de ser cómodos y flexibles. Descripción técnica de la prenda: - Tapered fit - Tiro medio - Bota ajustada - Black denim - Cinco bolsillos - Ajuste con cierre y botón. La opción más acertada para los planes casuales con amigos o los fines de semana. Combínalo con una camiseta negra para crear un total look digno de elogios y miradas. Material: Elaborado en 68% algodón, 27% poliéster, 3% rayón y 2% elastano. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto24.1.webp",
+                    "producto24.2.webp",
+                    "producto24.3.webp",
+                    "producto24.4.webp",
+                    "producto24.5.webp"
+            ]
+            }
+        ],
+        "composicion": "PRENDA: 68% ALGODON 27% POLIESTER 3% RAYON 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA   ",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 25,
+        "nombre": "Jean Tapered negro para hombre",
+        "precio": "259.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Un Tapered fit, amplio en cadera y muslo; y ajustado desde la rodilla hasta la bota. Diseñado para quienes buscan un look moderno y relajado. Descripción técnica de la prenda: - Tapered fit - Tiro medio - Bota ajustada - Black denim - Bigotes - Iluminaciones en muslo - Cinco bolsillos - Ajuste con cierre y botón. Con este jean en tu armario, lograrás esos looks urbanos que marcan tendencia. Es ideal para cualquier ocasión ya que combina a la perfección con camisetas, chaquetas o buzos, añadiendo un toque de original Americanino a tu estilo. Material: Confeccionado en 68% algodón, 27% poliéster, 3% rayón y 2% elastano, lo que garantiza una prenda duradera, cómoda y con un ligero stretch para mayor libertad de movimiento. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "negro",
+                "fotosProducto": [
+                    "producto25.1.webp",
+                    "producto25.2.webp",
+                    "producto25.3.webp",
+                    "producto25.4.webp"
+            ]
+            }
+        ],
+        "composicion": "PRENDA: 68% ALGODON 27% POLIESTER 3% RAYON 2%",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 26,
+        "nombre": "Jean Tapered con raspones para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Con un ajuste cómodo y relajado, este Tapered fit es ideal para los estilos más urbanos. Descripción técnica de la prenda: - Tapered fit - Tiro medio - Bota ajustada - Tono gris oscuro - Iluminaciones en muslo - Raspones localizados - Cinco bolsillos - Ajuste con cierre y botón. Versátiles y muy favorecedores, estos jeans además de ser tendencia, podrán solucionarte outfits en segundos y darte un aspecto más relax y original. Material: Elaborado en 78% algodón, 20% algodón orgánico y 2% elastano, garantizando comodidad y flexibilidad para un uso diario sin restricciones y, por supuesto, pensando en el medio ambiente. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto26.1.webp",
+                    "producto26.2.webp",
+                    "producto26.3.webp",
+                    "producto26.4.webp",
+                    "producto26.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+    {
+        "id": 27,
+        "nombre": "Jean Slim and Straight tiro medio para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Slim and Straight fit, ni muy pegado ni muy amplio. Cuenta con un semiajuste en pierna, que se va abriendo para conseguir una bota recta. Su corte fluido le da un toque confortable y moderno a la vez. Descripción técnica de la prenda: - Slim and Straight fit - Tiro medio - Bota recta - Tono oscuro - Bigotes - Iluminaciones en muslo - Cinco bolsillos - Ajuste con cierre y botón. Aduéñate de las tendencias y crea los estilos más versátiles de la temporada. Este jean será tu aliado perfecto si lo que buscas es un resultado cómodo, original y favorecedor. Material: Incluimos en su confección un 20% de algodón orgánico para ayudar a preservar el medio ambiente, mientras evitamos la exposición de la piel a sustancias tóxicas. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto27.1.webp",
+                    "producto27.2.webp",
+                    "producto27.3.webp",
+                    "producto27.4.webp",
+                    "producto27.5.webp"
+
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 28,
+        "nombre": "Jean Slim and Straight bota recta para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Su estilo Slim and Straight fit, ofrece un ligero ajuste en pierna que permite estilizar la figura y disfrutar de una comodidad excepcional, equilibrando lo moderno con lo clásico. Descripción técnica de la prenda: - Slim and Straight fit - Tiro medio - Bota recta - Tono medio - Bigotes - Raspones localizados - Iluminaciones en muslo - Cinco bolsillos - Ajuste con cierre y botón. Este jean es la opción perfecta para quienes buscan un look pulido sin sacrificar la comodidad. Versátil y fácil de combinar, se adapta a cualquier ocasión, ya sea un día casual o una salida nocturna. Material: Elaborado en 78% algodón, 20% algodón orgánico y 2% elastano para garantizar una prenda cómoda y, además, consciente; con la calidad única de Americanino. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto28.1.webp",
+                    "producto28.2.webp",
+                    "producto28.3.webp",
+                    "producto28.4.webp",
+                    "producto28.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 29,
+        "nombre": "Jean Slim tiro bajo para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: ¡Ideal para un look contemporáneo! Los jeans Slim fit ofrecen un aire sofisticado y urbano. Descripción técnica de la prenda: - Slim fit - Tiro bajo - Bota ajustada - Tono oscuro - Cinco bolsillos - Bigotes - Raspones localizados - Ajuste con cierre y botón. Una opción que convertirá tus planes relajados en momentos llenos de estilo. Úsalo con camisetas y crea resultados que combinen lo que más te gusta: comodidad y originalidad. Material: Elaborado a partir de una mezcla con algodón orgánico que nos da como resultado una prenda suave, duradera y respetuosa con el medio ambiente, perfecta para el uso diario. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto29.1.webp",
+                    "producto29.2.webp",
+                    "producto29.3.webp",
+                    "producto29.4.webp",
+                    "producto29.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 30,
+        "nombre": "Jean Tapered tiro medio para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Un Tapered fit, amplio en cadera y muslo; y ajustado desde la rodilla hasta la bota. Descripción técnica de la prenda: - Tapered fit - Tiro medio - Bota ajustada - Tono medio - Iluminaciones en muslo - Mini desgastes localizados - Cinco bolsillos - Ajuste con cierre y botón. ¡Un estilo a tu favor! Con este jean en tu clóset masculino, tendrás la oportunidad de recrear los looks más modernos y urbanos, elevando el sello Americanino y dándole un toque original a tu outfit. Material: Diseñado con una mezcla de algodón y algodón orgánico que no solo ofrece suavidad y resistencia, sino también un enfoque sostenible, permitiéndote lucir bien mientras cuidas el planeta. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto30.1.webp",
+                    "producto30.2.webp",
+                    "producto30.3.webp",
+                    "producto30.4.webp",
+                    "producto30.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 31,
+        "nombre": "Jean Slim tiro bajo para hombre",
+        "precio": "259.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Jean Slim fit de tiro bajo con bota recta. Silueta ajustada en cadera y muslos que cae recta desde la rodilla, creando un equilibrio entre estructura y fluidez. El tiro bajo le da un aire más relajado y urbano. Descripción técnica de la prenda: - Slim fit - Tono negro - Tiro bajo - Bota recta. Una base sólida para armar looks con personalidad. Perfecto para outfits de día o noche, según cómo lo combines Material: Tejido con mezcla inteligente de fibras: 68% algodón, 27% poliéster, 3% rayón y 2% elastano. Suave, flexible y con buena recuperación, para un fit que se adapta sin perder forma. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Negro",
+                "fotosProducto": [
+                    "producto31.1.webp",
+                    "producto31.2.webp",
+                    "producto31.3.webp",
+                    "producto31.4.webp",
+                    "producto31.5.webp",
+                    "producto31.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 68% ALGODON 27% POLIESTER 3% RAYON 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 32,
+        "nombre": "Jean Slim con algodón orgánico para hombre",
+        "precio": "249.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Semiajustado en muslo, pierna y bota. Los jeans Slim fit son un must-have en el armario masculino moderno, que ofrecen un equilibrio perfecto entre ajuste y comodidad. Descripción técnica de la prenda: - Slim fit - Tiro bajo - Bota recta - Tono medio - Cinco bolsillos - Bigotes - Iluminaciones en muslo - Desgastes localizados - Ajuste con cierre y botón. ¡Para destacar con los mejores looks modernos y urbanos! Este jean es justo la prenda que te acompañará en tus planes de la semana, con la confianza que necesitas y el estilo que mereces. Material: Lo elaboramos a partir de una mezcla que incluye algodón orgánico para garantizar suavidad y sostenibilidad, brindándote una experiencia cómoda y responsable con el medio ambiente. *El modelo mide 1,87 centímetros y usa unos jeans talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto32.1.webp",
+                    "producto32.2.webp",
+                    "producto32.3.webp",
+                    "producto32.4.webp",
+                    "producto32.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 78% ALGODON 20% ALGODON ORGANICO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 33,
+        "nombre": "Jean Slim tipo vintage para hombre",
+        "precio": "299.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Este jean ofrece un corte ajustado que se adapta perfectamente a tu figura, brindándote un look moderno y estilizado sin comprometer la comodidad. Descripción técnica de la prenda: - Slim fit - Tono medio - Tiro bajo - Tipo vintage - Cinco bolsillos. Un imprescindible para los amantes del estilo atemporal. Este jean es la pieza clave para construir un look versátil que te acompañe todo el día. Material: Confeccionado en una mezcla de 69% algodón, 29% poliéster y 2% elastano, este jean tiene la combinación perfecta de suavidad y resistencia. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto33.1.webp",
+                    "producto33.2.webp",
+                    "producto33.3.webp",
+                    "producto33.4.webp",
+                    "producto33.5.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 69% ALGODON 29% POLIESTER 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 34,
+        "nombre": "Jean Tapered oscuro para hombre",
+        "precio": " 299.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Un corte que fusiona la comodidad con el estilo contemporáneo, ofreciendo un fit relajado en caderas y muslos, para una apariencia elegante y funcional. Descripción técnica de la prenda: - Tapered fit - Bota semiajustada - Tiro medio y largo - Tono oscuro. El jean que resalta tu estilo y conciencia. Con un tono oscuro y versátil, es perfecto para llevar de día a noche. Material: Hecho con 70% algodón reciclado, 24% algodón, 4% poliéster reciclado y 2% elastano, este jean no solo ofrece la suavidad y flexibilidad que necesitas, sino que también es resistente y amigable con el planeta. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto34.1.webp",
+                    "producto34.2.webp",
+                    "producto34.3.webp",
+                    "producto34.4.webp",
+                    "producto34.5.webp",
+                    "producto34.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 70% ALGODON RECICLADO 24% ALGODON 4% POLIESTER RECICLADO 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 35,
+        "nombre": "Jean Skinny tono oscuro para hombre",
+        "precio": "309.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Este jean Skinny es el corte que tu estilo estaba pidiendo. Resalta tu figura de manera impecable, manteniendo un toque moderno y audaz. Descripción técnica de la prenda: - Skinny fit - Tono oscuro - Tiro bajo - Cinco bolsillos - Superajustado desde la cadera hasta los tobillos. El jean ideal para un look sin esfuerzo y siempre a la vanguardia. Versátil para cualquier ocasión. Material: Fabricado con una mezcla de 91% algodón, 6% poliéster y 3% elastano, este jean tiene la suavidad y resistencia que buscas. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azul",
+                "fotosProducto": [
+                    "producto35.1.webp",
+                    "producto35.2.webp",
+                    "producto35.3.webp",
+                    "producto35.4.webp",
+                    "producto35.5.webp",
+                    "producto35.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 91% ALGODON 6% POLIESTER 3% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 36,
+        "nombre": "Jean Slim cinco bolsillos para hombre",
+        "precio": "299.900",
+        "descuento":"40",
+        "descripcion": "Especificaciones del fit: Este jean de corte Slim y tiro bajo se ajusta perfectamente al cuerpo, definiendo la silueta masculina con un estilo moderno, limpio y casual, ideal para quienes buscan un look relajado sin sacrificar sofisticación. Descripción técnica de la prenda: - Slim fit - Tono oscuro - Tiro bajo - Cinco bolsillos - Ajuste de cierre y botón. Un clásico actualizado. Su tono oscuro y diseño atemporal lo convierten en el aliado perfecto para construir outfits que se sienten frescos, urbanos y listos para cualquier plan, de día o de noche. Material: Elaborado en 98% algodón y 2% elastano, este jean ofrece la combinación ideal de resistencia, suavidad y elasticidad, garantizando comodidad y libertad de movimiento durante todo el día. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Azu,",
+                "fotosProducto": [
+                    "producto36.1.webp",
+                    "producto36.2.webp",
+                    "producto36.3.webp",
+                    "producto36.4.webp",
+                    "producto36.5.webp",
+                    "producto36.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 98% Algodon 2% Elastano",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Jean"
+    },
+
+    {
+        "id": 37,
+        "nombre": "Pantalón cargo con bolsillo delantero para hombre",
+        "precio": "299.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Pantalón cargo de corte cómodo y fit versátil con ajuste personalizable en bota para un look práctico y actual. Descripción técnica de la prenda: - Pantalón cargo - Bolsillos laterales - Diseño de bolsillo en frente - Bota con elástico ajustable. Combínalo con su chaqueta en set y lleva la esencia Americanino a donde vayas. Material: Elaborado en 100% algodón para una prenda fresca, suave y resistente. *El modelo mide 1,87 centímetros y usa un pantalón talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Verde",
+                "fotosProducto": [
+                    "producto37.1.webp",
+                    "producto37.2.webp",
+                    "producto37.3.webp",
+                    "producto37.4.webp",
+                    "producto37.5.webp",
+                    "producto37.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S.",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Pantalón"
+    },
+
+    {
+        "id": 38,
+        "nombre": "Pantalón cargo con bolsillo delantero para hombre",
+        "precio": "299.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Pantalón cargo de corte cómodo y fit versátil con ajuste personalizable en bota para un look práctico y actual. Descripción técnica de la prenda: - Pantalón cargo - Bolsillos laterales - Diseño de bolsillo en frente - Bota con elástico ajustable. Combínalo con su chaqueta en set y lleva la esencia Americanino a donde vayas. Material: Elaborado en 100% algodón para una prenda fresca, suave y resistente. *El modelo mide 1,87 centímetros y usa un pantalón talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Negro",
+                "fotosProducto": [
+                    "producto38.1.webp",
+                    "producto38.2.webp",
+                    "producto38.3.webp",
+                    "producto38.4.webp",
+                    "producto38.5.webp",
+                    "producto38.6.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 100% Algodon",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Pantalón"
+    },
+
+    {
+        "id": 39,
+        "nombre": "Pantalón cargo para hombre",
+        "precio": "289.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Pantalón cargo de corte recto (straight fit) que brinda un ajuste cómodo y moderno, ideal para darle estructura a tu look. Descripción técnica de la prenda: - Pantalón cargo - Straight fit - Bolsillos en laterales y vista - Diseño de bolsillos con fondo - Bolsillos posteriores. Consejo de estilo ¡De inspiración utilitaria! Llévalo con camisas relajadas o camisetas básicas para lograr un outfit casual y versátil que funciona tanto en la ciudad como en escapadas de fin de semana. Material: Confeccionado en una mezcla de algodón, nylon y elastano que combina resistencia, ligereza y un toque de elasticidad para acompañarte en movimiento. *El modelo mide 1,87 centímetros y usa un pantalón talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Beige",
+                "fotosProducto": [
+                    "producto39.1.webp",
+                    "producto39.2.webp",
+                    "producto39.3.webp",
+                    "producto39.4.webp",
+                    "producto39.5.webp",
+                    "producto39.6.webp"
+                ]
+            }
+        ],
+        "composicion": "PRENDA: 74% ALGODON 24% NYLON 2% ELASTANO",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Pantalón"
+    },
+
+    {
+        "id": 40,
+        "nombre": "Pantalón tipo chino para hombre",
+        "precio": "229.900",
+        "descuento":"",
+        "descripcion": "Especificaciones del fit: Este pantalón tipo chino ofrece un corte moderno y cómodo, perfecto para quienes buscan una apariencia pulida sin esfuerzo. Descripción técnica de la prenda: - Tipo chino - Bolsillos funcionales - Ajuste con cierre y botón - Correa no incluida. Un básico imprescindible que se adapta tanto a looks casuales como más formales. Material: Su confección está pensada para brindarte confort y un estilo impecable en cada uso. *El modelo mide 1,87 centímetros y usa un pantalón talla 32.",
+        "cantidades": {
+            "Xs": 20,
+            "S": 20,
+            "M": 20,
+            "L": 20,
+            "Xl": 20
+        },
+        "elementos": [
+            {
+                "color": "Crudo",
+                "fotosProducto": [
+                    "producto40.1.webp",
+                    "producto40.2.webp",
+                    "producto40.3.webp",
+                    "producto40.4.webp",
+                    "producto40.5.webp"
+                ]
+            }
+        ],
+        "composicion": "Prenda: 97% Algodon 3% Elastomero",
+        "paisFabricacion": "HECHO EN COLOMBIA",
+        "fabricante": "COMODIN S.A.S",
+        "categoria": "hombre",
+        "tipo":[""],
+        "caracteristicas": "Pantalón"
+    },
+
     {
         "id": 41,
         "nombre": "Camiseta con escote en espalda para mujer",
