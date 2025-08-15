@@ -119,6 +119,8 @@ document.addEventListener('DOMContentLoaded', async() => {
 
     }
     if(bodyId == "paginaProductos"){
+        
+
         pasarPagina().then(etiquetas => {
         mostrarFiltros(etiquetas)
         })

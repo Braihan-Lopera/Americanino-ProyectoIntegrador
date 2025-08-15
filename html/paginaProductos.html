@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo Hombre | AMERICANINO</title>
-    
+    <link rel="shortcut icon" href="../imagenes/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body id="paginaProductos">
@@ -13,10 +13,18 @@
 
     <main>
         <div class="filtros">
+            
+            <div class="contenedorOrdenarPor">
 
-        <button id="ordenarPor" class="ordenarPor">ordenar por</button>
-        <p id="cantidadProductos" class="cantidadProductos"></p>
-        <button id="filtros" class="btnFiltros">Filtros<img src="../imagenes/filter.png" alt=""></button>
+                <button id="ordenarPor" class="ordenarPor">ordenar por</button>
+                <div id="opcionesOrdenarPor" class="opcionesOrdenarPor">
+                    <p id="mejorDescuento">Mejor Descuento</p>
+                    <p id="mayorPrecio">Mayor Precio</p>
+                    <p id="menorPrecio">Menor Precio</p>
+                </div>
+            </div>
+            <p id="cantidadProductos" class="cantidadProductos"></p>
+            <button id="filtros" class="btnFiltros">Filtros<img src="../imagenes/filter.png" alt=""></button>
 
         </div>
 
@@ -30,6 +38,7 @@
     
 
         <div id="contenedorProductos" class="contenedorProductos"></div>
+        
 
     </main>
 
