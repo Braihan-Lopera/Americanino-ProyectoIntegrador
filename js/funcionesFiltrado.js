@@ -65,14 +65,15 @@ const mostrarProductos = async (categoria, filtros) =>{
                     precioProducto:producto.precio,
                     caracteristicas:producto.caracteristicas,
                     color:producto.elementos[0].color,
+                    descuento:producto.descuento,
                     cantidades:producto.cantidades
                 })
             }
         }
 
         
-
-        return rellenarCatalogo(informacionProductos);
+        
+        return mostrarOrdenarPor(informacionProductos)
     };
 
 const rellenarCatalogo =(informacionProductos)=>{
@@ -93,6 +94,16 @@ const rellenarCatalogo =(informacionProductos)=>{
         const portada = document.createElement("img");
         const urlImagen = "../imagenes/fotosProductos/";
         portada.src = urlImagen + producto.fotoPortada;
+
+        if(producto.descuento != ""){
+
+            const divDescuento = document.createElement("div")
+            divDescuento.className = "divDescuento"
+            divDescuento.textContent = producto.descuento + "% OFF"
+
+            divProducto.appendChild(divDescuento)
+
+        }
 
         portada.addEventListener("mouseover",()=>{
             portada.src = urlImagen + producto.hover;
@@ -136,6 +147,48 @@ const rellenarCatalogo =(informacionProductos)=>{
     return  posiblesEtiquetas
 
 } 
+
+ const mostrarOrdenarPor = (informacionProductos) =>{
+    let opcionesOrdenado = document.getElementById("opcionesOrdenarPor")
+    
+    let btnOrdenar = document.getElementById("ordenarPor")
+    btnOrdenar.addEventListener("click",()=>{
+        if(opcionesOrdenado.style.display == "none"){
+            opcionesOrdenado.style.display = "flex"
+        }else opcionesOrdenado.style.display = "none"
+    })
+
+    let v0 = true
+
+    document.getElementById("mejorDescuento").addEventListener("click",()=>{
+        informacionProductos = informacionProductos.sort((a,b)=> parseFloat(b.descuento || 0) - parseFloat(a.descuento || 0))
+        rellenarCatalogo(informacionProductos)
+        v0 = false
+    })
+    document.getElementById("mayorPrecio").addEventListener("click",()=>{
+        informacionProductos.sort((a, b) => {
+            const precioA = parseFloat((a.precioProducto || "0").replace(/\./g, ""));
+            const precioB = parseFloat((b.precioProducto || "0").replace(/\./g, ""));
+            return precioB - precioA; // para mayor precio
+        })
+        rellenarCatalogo(informacionProductos)
+        v0 = false
+    })
+    document.getElementById("menorPrecio").addEventListener("click",()=>{
+        informacionProductos.sort((a, b) => {
+            const precioA = parseFloat((a.precioProducto || "0").replace(/\./g, ""));
+            const precioB = parseFloat((b.precioProducto || "0").replace(/\./g, ""));
+            return precioA - precioB; // para mayor precio
+        })
+        rellenarCatalogo(informacionProductos)
+        v0 = false
+    })
+
+    if (v0) {
+        rellenarCatalogo(informacionProductos)
+    }
+
+}
 
 export function mostrarFiltros(filtros){
 

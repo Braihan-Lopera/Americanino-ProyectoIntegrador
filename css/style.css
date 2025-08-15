@@ -567,6 +567,35 @@ footer {
     text-align: center;
 }
 
+.contenedorOrdenarPor{
+    display: flex;
+    height: auto;
+    width: 150px;  
+    top: 100px;
+}
+
+.opcionesOrdenarPor{
+    background-color: white;
+    border: solid rgb(22, 36, 80) 1px;
+    border-top: none;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 27.5px;
+    z-index: 10;
+
+    p{
+        
+        padding: 8px 5px;
+        width: 148px;
+        font-size: 14px;
+        font-family: DINNextLTPro-Bold;
+
+    }
+    p:hover{
+        background-color:rgba(122, 141, 192, .25);
+    }
+}
+
 .btnFiltros {
     all: unset;
     display: flex;
@@ -590,6 +619,8 @@ footer {
     height: auto;
     margin: 0.2rem;
     flex: 1;
+    position: relative;
+    z-index: 9;
     
 }
 
@@ -618,6 +649,16 @@ footer {
 
 }
 
+.divDescuento{
+    background-color: #162450;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    
+}
 
 .contenedorProductos {
     display: grid;

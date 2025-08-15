@@ -119,6 +119,9 @@ document.addEventListener('DOMContentLoaded', async() => {
 
     }
     if(bodyId == "paginaProductos"){
+        let opcionesOrdenado = document.getElementById("opcionesOrdenarPor")
+        opcionesOrdenado.style.display = "none"
+        
         pasarPagina().then(etiquetas => {
         mostrarFiltros(etiquetas)
         })
