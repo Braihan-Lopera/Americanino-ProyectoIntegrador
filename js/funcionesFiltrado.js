@@ -15,16 +15,11 @@ export const pasarPagina = async () =>{
 
 const mostrarProductos = async (categoria, filtros) =>{
 
-    const contenedor = document.getElementById("contenedorProductos")
-    contenedor.innerHTML = ""
+    
     const response = await fetch("../data/muestraProductos.json");
     const data = await response.json();
-    
 
-        let posiblesEtiquetas = {caracteristicas:[],color:[],tallas:[]}
-        let contadorProductos = 0
-
-        let informacionProductos = []
+    let informacionProductos = []
         for (let index = 0; index < data.length; index++) {
 
             if (data[index].categoria === categoria){
@@ -37,7 +32,11 @@ const mostrarProductos = async (categoria, filtros) =>{
                     let valorProducto = producto[claveFiltro];
 
                     if (claveFiltro === "tallas") {
-                        valorProducto = Object.keys(producto.cantidades || {});
+                        valorProducto = Object.keys(producto.cantidades || {})
+                    }
+
+                    if (claveFiltro === "color") {
+                        valorProducto = producto.elementos[0].color
                     }
 
                     if (Array.isArray(valorProducto)) {
@@ -70,55 +69,73 @@ const mostrarProductos = async (categoria, filtros) =>{
                 })
             }
         }
-       
-        for (let index = 0; index < informacionProductos.length; index++) {
-            const producto = informacionProductos[index];
-            
-            const divProducto = document.createElement("div");
-            divProducto.className = "divProducto";
 
-            const link = document.createElement("a");
-            link.href = `../html/detallesProducto.html?categoria=${categoria}&id=${producto.id}`
+        
 
-            const portada = document.createElement("img");
-            const urlImagen = "../imagenes/fotosProductos/";
-            portada.src = urlImagen + producto.fotoPortada;
-
-            const nombreProducto = document.createElement("p");
-            nombreProducto.textContent = producto.nombreProducto;
-
-            const precioProducto = document.createElement("h4");
-            precioProducto.textContent = "$" + producto.precioProducto;
-
-            divProducto.appendChild(link);
-            link.appendChild(portada);
-            link.appendChild(nombreProducto);
-            link.appendChild(precioProducto);
-            contenedor.appendChild(divProducto);
-
-            contadorProductos++;
-
-            if (producto.caracteristicas && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
-                posiblesEtiquetas.caracteristicas.push(producto.caracteristicas);
-            }
-
-            if (producto.color && !posiblesEtiquetas.color.includes(producto.color)) {
-                posiblesEtiquetas.color.push(producto.color);
-            }
-
-            if (producto.cantidades && Object.keys(producto.cantidades).length > 0) {
-                Object.keys(producto.cantidades).forEach(talla => {
-                    if (!posiblesEtiquetas.tallas.includes(talla)) {
-                        posiblesEtiquetas.tallas.push(talla);
-                    }
-                });
-            }
-            
-        }
-    
-        document.getElementById("cantidadProductos").textContent = contadorProductos + " productos";
-        return posiblesEtiquetas;
+        return rellenarCatalogo(informacionProductos);
     };
+
+const rellenarCatalogo =(informacionProductos)=>{
+    let contadorProductos = 0
+    const contenedor = document.getElementById("contenedorProductos")
+    contenedor.innerHTML = ""
+    let posiblesEtiquetas = {caracteristicas:[],color:[],tallas:[]}
+
+    for (let index = 0; index < informacionProductos.length; index++) {
+        const producto = informacionProductos[index];
+        
+        const divProducto = document.createElement("div");
+        divProducto.className = "divProducto";
+
+        const link = document.createElement("a");
+        link.href = `../html/detallesProducto.html?categoria=${producto.categoria}&id=${producto.id}`
+
+        const portada = document.createElement("img");
+        const urlImagen = "../imagenes/fotosProductos/";
+        portada.src = urlImagen + producto.fotoPortada;
+
+        portada.addEventListener("mouseover",()=>{
+            portada.src = urlImagen + producto.hover;
+        })
+        portada.addEventListener("mouseleave",()=>{
+            portada.src = urlImagen + producto.fotoPortada;
+        })
+
+        const nombreProducto = document.createElement("p");
+        nombreProducto.textContent = producto.nombreProducto;
+
+        const precioProducto = document.createElement("h4");
+        precioProducto.textContent = "$" + producto.precioProducto;
+
+        divProducto.appendChild(link);
+        link.appendChild(portada);
+        link.appendChild(nombreProducto);
+        link.appendChild(precioProducto);
+        contenedor.appendChild(divProducto);
+
+        contadorProductos++;
+
+        if (producto.caracteristicas && !posiblesEtiquetas.caracteristicas.includes(producto.caracteristicas)) {
+            posiblesEtiquetas.caracteristicas.push(producto.caracteristicas);
+        }
+
+        if (producto.color && !posiblesEtiquetas.color.includes(producto.color)) {
+            posiblesEtiquetas.color.push(producto.color);
+        }
+
+        if (producto.cantidades && Object.keys(producto.cantidades).length > 0) {
+            Object.keys(producto.cantidades).forEach(talla => {
+                if (!posiblesEtiquetas.tallas.includes(talla)) {
+                    posiblesEtiquetas.tallas.push(talla);
+                }
+            });
+        }
+        
+    }
+    document.getElementById("cantidadProductos").textContent = contadorProductos + " productos";
+    return  posiblesEtiquetas
+
+} 
 
 export function mostrarFiltros(filtros){
 
@@ -154,9 +171,7 @@ export function mostrarFiltros(filtros){
                 divCaracteristicas.className = "divCaracteristicas"
 
                 let texto = document.createElement("h2")
-                if (Object.keys(filtros)[index] == "tonalidad") {
-                    texto.textContent = "color"
-                }else texto.textContent = Object.keys(filtros)[index]
+                texto.textContent = Object.keys(filtros)[index]
                 
 
                 let icon = document.createElement("img")
@@ -194,9 +209,7 @@ export function mostrarFiltros(filtros){
                         const divCaracteristicas = boton.parentElement;
                         const divFiltro = divCaracteristicas.previousElementSibling;
                         let filtroNombre
-                        if (divFiltro.querySelector("h2").textContent.trim() == "color") {
-                            filtroNombre = "tonalidad"
-                        }else filtroNombre = divFiltro.querySelector("h2").textContent.trim()
+                        filtroNombre = divFiltro.querySelector("h2").textContent.trim()
                         
                         const textoBtn = boton.querySelector("label").textContent.trim();
                 
