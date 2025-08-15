@@ -1,3 +1,5 @@
+// js/main.js
+
 import { pasarPagina, mostrarFiltros } from "./funcionesFiltrado.js"
 import { mostrarDetalleProducto } from "./funcionDetalles.js";
 import { crearBarraNavegacion } from './componentes/barraNavegacion.js';
