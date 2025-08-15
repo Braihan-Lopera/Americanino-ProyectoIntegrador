@@ -707,7 +707,7 @@
         },
         "elementos": [
             {
-                "color": "Azu,",
+                "color": "azul",
                 "fotosProducto": [
                     "producto21.1.webp",
                     "producto21.2.webp",
@@ -740,7 +740,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto22.1.webp",
                     "producto22.2.webp",
@@ -818,7 +818,7 @@
             }
         ],
         "composicion": "PRENDA: 68% ALGODON 27% POLIESTER 3% RAYON 2% ELASTANO",
-        "paisFabricacion": "HECHO EN COLOMBIA   ",
+        "paisFabricacion": "HECHO EN COLOMBIA",
         "fabricante": "COMODIN S.A.S.",
         "categoria": "hombre",
         "tipo":[""],
@@ -870,7 +870,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto26.1.webp",
                     "producto26.2.webp",
@@ -902,7 +902,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto27.1.webp",
                     "producto27.2.webp",
@@ -936,7 +936,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto28.1.webp",
                     "producto28.2.webp",
@@ -969,7 +969,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto29.1.webp",
                     "producto29.2.webp",
@@ -1002,7 +1002,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto30.1.webp",
                     "producto30.2.webp",
@@ -1035,7 +1035,7 @@
         },
         "elementos": [
             {
-                "color": "Negro",
+                "color": "negro",
                 "fotosProducto": [
                     "producto31.1.webp",
                     "producto31.2.webp",
@@ -1069,7 +1069,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto32.1.webp",
                     "producto32.2.webp",
@@ -1102,7 +1102,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto33.1.webp",
                     "producto33.2.webp",
@@ -1123,7 +1123,7 @@
     {
         "id": 34,
         "nombre": "Jean Tapered oscuro para hombre",
-        "precio": " 299.900",
+        "precio": "299.900",
         "descuento":"",
         "descripcion": "Especificaciones del fit: Un corte que fusiona la comodidad con el estilo contemporáneo, ofreciendo un fit relajado en caderas y muslos, para una apariencia elegante y funcional. Descripción técnica de la prenda: - Tapered fit - Bota semiajustada - Tiro medio y largo - Tono oscuro. El jean que resalta tu estilo y conciencia. Con un tono oscuro y versátil, es perfecto para llevar de día a noche. Material: Hecho con 70% algodón reciclado, 24% algodón, 4% poliéster reciclado y 2% elastano, este jean no solo ofrece la suavidad y flexibilidad que necesitas, sino que también es resistente y amigable con el planeta. *El modelo mide 1,87 centímetros y usa un jean talla 32.",
         "cantidades": {
@@ -1135,7 +1135,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto34.1.webp",
                     "producto34.2.webp",
@@ -1169,7 +1169,7 @@
         },
         "elementos": [
             {
-                "color": "Azul",
+                "color": "azul",
                 "fotosProducto": [
                     "producto35.1.webp",
                     "producto35.2.webp",
@@ -1203,7 +1203,7 @@
         },
         "elementos": [
             {
-                "color": "Azu,",
+                "color": "azul",
                 "fotosProducto": [
                     "producto36.1.webp",
                     "producto36.2.webp",
@@ -1237,7 +1237,7 @@
         },
         "elementos": [
             {
-                "color": "Verde",
+                "color": "verde",
                 "fotosProducto": [
                     "producto37.1.webp",
                     "producto37.2.webp",
@@ -1271,7 +1271,7 @@
         },
         "elementos": [
             {
-                "color": "Negro",
+                "color": "negro",
                 "fotosProducto": [
                     "producto38.1.webp",
                     "producto38.2.webp",
@@ -1305,7 +1305,7 @@
         },
         "elementos": [
             {
-                "color": "Beige",
+                "color": "beige",
                 "fotosProducto": [
                     "producto39.1.webp",
                     "producto39.2.webp",
@@ -1339,7 +1339,7 @@
         },
         "elementos": [
             {
-                "color": "Crudo",
+                "color": "crudo",
                 "fotosProducto": [
                     "producto40.1.webp",
                     "producto40.2.webp",
@@ -1372,7 +1372,7 @@
         },
         "elementos": [
             {
-                "color": "Café",
+                "color": "cafe",
                 "fotosProducto": [
                     "producto41.1.webp",
                     "producto41.2.webp",
@@ -1405,7 +1405,7 @@
         },
         "elementos": [
             {
-                "color": "Beige",
+                "color": "beige",
                 "fotosProducto": [
                     "producto42.1.webp",
                     "producto42.2.webp",
@@ -1439,7 +1439,7 @@
         },
         "elementos": [
             {
-                "color": "Beige",
+                "color": "beige",
                 "fotosProducto": [
                     "producto43.1.webp",
                     "producto43.2.webp",
@@ -1473,7 +1473,7 @@
         },
         "elementos": [
             {
-                "color": "Gris",
+                "color": "gris",
                 "fotosProducto": [
                     "producto44.1.webp",
                     "producto44.2.webp",
@@ -1505,7 +1505,7 @@
         },
         "elementos": [
             {
-                "color": "Crudo",
+                "color": "crudo",
                 "fotosProducto": [
                     "producto45.1.webp",
                     "producto45.2.webp",
@@ -1537,7 +1537,7 @@
         },
         "elementos": [
             {
-                "color": "Blanco",
+                "color": "blanco",
                 "fotosProducto": [
                     "producto46.1.webp",
                     "producto46.2.webp",
