@@ -113,12 +113,14 @@ document.addEventListener('DOMContentLoaded', async() => {
 
         // necesita ponerle el link de las paginas -> `./html/paginaProductos.html?categoria=${encodeURIComponent("categoria")}`
         crearPanel(['imagenes/hombre.webp','imagenes/mujer.webp'],[`./html/paginaProductos.html?categoria=hombre`,`./html/paginaProductos.html?categoria=mujer`],"hombreMujer")
-        crearPanel(["imagenes/foto4x1_1.webp","imagenes/foto4x1_2.webp","imagenes/foto4x1_3.webp","imagenes/foto4x1_4.webp"],["about:blank","about:blank","about:blank","about:blank"],"panel4x1",["JEANS PARA MUJER","CAMISAS PARA HOMBRE","CAMISAS PARA MUJER","BERMUDAS PARA HOMBRE"])
+        crearPanel(["imagenes/foto4x1_1.webp","imagenes/foto4x1_2.webp","imagenes/foto4x1_3.webp","imagenes/foto4x1_4.webp"],["/html/paginaProductos.html?categoria=mujer&caracteristicas=Jean","./html/paginaProductos.html?categoria=hombre&caracteristicas=camisa","./html/paginaProductos.html?categoria=mujer&caracteristicas=camisa","./html/paginaProductos.html?categoria=hombre&caracteristicas=vermuda"],"panel4x1",["JEANS PARA MUJER","CAMISAS PARA HOMBRE","CAMISAS PARA MUJER","BERMUDAS PARA HOMBRE"])
         crearPanel(["imagenes/imagenNewDrop.webp"],["about:blank"],"newDropLink")
 
 
     }
     if(bodyId == "paginaProductos"){
+        
+
         pasarPagina().then(etiquetas => {
         mostrarFiltros(etiquetas)
         })

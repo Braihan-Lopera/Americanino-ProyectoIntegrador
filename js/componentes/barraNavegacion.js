@@ -1,4 +1,4 @@
-// proceso de autenticación
+
 
 const activarPanelAutenticacion = () => {
     // Selectores de elementos
@@ -60,14 +60,24 @@ const activarPanelAutenticacion = () => {
         // Validación si existe correo ya en BD
         const usuarioExistente = usuarios.find(usuario => usuario.email === email);
         if (usuarioExistente) {
-            return alert('El correo electrónico ya está registrado.');
+            return Swal.fire({
+    title: 'Error de Registro',
+    text: 'El correo electrónico ya está registrado.',
+    icon: 'error',
+    confirmButtonText: 'Entendido'
+});
         }
 
         // Guardado del nombre del usuario
         usuarios.push({ nombre, email, password });
         localStorage.setItem('usuarios', JSON.stringify(usuarios));
         
-        alert('¡Registro exitoso! Ahora puedes iniciar sesión.');
+        Swal.fire({
+    title: '¡Registro Exitoso!',
+    text: 'Ahora puedes iniciar sesión.',
+    icon: 'success',
+    confirmButtonText: '¡Genial!'
+});
         mostrarLogin();
     });
 
@@ -83,14 +93,25 @@ const activarPanelAutenticacion = () => {
         const usuarioValido = usuarios.find(usuario => usuario.email === email && usuario.password === password);
 
         if (!usuarioValido) {
-            return alert('Correo o contraseña incorrectos.');
+            return Swal.fire({
+    title: 'Error',
+    text: 'Correo o contraseña incorrectos.',
+    icon: 'error',
+    confirmButtonText: 'Intentar de Nuevo'
+});
         }
 
         // Guardado del usuario en el LS
         sessionStorage.setItem('usuarioLogueado', JSON.stringify(usuarioValido));
 
-        alert(`¡Bienvenido, ${usuarioValido.nombre}!`);
-        window.location.reload(); // recargado de página
+        Swal.fire({
+    title: `¡Bienvenido, ${usuarioValido.nombre}!`,
+    icon: 'success',
+    timer: 2000, // El mensaje dura 2 segundos
+    showConfirmButton: false
+}).then(() => {
+    window.location.reload(); 
+});
     });
 };
 
@@ -106,8 +127,8 @@ const actualizarUIUsuario = () => {
             <span class="saludoUsuario">Hola, ${usuarioLogueado.nombre}</span>
             <a href="#" id="enlaceLogout" class="enlaceNavegacion"> <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-logout"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path d="M9 12h12l-3 -3" /><path d="M18 15l3 -3" /></svg> </a>
             
-            <a href="" id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
-                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-shopping-bag"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" /><path d="M9 11v-5a3 3 0 0 1 6 0v5" /></svg>
+            <a href="#" id="btnCarrito" class="enlaceNavegacion" aria-label="Carrito de compras">
+                <svg class="iconoNavbarSvg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
             </a>
         `;
 
@@ -115,8 +136,14 @@ const actualizarUIUsuario = () => {
         document.getElementById('enlaceLogout').addEventListener('click', (e) => {
             e.preventDefault();
             sessionStorage.removeItem('usuarioLogueado');
-            alert('Has cerrado sesión.');
-            window.location.reload();
+            Swal.fire({
+    title: 'Has cerrado sesión',
+    icon: 'info',
+    timer: 1500, // El mensaje dura 1.5 segundos
+    showConfirmButton: false
+}).then(() => {
+    window.location.reload();
+});
         });
     }
 };
@@ -168,7 +195,7 @@ export const crearBarraNavegacion = (contenedor, idBody) => {
         <nav class="navegacionPrincipal">
             <div class="seccionIzquierda">
                 <button id="botonMenuHamburguesa" class="iconoNavegacion">☰</button>
-                <button id="botonBusqueda" class="iconoNavegacion">🔍</button>
+                <button id="botonBusqueda" class="iconoNavegacion"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg></button>
             </div>
             <div class="seccionCentro">
                 <a href="/" id="logoPrincipal">
@@ -192,7 +219,7 @@ export const crearBarraNavegacion = (contenedor, idBody) => {
         <div class="navegacionCategorias">
             <a href="/html/paginaProductos.html?categoria=hombre" class="enlaceCategoria">HOMBRE</a>
             <a href="/html/paginaProductos.html?categoria=mujer" class="enlaceCategoria">MUJER</a>
-            <a href="/html/paginaProductos.html?categoria=marcas" class="enlaceCategoria">MARCAS</a>
+            <a href="/html/paginaProductos.html?categoria=nuevo" class="enlaceCategoria">NUEVO</a>
             <a href="/html/paginaProductos.html?categoria=sale" class="enlaceCategoria categoriaSale">SALE</a>
         </div>
         <div id="panelMenuMovil" class="panelLateral">
