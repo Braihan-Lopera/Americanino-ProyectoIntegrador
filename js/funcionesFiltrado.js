@@ -7,16 +7,13 @@ export const pasarPagina = async () =>{
     for (const key of params.keys()) {
         if (key === "categoria") continue;
         filtros[key] = params.getAll(key);
-        
     }
 
-    let etiquetas = await mostrarProductos(params.get("categoria"),filtros)    
-    
+    let etiquetas = await mostrarProductos(params.get("categoria"),filtros)
     return etiquetas
 }
 
 const mostrarProductos = async (categoria, filtros) =>{
-
 
     
     const response = await fetch("../data/muestraProductos.json");
@@ -75,7 +72,6 @@ const mostrarProductos = async (categoria, filtros) =>{
         }
 
         
-        console.log(mostrarOrdenarPor(informacionProductos));
         
         return mostrarOrdenarPor(informacionProductos)
     };
@@ -148,8 +144,6 @@ const rellenarCatalogo =(informacionProductos)=>{
         
     }
     document.getElementById("cantidadProductos").textContent = contadorProductos + " productos";
-    
-    
     return  posiblesEtiquetas
 
 } 
@@ -192,16 +186,12 @@ const rellenarCatalogo =(informacionProductos)=>{
 
     if (v0) {
         rellenarCatalogo(informacionProductos)
-        
-        
     }
 
 }
 
 export function mostrarFiltros(filtros){
 
-    console.log(filtros);
-    
     const btnFiltro = document.getElementById("filtros")
     const divProductos = document.getElementById("contenedorProductos")
     const divFiltros = document.getElementById("divFiltros")
@@ -212,9 +202,8 @@ export function mostrarFiltros(filtros){
         if (divProductos.style.width == "100%"){
             divProductos.style.width = "70%"
 
-            console.log(filtros);
-            
-            for (let index = 0; index < Object.keys(filtros || {}).length; index++) {
+
+            for (let index = 0; index < Object.keys(filtros).length; index++) {
                 
                 const divFiltro = document.createElement("div")
                 divFiltro.className = Object.keys(filtros)[index] + " filtro"
